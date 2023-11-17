@@ -1,0 +1,398 @@
+manufacture:
+
+  - name: STR_TFTD_ACCEL
+    category: STR_WEAPON
+    requires:
+     - STR_TFTD_ACCEL
+    space: 4
+    time: 850
+    cost: 64000
+    requiredItems:
+      STR_MAGNETIC_NAVIGATION: 1
+    listOrder: 1510  
+
+  - name: STR_TFTD_ACCEL_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_TFTD_ACCEL_CLIP
+    space: 4
+    time: 150
+    cost: 20000
+    listOrder: 1511
+
+  - name: STR_TFTD_VOLLEY
+    category: STR_WEAPON
+    requires:
+     - STR_TFTD_VOLLEY
+    space: 3
+    time: 750
+    cost: 42000
+    listOrder: 1310
+
+  - name: STR_TFTD_VOLLEY_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_TFTD_VOLLEY_CLIP
+    space: 4
+    time: 80
+    cost: 4000
+    listOrder: 1311
+
+  - name: STR_DISPLACER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    listOrder: 3350
+    requires:
+     - STR_DISPLACER_ARMOR
+    space: 16
+    time: 2800
+    cost: 100000
+    requiredItems:
+      STR_AQUA_PLASTICS: 25
+      STR_ZRBITE: 50
+      STR_MAGNETIC_NAVIGATION: 1
+
+  - name: STR_DISPLACER_ARMOR_REPAIR
+    category: STR_PERSONAL_ARMOR
+    listOrder: 3351
+    requires:
+     - STR_DISPLACER_ARMOR
+    space: 16
+    time: 1400
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 10
+      STR_ZRBITE: 15
+      STR_WRECKED_DISPLACER_ARMOR: 1
+    producedItems:
+      STR_DISPLACER_ARMOR: 1
+
+  - name: STR_PLASTIC_AQUA_ARMOR_REPAIR
+    listOrder: 3120
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_PLASTIC_AQUA_ARMOR
+    space: 12
+    time: 500
+    cost: 12000
+    requiredItems:
+      STR_WRECKED_PLASTIC_ARMOR: 1
+      STR_AQUA_PLASTICS: 2
+    producedItems:
+      STR_PLASTIC_AQUA_ARMOR: 1
+
+  - name: STR_ION_ARMOR_REPAIR
+    listOrder: 3220
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ION_ARMOR
+    space: 10
+    time: 600
+    cost: 27000
+    requiredItems:
+      STR_WRECKED_ION_ARMOR: 1
+      STR_AQUA_PLASTICS: 3
+      STR_ZRBITE: 2
+    producedItems:
+      STR_ION_ARMOR: 1
+
+  - name: STR_MAGNETIC_ION_ARMOR_REPAIR
+    listOrder: 3320
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_MAGNETIC_ION_ARMOR
+    space: 16
+    time: 750
+    cost: 38000
+    requiredItems:
+      STR_WRECKED_MAG_ARMOR: 1
+      STR_AQUA_PLASTICS: 3
+      STR_ZRBITE: 10
+    producedItems:
+      STR_MAGNETIC_ION_ARMOR: 1
+    
+  - name: STR_ION_CANNON
+    category: STR_WEAPON
+    listOrder: 2911
+    requires:
+     - STR_ION_CANNON
+    space: 8
+    time: 1400
+    cost: 75000
+    requiredItems:
+      STR_AQUA_PLASTICS: 25
+      STR_ZRBITE: 30
+
+  - name: STR_ION_CANNON_CLIP
+    category: STR_AMMUNITION
+    listOrder: 2912
+    requires:
+     - STR_ION_CANNON_CLIP
+    space: 4
+    time: 1400
+    cost: 50000
+    requiredItems:
+      STR_AQUA_PLASTICS: 5
+      STR_ZRBITE: 15
+
+  - name: STR_ION_PISTOL
+    category: STR_WEAPON
+    listOrder: 2913
+    requires:
+     - STR_ION_PISTOL
+    space: 8
+    time: 1000
+    cost: 45000
+    requiredItems:
+      STR_AQUA_PLASTICS: 10
+      STR_ZRBITE: 30
+
+  - name: STR_ION_PISTOL_CLIP
+    category: STR_AMMUNITION
+    listOrder: 2914
+    requires:
+     - STR_ION_PISTOL_CLIP
+    space: 4
+    time: 800
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 5
+      STR_ZRBITE: 15
+
+  - name: STR_LASER_PISTOL
+    category: STR_WEAPON
+    requires:
+     - STR_LASER_PISTOL
+    space: 1
+    time: 200
+    cost: 10000
+    requiredItems:
+      STR_ZRBITE: 3
+    listOrder: 1550
+
+  - name: STR_LASER_CARBINE
+    category: STR_WEAPON
+    requires:
+     - STR_LASER_CARBINE
+    space: 2
+    time: 250
+    cost: 15000
+    requiredItems:
+      STR_ZRBITE: 5
+    listOrder: 1550
+
+  - name: STR_HEAVY_LASER
+    category: STR_WEAPON
+    requires:
+     - STR_HEAVY_LASER
+    space: 3
+    time: 300
+    cost: 20000
+    requiredItems:
+      STR_ZRBITE: 8
+    listOrder: 1550
+
+  - name: STR_ZRBITE_FLARE
+    category: STR_EQUIPMENT
+    requires:
+        - STR_ZRBITE_FLARE
+    space: 2
+    time: 10
+    cost: 750
+    requiredItems:
+      STR_SONIC_PULSER: 1
+      STR_ZRBITE: 1
+      STR_AQUA_PLASTICS: 2
+    producedItems:
+      STR_ZRBITE_FLARE: 1
+    listOrder: 1701
+
+  - name: STR_HVYARM    # Heavy Plastic Aqua-Armour #
+    category: STR_PERSONAL_ARMOR
+    requires:
+     - STR_HVYARM
+    space: 12
+    time: 900
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 6
+
+
+# [=] Weapon - Sonic Pistol [=]
+  - name: STR_TFTD_HSONIC_PISTOL
+    category: STR_WEAPON
+    requires:
+     - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 600
+    requiredItems:
+      STR_SONIC_PISTOL: 3
+    producedItems:
+      STR_TFTD_HSONIC_PISTOL: 2
+    cost: 35000
+    listOrder: 1501
+
+# [=] Weapon - Sonic Pistol Clip[=]
+  - name: STR_TFTD_HSONIC_PISTOL_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 60
+    requiredItems:
+      STR_ZRBITE: 1
+    producedItems:
+      STR_TFTD_HSONIC_PISTOL_CLIP: 1
+    cost: 2000
+    listOrder: 1502
+  
+# [=] Weapon - Sonic Pistol Clip Convert [=]
+  - name: STR_TFTD_HSONIC_PISTOL_CLIP_CONV
+    category: STR_AMMUNITION
+    requires:
+     - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 30
+    requiredItems:
+      STR_PISTOL_POWER_CLIP: 1
+    producedItems:
+      STR_TFTD_HSONIC_PISTOL_CLIP: 1
+    cost: 500
+    listOrder: 1503
+
+# [=] Weapon - Sonic Rifle [=]
+  - name: STR_TFTD_HSONIC_RIFLE
+    category: STR_WEAPON
+    requires:
+     - STR_RSH_HSONIC_RIFLE
+    space: 3
+    time: 820
+    requiredItems:
+      STR_SONIC_BLASTA_RIFLE: 1
+    producedItems:
+      STR_TFTD_HSONIC_RIFLE: 1
+    cost: 88000
+    listOrder: 1504
+
+# [=] Weapon - Sonic Rifle Clip [=]
+  - name: STR_TFTD_HSONIC_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_RSH_HSONIC_RIFLE
+    space: 3
+    time: 80
+    requiredItems:
+      STR_ZRBITE: 2
+    producedItems:
+      STR_TFTD_HSONIC_RIFLE_CLIP: 1
+    cost: 3000
+    listOrder: 1505
+
+# [=] Weapon - Sonic Rifle Clip Convert [=]
+  - name: STR_TFTD_HSONIC_RIFLE_CLIP_CONV
+    category: STR_AMMUNITION
+    requires:
+     - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 40
+    requiredItems:
+      STR_BLASTA_POWER_CLIP: 1
+    producedItems:
+      STR_TFTD_HSONIC_RIFLE_CLIP: 1
+    cost: 500
+    listOrder: 1506
+
+# [=] Weapon - Sonic Cannon [=]
+  - name: STR_TFTD_HSONIC_CANNON
+    category: STR_WEAPON
+    requires:
+     - STR_RSH_HSONIC_CANNON
+    space: 3
+    time: 1000
+    requiredItems:
+      STR_SONIC_CANNON: 2
+    producedItems:
+      STR_TFTD_HSONIC_CANNON: 1
+    cost: 122000
+    listOrder: 1507
+
+# [=] Weapon - Sonic Cannon Clip [=]
+  - name: STR_TFTD_HSONIC_CANNON_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_RSH_HSONIC_CANNON
+    space: 3
+    time: 80
+    requiredItems:
+      STR_ZRBITE: 3
+    producedItems:
+      STR_TFTD_HSONIC_CANNON_CLIP: 1
+    cost: 6000
+    listOrder: 1508
+
+# [=] Weapon - Sonic Cannon Clip Convert[=]
+  - name: STR_TFTD_HSONIC_CANNON_CLIP_CONV
+    category: STR_AMMUNITION
+    requires:
+     - STR_RSH_HSONIC_CANNON
+    space: 3
+    time: 40
+    requiredItems:
+      STR_CANNON_POWER_CLIP: 2
+    producedItems:
+      STR_TFTD_HSONIC_CANNON_CLIP: 1
+    cost: 2500
+    listOrder: 1509
+
+# [=] Weapon - Sonic Grenade [=]
+  - name: STR_TFTD_HSONIC_GRENADE
+    category: STR_WEAPON
+    requires:
+     - STR_RSH_HSONIC_GRENADE
+    space: 3
+    time: 150
+    requiredItems:
+      STR_SONIC_PULSER: 3
+    producedItems:
+      STR_TFTD_HSONIC_GRENADE: 2
+    cost: 3250
+    listOrder: 2901
+
+  - name: STR_MORAY
+    category: STR_CRAFT
+    requires:
+     - STR_AQUA_PLASTICS
+    space: 24
+    time: 7500
+    cost: 750000
+    listOrder: 3750
+    requiredItems:
+      STR_AQUA_PLASTICS: 28
+
+# [=] Disable Manufacturing Alien Sonic Weapons [=]
+  - name: STR_SONIC_CANNON
+    requires:
+     - STR_ALIENS_ONLY
+
+  - name: STR_CANNON_POWER_CLIP
+    requires:
+     - STR_ALIENS_ONLY
+
+  - name: STR_SONIC_BLASTA_RIFLE
+    requires:
+     - STR_ALIENS_ONLY
+
+  - name: STR_BLASTA_POWER_CLIP
+    requires:
+     - STR_ALIENS_ONLY
+
+  - name: STR_SONIC_PISTOL
+    requires:
+     - STR_ALIENS_ONLY
+
+  - name: STR_PISTOL_POWER_CLIP
+    requires:
+     - STR_ALIENS_ONLY
+
+  - name: STR_SONIC_PULSER
+    requires:
+     - STR_ALIENS_ONLY

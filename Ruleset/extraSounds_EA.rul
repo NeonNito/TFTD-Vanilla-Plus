@@ -1,0 +1,28 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      80: Resources/Sounds/ads.wav
+      81: Resources/Sounds/HumanBulletHit.wav
+      82: Resources/Sounds/XRifleFire.wav
+      83: Resources/Sounds/Launch.wav
+      84: Resources/Sounds/ion_cannon.wav
+      85: Resources/Sounds/hitsound_jc.wav
+      86: Resources/Sounds/ion_pistol.wav
+      87: Resources/Sounds/melee.wav
+      88: Resources/Sounds/laserrifle_shot.wav
+      89: Resources/Sounds/laserrifle_hit.wav
+      90: Resources/Sounds/blast.wav
+
+  - type: BATTLE2.CAT
+    files:
+      80: Resources/Sounds/ads.wav
+      81: Resources/Sounds/HumanBulletHit.wav
+      82: Resources/Sounds/XRifleFire.wav
+      83: Resources/Sounds/Launch.wav
+      84: Resources/Sounds/ion_cannon_uw.wav
+      85: Resources/Sounds/hitsound_jc_uw.wav
+      86: Resources/Sounds/ion_pistol_uw.wav
+      87: Resources/Sounds/melee.wav
+      88: Resources/Sounds/laserrifle_shot.wav
+      89: Resources/Sounds/laserrifle_hit.wav
+      90: Resources/Sounds/blast_uw.wav

@@ -1,0 +1,14 @@
+statGrowthMultipliers:
+  tu: 8
+  stamina: 8
+  health: 20
+  bravery: 0
+  reactions: 6
+  firing: 6
+  throwing: 0
+  strength: 4
+  psiStrength: 4
+  psiSkill: 4
+  melee: 8
+constants:
+  - fireDamageRange: [10, 30]

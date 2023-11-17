@@ -1,0 +1,82 @@
+crafts:
+  - type: STR_BARRACUDA
+    sprite: 3
+    fuelMax: 800
+    damageMax: 120
+    speedMax: 2100
+    accel: 3
+    soldiers: 0
+    costBuy: 600000
+    costRent: 600000
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+    maxDepth: 2
+    maxItems: 0
+    allowLanding: false
+    battlescapeTerrainData:
+      name: BARACUDA
+      mapDataSets:
+        - BLANKS
+        - BARACUDA
+      mapBlocks:
+        - name: BARACUDA
+          width: 10
+          length: 10
+    deployment:
+      - [5, 4, 0, 2]
+      - [4, 4, 0, 2]
+      - [3, 4, 0, 2]
+      - [5, 3, 0, 3]
+      - [4, 3, 0, 2]
+      - [3, 3, 0, 2]
+  - type: STR_MANTA
+    sprite: 4
+    fuelMax: 40
+    damageMax: 400
+    speedMax: 4600
+    accel: 10
+    weapons: 2
+    soldiers: 0
+    vehicles: 0
+    refuelItem: STR_ZRBITE
+    refuelRate: 10
+    score: 250
+    maxDepth: 3
+    maxItems: 0
+    allowLanding: false
+    battlescapeTerrainData:
+      name: MANTAX
+      mapDataSets:
+        - BLANKS
+        - MANTAX
+      mapBlocks:
+        - name: MANTAX
+          width: 10
+          length: 10
+    deployment:
+      - [4, 7, 0, 4]
+      - [5, 7, 0, 4]
+      - [4, 6, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 4, 0, 4]
+
+  - type: STR_MORAY
+    sprite: 171
+    fuelMax: 1000
+    damageMax: 180
+    speedMax: 2850
+    costSell: 750000
+    costRent: 300000
+    accel: 4
+    weapons: 2
+    refuelRate: 60
+    repairRate: 3
+    transferTime: 96
+    score: 250
+    maxDepth: 2
+    allowLanding: false
+    listOrder: 205
