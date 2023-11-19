@@ -1,0 +1,990 @@
+terrains:
+  - name: OUTPOST
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - UEXT2
+      - UEXT3
+      - ORGANIC1
+      - ENTRY
+      - WEEDS
+      - CORAL
+      - ROCKS
+
+
+
+      
+  - name: XBASES
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    mapBlocks:
+      - name: XBASES00
+        width: 10
+        length: 10
+      - name: XBASES01
+        width: 10
+        length: 10
+      - name: XBASES02
+        width: 10
+        length: 10
+      - name: XBASES03
+        width: 10
+        length: 10
+      - name: XBASES04
+        width: 10
+        length: 10
+      - name: XBASES05
+        width: 10
+        length: 10
+      - name: XBASES06
+        width: 10
+        length: 10
+      - name: XBASES07
+        width: 10
+        length: 10
+      - name: XBASES08
+        width: 10
+        length: 10
+      - name: XBASES09
+        width: 10
+        length: 10
+      - name: XBASES10
+        width: 10
+        length: 10
+      - name: XBASES11
+        width: 10
+        length: 10
+      - name: XBASES12
+        width: 10
+        length: 10
+      - name: XBASES13
+        width: 10
+        length: 10
+      - name: XBASES14
+        width: 10
+        length: 10
+      - name: XBASES15
+        width: 10
+        length: 10
+      - name: XBASES16
+        width: 10
+        length: 10
+      - name: XBASES17
+        width: 10
+        length: 10
+      - name: XBASES18
+        width: 10
+        length: 10
+      - name: XBASES19
+        width: 10
+        length: 10
+      - name: XBASES20
+        width: 10
+        length: 10
+        groups: 1
+      - name: XBASEB00
+        width: 10
+        length: 10
+      - name: XBASEB01
+        width: 10
+        length: 10
+      - name: XBASEB02
+        width: 10
+        length: 10
+      - name: XBASEB03
+        width: 10
+        length: 10
+      - name: XBASEB04
+        width: 10
+        length: 10
+      - name: XBASEB05
+        width: 10
+        length: 10
+      - name: XBASEB06
+        width: 10
+        length: 10
+      - name: XBASEB07
+        width: 10
+        length: 10
+      - name: XBASEB08
+        width: 10
+        length: 10
+      - name: XBASEB09
+        width: 10
+        length: 10
+      - name: XBASEB10
+        width: 10
+        length: 10
+      - name: XBASEB11
+        width: 10
+        length: 10
+      - name: XBASEB12
+        width: 10
+        length: 10
+      - name: XBASEB13
+        width: 10
+        length: 10
+      - name: XBASET00
+        width: 10
+        length: 10
+      - name: XBASET03
+        width: 10
+        length: 10
+
+# [=] Ocean Trench Buried Base [=] (Terror Site - Part 1 of 2)
+  - name: MFTD_TRENCHUPPERBASEBURIED
+    depth: [1, 3]
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+      - LIFT_INERT
+      - JUST_CRATES_BARREL
+      - JUST_ENGINE
+      - JUST_GRATING
+      - XBASES04_NO_XCOM
+      - XBASES05_NO_XCOM
+      - SAND_BLOCK
+      - TRENCH_WALL
+      - ABYSS_SMOKE
+      - CARGO1_WALLS_BEDS_DRAWERS
+    civilianTypes:
+      - MFTD_CIV_DIVER
+      - MFTD_CIV_DIVER_ARMED
+    mapBlocks:
+      - name: MARTIAN_TRENCHUPPERBASEBURIED
+        width: 30
+        length: 40
+        height: 20
+
+
+# [=] Ocean Trench Base [=] (Terror Site - Part 1 of 2)
+  - name: MFTD_TRENCHUPPERBASE
+    depth: [1, 3]
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+      - LIFT_INERT
+      - JUST_CRATES_BARREL
+      - JUST_ENGINE
+      - JUST_GRATING
+      - XBASES04_NO_XCOM
+      - XBASES05_NO_XCOM
+      - SAND_BLOCK
+      - TRENCH_WALL
+      - ABYSS_SMOKE
+    civilianTypes:
+      - MFTD_CIV_DIVER
+      - MFTD_CIV_DIVER_ARMED
+    mapBlocks:
+      - name: MARTIAN_TRENCHUPPERBASE
+        width: 30
+        length: 40
+        height: 20
+
+
+
+# [=] Arms Warehouse [=] (Terror Site)
+  - name: MFTD_ARMSWAREHOUSE
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - PORT01
+      - PORT02
+      - SEA
+      - GRATING_AND_SUPPORTS
+      - ROCKET_ONLY
+      - TORPEDO_ONLY
+      - DECKC_WHITE
+      - JUST_RAILING
+      - JUST_ELEVATOR
+    civilianTypes:
+      - MFTD_CIV_MILITARY_MALE
+      - MFTD_CIV_MILITARY_FEMALE
+      - MFTD_CIV_HEAVY_MILITARY_MALE
+      - MFTD_CIV_HEAVY_MILITARY_FEMALE
+    mapBlocks:
+      - name: MARTIAN_ARMSWAREHOUSE
+        width: 30
+        length: 40
+        height: 9
+
+
+# [=] Volatile Warehouse [=] (Terror Site)
+  - name: MFTD_VOLATILEWAREHOUSE
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - PORT01
+      - PORT02
+      - SEA
+      - GRATING_AND_SUPPORTS
+      - ROCKET_ONLY
+      - TORPEDO_ONLY
+      - DECKC_WHITE
+      - JUST_RAILING
+      - JUST_ELEVATOR
+      - GREEN_BARREL
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    mapBlocks:
+      - name: MARTIAN_VOLATILEWAREHOUSE
+        width: 30
+        length: 40
+        height: 9
+
+
+# [=] Surface Base [=] (Terror Site - Part 1 of 2)
+  - name: MFTD_SURFACEBASE
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - LIFT_INERT
+      - MOSTLY_PIPES
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    mapBlocks:
+      - name: MARTIAN_SURFACEBASE
+        width: 30
+        length: 70
+        height: 6
+
+
+# [=] Ocean Lab Small [=] (Terror Mission - Part 2 of 2)
+  - name: MFTD_OCEANLABSMALL
+    depth: [1, 3]
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+      - LIFT
+      - XBASES02_NO_XCOM
+      - XBASES03_NO_XCOM
+      - XBASES04_NO_XCOM_SHORT
+      - XBASES05_NO_XCOM
+    civilianTypes:
+      - MFTD_CIV_DIVER
+      - MFTD_CIV_DIVER_ARMED
+    mapBlocks:
+      - name: MARTIAN_OCEANLABSMALL
+        width: 40
+        length: 40
+        height: 6
+
+
+# [=] Ocean Research [=] (Terror Mission - Part 2 of 2)
+  - name: MFTD_OCEANRESEARCH
+    depth: [1, 3]
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+      - LIFT
+      - XBASES02_NO_XCOM
+      - XBASES03_NO_XCOM
+      - XBASES04_NO_XCOM_SHORT
+      - XBASES05_NO_XCOM
+    civilianTypes:
+      - MFTD_CIV_DIVER
+      - MFTD_CIV_DIVER_ARMED
+    mapBlocks:
+      - name: MARTIAN_OCEANRESEARCH
+        width: 40
+        length: 40
+        height: 6
+
+
+
+# [=] Underwater Base [=] (Terror Mission - Part 2 of 2)
+  - name: MFTD_UNDERWATERBASE
+    depth: [1, 3]
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+      - LIFT
+    civilianTypes:
+      - MFTD_CIV_DIVER
+      - MFTD_CIV_DIVER_ARMED
+    mapBlocks:
+      - name: MARTIAN_UNDERWATERBASE
+        width: 40
+        length: 40
+        height: 6
+
+
+# [=] Offshore Rig [=] (Terror Mission)
+  - name: MFTD_OFFSHORE
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - GRUNGE4_PIPES_NO_REC
+      - MOSTLY_PIPES
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    mapBlocks:
+      - name: MARTIAN_OFFSHORE
+        width: 60
+        length: 60
+        height: 17
+
+
+# [=] Oil Tanker [=] (Terror Mission)
+  - name: MFTD_OILTANKER
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - GRUNGE4_PIPES_NO_REC
+      - MOSTLY_PIPES
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    mapBlocks:
+      - name: MARTIAN_OILTANKER
+        width: 30
+        length: 70
+        height: 4
+
+
+# [=] Warship [=] (Terror Mission)
+  - name: MFTD_WARSHIP
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - XBASES01_NO_XCOM
+      - XBASES02_NO_XCOM
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - MFTD_CIV_MILITARY_MALE
+      - MFTD_CIV_MILITARY_FEMALE
+      - MFTD_CIV_HEAVY_MILITARY_MALE
+      - MFTD_CIV_HEAVY_MILITARY_FEMALE
+    mapBlocks:
+      - name: MARTIAN_WARSHIP
+        width: 30
+        length: 70
+        height: 4
+
+# [=] Aircraft Carrier [=] (Terror Mission)
+  - name: MFTD_AIRCRAFT_CARRIER
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - XBASES01_NO_XCOM
+      - XBASES02_NO_XCOM_LITE
+      - BD_PLANE_TFTD_LITE
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - MFTD_CIV_MILITARY_MALE
+      - MFTD_CIV_MILITARY_FEMALE
+      - MFTD_CIV_HEAVY_MILITARY_MALE
+      - MFTD_CIV_HEAVY_MILITARY_FEMALE
+    mapBlocks:
+      - name: IDT_AIRCRAFT_CARRIER
+        width: 30
+        length: 70
+        height: 7
+
+
+# [=] Cruise Ship Variants [=] (Terror Mission)
+  - name: LINERT2
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+    mapBlocks:
+      - name: LINERT00
+        width: 30
+        length: 20
+      - name: NEW_CIVILIAN_LINERT02
+        width: 30
+        length: 50
+
+  - name: LINERT4
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+    mapBlocks:
+      - name: LINERT00
+        width: 30
+        length: 20
+      - name: NEW_CIVILIAN_LINERT04
+        width: 30
+        length: 50
+
+  - name: LINERT5
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+    mapBlocks:
+      - name: LINERT00
+        width: 30
+        length: 20
+      - name: NEW_CIVILIAN_LINERT05
+        width: 30
+        length: 50
+
+
+# [=] Abandonded Research Facility [=] (Terror Mission)
+  - name: LPIPES
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+      - SEA
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    ambience: 67
+    ambientVolume: 0.25
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    script: THREEBIG
+    mapBlocks:
+      - name: NEW_CIVILIAN_LPIPES00
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_LPIPES01
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES02
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES03
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES04
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES05
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES06
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES07
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_LPIPES08
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_LPIPES09
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_LPIPES10
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_LPIPES11
+        width: 20
+        length: 20
+
+# [=] Vanilla Port Terror Terrain [=] (Terror Mission)
+  - name: PORT
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - PORT01
+      - PORT02
+    ambience: 67
+    ambientVolume: 0.25
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+      - STR_POLICE_MALE
+      - STR_POLICE_FEMALE
+      - STR_HUMAN_SOLDIER
+      - STR_PARAMEDIC
+      - STR_FIREFIGHTER
+
+# [=] XCOM-UFO City Terror Terrain [=] (Terror Mission)
+  - name: URBAN
+    mapDataSets:
+      - BLANKS
+      - nROADS
+      - nURBITS
+      - nURBAN
+      - nFRNITURE
+    civilianTypes:
+#      - CIV_M
+#      - CIV_F
+      - STR_POLICE_MALE
+      - STR_POLICE_FEMALE
+      - STR_HUMAN_SOLDIER
+      - STR_PARAMEDIC
+      - STR_FIREFIGHTER
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0
+    script: URBAN
+    mapBlocks:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # disabled because TFTD does not place roads properly
+      # - name: URBAN00
+        # width: 10
+        # length: 10
+        # groups: 2
+      # - name: URBAN00a
+        # width: 10
+        # length: 10
+        # groups: 2
+      # - name: URBAN00b
+        # width: 10
+        # length: 10
+        # groups: 2
+      # - name: URBAN01
+        # width: 10
+        # length: 10
+        # groups: 3
+      # - name: URBAN01a
+        # width: 10
+        # length: 10
+        # groups: 3
+      # - name: URBAN01b
+        # width: 10
+        # length: 10
+        # groups: 3
+      # - name: URBAN02
+        # width: 10
+        # length: 10
+        # groups: 4
+      # - name: URBAN02a
+        # width: 10
+        # length: 10
+        # groups: 4
+      # - name: URBAN02b
+        # width: 10
+        # length: 10
+        # groups: 4
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN05
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN05a
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN05b
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN05c
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN06
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN06a
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN06b
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN06c
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN07
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN07a
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN07b
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN08
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN08a
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN08b
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN08c
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN08d
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN08e
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN09
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN09a
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN09b
+        width: 20
+        length: 20
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN14
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN14a
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN14b
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN14c
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN14d
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN14e
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN15
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN15a
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN15b
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN15c
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN16
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN16a
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN16b
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN17
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN17a
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN17b
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN17c
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN18
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN18a
+        width: 10
+        length: 10
+      - name: CIVILIAN_HELLRAZOR_LUKE83_URBAN18b
+        width: 10
+        length: 10
+
+
+# [=] Cargo Ship Variant [=]
+  - name: CARGO2
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1
+      - CARGO2
+      - XBITS
+      - CARGO3
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    mapBlocks:
+      - name: NEW_CIVILIAN_nCARGO00
+        width: 30
+        length: 70
+      - name: CARGO01
+        width: 30
+        length: 50
+      - name: CARGO02
+        width: 30
+        length: 20
+
+
+
+
+
+# [=] Cargo Ship Variant [=] (Terror Mission)
+  - name: LINERVARIANT
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+      - DECKC
+    mapBlocks:
+      - name: NEW_CIVILIAN_LINERB02c
+        width: 30
+        length: 50
+      - name: NEW_CIVILIAN_LINERB03c
+        width: 30
+        length: 20
+
+
+# [=] Seabed Muddy Variant [=]
+
+  - name: SEABED2
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND2
+      - ROCKS
+      - WEEDS
+      - DEBRIS2
+      - UFOBITS
+    depth: [1, 2]
+    ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: SEABED00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED01
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED02
+        width: 10
+        length: 10
+      - name: SEABED03
+        width: 10
+        length: 10
+      - name: SEABED04
+        width: 10
+        length: 10
+      - name: SEABED05
+        width: 10
+        length: 10
+      - name: SEABED06
+        width: 10
+        length: 10
+      - name: SEABED07
+        width: 10
+        length: 10
+      - name: SEABED08
+        width: 10
+        length: 10
+      - name: SEABED09
+        width: 10
+        length: 10
+      - name: SEABED10
+        width: 20
+        length: 20
+      - name: SEABED11
+        width: 20
+        length: 20
+      - name: SEABED12
+        width: 20
+        length: 20
+
+# [=] Seabed Mountain Variant [=]
+
+  - name: SEAMOUNT
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SANDMOUNT
+      - SEADESERT
+    depth: [1, 2]
+    ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: NEW_CIVILIAN_DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT17
+        width: 10
+        length: 10

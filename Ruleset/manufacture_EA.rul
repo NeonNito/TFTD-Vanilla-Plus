@@ -1,0 +1,618 @@
+manufacture:
+
+  - name: STR_TFTD_ACCEL
+    category: STR_WEAPON
+    requires:
+      - STR_TFTD_ACCEL
+    space: 4
+    time: 850
+    cost: 64000
+    requiredItems:
+      STR_MAGNETIC_NAVIGATION: 1
+    listOrder: 1501
+
+  - name: STR_TFTD_ACCEL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_TFTD_ACCEL_CLIP
+    space: 4
+    time: 150
+    cost: 20000
+    listOrder: 1502
+
+  - name: STR_TFTD_VOLLEY
+    category: STR_WEAPON
+    requires:
+      - STR_TFTD_VOLLEY
+    space: 3
+    time: 750
+    cost: 42000
+    listOrder: 1304
+
+  - name: STR_TFTD_VOLLEY_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_TFTD_VOLLEY_CLIP
+    space: 4
+    time: 80
+    cost: 4000
+    listOrder: 1305
+
+  - name: STR_GMPISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_GMPISTOL
+    space: 2
+    time: 360
+    cost: 10000
+    listOrder: 1101
+  - name: STR_GMPISTOL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_GMPISTOL_CLIP
+    space: 2
+    time: 50
+    cost: 1500
+    listOrder: 1102
+
+  - name: STR_GSMG
+    category: STR_WEAPON
+    requires:
+      - STR_GSMG
+    space: 3
+    time: 300
+    cost: 15000
+    listOrder: 1103
+  - name: STR_GSMG_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_GSMG_CLIP
+    space: 4
+    time: 45
+    cost: 2000
+    listOrder: 1104
+
+  - name: STR_GLMG
+    category: STR_WEAPON
+    requires:
+      - STR_GLMG
+    space: 4
+    time: 700
+    cost: 32000
+    listOrder: 1301
+  - name: STR_GLMG_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_GLMG_CLIP
+    space: 4
+    time: 70
+    cost: 4000
+    listOrder: 1302
+
+  - name: STR_DISPLACER_ARMOR
+    category: STR_PERSONAL_ARMOR
+    listOrder: 3350
+    requires:
+      - STR_DISPLACER_ARMOR
+    space: 16
+    time: 2800
+    cost: 100000
+    requiredItems:
+      STR_AQUA_PLASTICS: 50
+      STR_ZRBITE: 80
+      STR_MAGNETIC_NAVIGATION: 2
+
+  - name: STR_DISPLACER_ARMOR_REPAIR
+    category: STR_PERSONAL_ARMOR
+    listOrder: 3351
+    requires:
+      - STR_DISPLACER_ARMOR
+    space: 16
+    time: 1400
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 25
+      STR_ZRBITE: 40
+      STR_WRECKED_DISPLACER_ARMOR: 1
+    producedItems:
+      STR_DISPLACER_ARMOR: 1
+
+  - name: STR_PLASTIC_AQUA_ARMOR_REPAIR
+    listOrder: 3120
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_PLASTIC_AQUA_ARMOR
+    space: 12
+    time: 500
+    cost: 12000
+    requiredItems:
+      STR_WRECKED_PLASTIC_ARMOR: 1
+      STR_AQUA_PLASTICS: 2
+    producedItems:
+      STR_PLASTIC_AQUA_ARMOR: 1
+
+  - name: STR_HVYARM_REPAIR
+    listOrder: 3135
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HVYARM
+    space: 12
+    time: 450
+    cost: 12500
+    requiredItems:
+      STR_WRECKED_HVYARM: 1
+      STR_AQUA_PLASTICS: 2
+    producedItems:
+      STR_HVYARM: 1
+
+  - name: STR_ION_ARMOR_REPAIR
+    listOrder: 3220
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ION_ARMOR
+    space: 10
+    time: 600
+    cost: 27000
+    requiredItems:
+      STR_WRECKED_ION_ARMOR: 1
+      STR_AQUA_PLASTICS: 3
+      STR_ZRBITE: 2
+    producedItems:
+      STR_ION_ARMOR: 1
+
+  - name: STR_MAGNETIC_ION_ARMOR_REPAIR
+    listOrder: 3320
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_MAGNETIC_ION_ARMOR
+    space: 16
+    time: 750
+    cost: 38000
+    requiredItems:
+      STR_WRECKED_MAG_ARMOR: 1
+      STR_AQUA_PLASTICS: 3
+      STR_ZRBITE: 10
+    producedItems:
+      STR_MAGNETIC_ION_ARMOR: 1
+
+  - name: STR_ION_CANNON
+    category: STR_WEAPON
+    listOrder: 2911
+    requires:
+      - STR_ION_CANNON
+    space: 8
+    time: 1400
+    cost: 75000
+    requiredItems:
+      STR_AQUA_PLASTICS: 50
+      STR_ZRBITE: 60
+
+  - name: STR_ION_CANNON_CLIP
+    category: STR_AMMUNITION
+    listOrder: 2912
+    requires:
+      - STR_ION_CANNON_CLIP
+    space: 4
+    time: 1400
+    cost: 50000
+    requiredItems:
+      STR_AQUA_PLASTICS: 10
+      STR_ZRBITE: 30
+
+  - name: STR_ION_PISTOL
+    category: STR_WEAPON
+    listOrder: 2913
+    requires:
+      - STR_ION_PISTOL
+    space: 8
+    time: 1000
+    cost: 45000
+    requiredItems:
+      STR_AQUA_PLASTICS: 15
+      STR_ZRBITE: 35
+
+  - name: STR_ION_PISTOL_CLIP
+    category: STR_AMMUNITION
+    listOrder: 2914
+    requires:
+      - STR_ION_PISTOL_CLIP
+    space: 4
+    time: 800
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 10
+      STR_ZRBITE: 20
+
+  - name: STR_LASER_PISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_LASER_PISTOL
+    space: 1
+    time: 200
+    cost: 10000
+    requiredItems:
+      STR_ZRBITE: 3
+    listOrder: 1505
+
+  - name: STR_LASER_CARBINE
+    category: STR_WEAPON
+    requires:
+      - STR_LASER_CARBINE
+    space: 2
+    time: 250
+    cost: 15000
+    requiredItems:
+      STR_ZRBITE: 5
+    listOrder: 1506
+
+  - name: STR_HEAVY_LASER
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_LASER
+    space: 3
+    time: 300
+    cost: 20000
+    requiredItems:
+      STR_ZRBITE: 8
+    listOrder: 1507
+
+  - name: STR_ZRBITE_FLARE
+    category: STR_EQUIPMENT
+    requires:
+      - STR_ZRBITE_FLARE
+    space: 2
+    time: 10
+    cost: 750
+    requiredItems:
+      STR_ZRBITE: 3
+      STR_AQUA_PLASTICS: 2
+    producedItems:
+      STR_ZRBITE_FLARE: 1
+    listOrder: 1701
+
+  - name: STR_HVYARM
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HVYARM
+    space: 12
+    time: 900
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 6
+    listOrder: 3130
+
+  - name: STR_TFTD_HSONIC_PISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 600
+    requiredItems:
+      STR_SONIC_PISTOL: 3
+    producedItems:
+      STR_TFTD_HSONIC_PISTOL: 2
+    cost: 35000
+    listOrder: 1511
+
+  - name: STR_TFTD_HSONIC_PISTOL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 60
+    requiredItems:
+      STR_ZRBITE: 1
+    producedItems:
+      STR_TFTD_HSONIC_PISTOL_CLIP: 1
+    cost: 2000
+    listOrder: 1512
+
+  - name: STR_SNC_APISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_SNC_APISTOL_RSH
+    space: 3
+    time: 600
+    requiredItems:
+      STR_SONIC_PISTOL: 2
+    producedItems:
+      STR_SNC_APISTOL: 1
+    cost: 45000
+    listOrder: 1514
+
+  - name: STR_SNC_APISTOL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_SNC_APISTOL_RSH
+    space: 3
+    time: 60
+    requiredItems:
+      STR_ZRBITE: 3
+    producedItems:
+      STR_SNC_APISTOL: 2
+    cost: 3500
+    listOrder: 1515
+
+  - name: STR_TFTD_HSONIC_PISTOL_CLIP_CONV
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 30
+    requiredItems:
+      STR_PISTOL_POWER_CLIP: 1
+    producedItems:
+      STR_TFTD_HSONIC_PISTOL_CLIP: 1
+    cost: 500
+    listOrder: 1513
+
+  - name: STR_TFTD_HSONIC_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_RSH_HSONIC_RIFLE
+    space: 3
+    time: 820
+    requiredItems:
+      STR_SONIC_BLASTA_RIFLE: 1
+    producedItems:
+      STR_TFTD_HSONIC_RIFLE: 1
+    cost: 88000
+    listOrder: 1516
+
+  - name: STR_TFTD_HSONIC_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSH_HSONIC_RIFLE
+    space: 3
+    time: 80
+    requiredItems:
+      STR_ZRBITE: 2
+    producedItems:
+      STR_TFTD_HSONIC_RIFLE_CLIP: 1
+    cost: 3000
+    listOrder: 1517
+
+  - name: STR_TFTD_HSONIC_RIFLE_CLIP_CONV
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    space: 3
+    time: 40
+    requiredItems:
+      STR_BLASTA_POWER_CLIP: 1
+    producedItems:
+      STR_TFTD_HSONIC_RIFLE_CLIP: 1
+    cost: 500
+    listOrder: 1518
+
+  - name: STR_SNC_ARIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_SNC_ARIFLE_RSH
+    space: 3
+    time: 820
+    requiredItems:
+      STR_SONIC_BLASTA_RIFLE: 1
+      STR_SONIC_PISTOL: 2
+    producedItems:
+      STR_SNC_ARIFLE: 2
+    cost: 100000
+    listOrder: 1519
+
+  - name: STR_SNC_ARIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_SNC_ARIFLE_RSH
+    space: 3
+    time: 80
+    requiredItems:
+      STR_ZRBITE: 2
+    producedItems:
+      STR_SNC_ARIFLE_CLIP: 1
+    cost: 4500
+    listOrder: 1520
+
+  - name: STR_TFTD_HSONIC_CANNON
+    category: STR_WEAPON
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    space: 3
+    time: 1000
+    requiredItems:
+      STR_SONIC_CANNON: 2
+    producedItems:
+      STR_TFTD_HSONIC_CANNON: 1
+    cost: 122000
+    listOrder: 1521
+
+  - name: STR_TFTD_HSONIC_CANNON_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    space: 3
+    time: 80
+    requiredItems:
+      STR_ZRBITE: 3
+    producedItems:
+      STR_TFTD_HSONIC_CANNON_CLIP: 1
+    cost: 6000
+    listOrder: 1522
+
+  - name: STR_TFTD_HSONIC_CANNON_CLIP_CONV
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    space: 3
+    time: 40
+    requiredItems:
+      STR_CANNON_POWER_CLIP: 2
+    producedItems:
+      STR_TFTD_HSONIC_CANNON_CLIP: 1
+    cost: 2500
+    listOrder: 1523
+
+  - name: STR_TFTD_HSONIC_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_RSH_HSONIC_GRENADE
+    space: 3
+    time: 150
+    requiredItems:
+      STR_SONIC_PULSER: 3
+    producedItems:
+      STR_TFTD_HSONIC_GRENADE: 2
+    cost: 3250
+    listOrder: 1560
+
+  - name: STR_ZRBEXP
+    category: STR_WEAPON
+    requires:
+      - STR_RSH_HSONIC_GRENADE
+    space: 5
+    time: 250
+    requiredItems:
+      STR_SONIC_PULSER: 2
+      STR_ZRBITE: 8
+    producedItems:
+      STR_ZRBEXP: 1
+    cost: 6500
+    listOrder: 1561
+
+  - name: STR_LLAUNCHER #Disruptor Pulse Launcher #
+    category: STR_WEAPON
+    requires:
+      - STR_LLAUNCHER
+    space: 5
+    time: 1200
+    cost: 180000
+    requiredItems:
+      STR_DISRUPTOR_PULSE_LAUNCHER: 2
+    listOrder: 1535
+
+  - name: STR_LLAUNCHER_CLIP #Disruptor Ammo #
+    category: STR_AMMUNITION
+    requires:
+      - STR_LLAUNCHER_CLIP
+    space: 3
+    time: 220
+    cost: 50000
+    requiredItems:
+      STR_ZRBITE: 5
+    listOrder: 1536
+
+  - name: STR_LLAUNCHER_CLIP_CONVERT #Disruptor Ammo CONV#
+    category: STR_AMMUNITION
+    requires:
+      - STR_LLAUNCHER_CLIP
+    space: 3
+    time: 110
+    cost: 15000
+    requiredItems:
+      STR_DISRUPTOR_AMMO: 2
+    producedItems:
+      STR_SLAUNCHER_CLIP: 1
+    listOrder: 1537
+
+  - name: STR_SLAUNCHER #Thermal Shok Launcher #
+    category: STR_WEAPON
+    requires:
+      - STR_THERMAL_SHOK_LAUNCHER
+      - STR_THERMAL_SHOK_BOMB
+    space: 3
+    time: 900
+    cost: 78000
+    requiredItems:
+      STR_THERMAL_SHOK_LAUNCHER: 1
+    listOrder: 1532
+
+  - name: STR_SLAUNCHER_CLIP #Thermal Shok Bomb #
+    category: STR_AMMUNITION
+    requires:
+      - STR_THERMAL_SHOK_LAUNCHER
+      - STR_THERMAL_SHOK_BOMB
+    space: 2
+    time: 200
+    cost: 7000
+    requiredItems:
+      STR_ZRBITE: 2
+    listOrder: 1533
+
+  - name: STR_SLAUNCHER_CLIP_CONVERT #Thermal Shok Bomb #
+    category: STR_AMMUNITION
+    requires:
+      - STR_SLAUNCHER_CLIP
+    space: 2
+    time: 100
+    cost: 2000
+    requiredItems:
+      STR_THERMAL_SHOK_BOMB: 1
+    producedItems:
+      STR_SLAUNCHER_CLIP: 1
+    listOrder: 1534
+
+  - name: STR_MORAY
+    category: STR_CRAFT
+    requires:
+      - STR_AQUA_PLASTICS
+    space: 24
+    time: 7500
+    cost: 750000
+    listOrder: 3650
+    requiredItems:
+      STR_AQUA_PLASTICS: 28
+
+  - name: STR_NEPTUNE
+    category: STR_CRAFT
+    requires:
+      - STR_AQUA_PLASTICS
+    space: 24
+    time: 9250
+    cost: 950000
+    listOrder: 3645
+    requiredItems:
+      STR_AQUA_PLASTICS: 48
+
+  # [=] Disable Manufacturing Alien Sonic Weapons [=]
+  - name: STR_SONIC_CANNON
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_CANNON_POWER_CLIP
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_SONIC_BLASTA_RIFLE
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_BLASTA_POWER_CLIP
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_SONIC_PISTOL
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_PISTOL_POWER_CLIP
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_SONIC_PULSER
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_DISRUPTOR_PULSE_LAUNCHER
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_THERMAL_SHOK_LAUNCHER
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_DISRUPTOR_AMMO
+    requires:
+      - STR_ALIENS_ONLY
+
+  - name: STR_THERMAL_SHOK_BOMB
+    requires:
+      - STR_ALIENS_ONLY

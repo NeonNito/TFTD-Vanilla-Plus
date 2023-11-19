@@ -1,0 +1,2397 @@
+items:
+
+# Corpses
+  - type: STR_AQUATOID_CORPSE_CMD
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 394
+    floorSprite: 100
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_AQUATOID_CORPSE_SQD
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 395
+    floorSprite: 101
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_AQUATOID_CORPSE_TEC
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 397
+    floorSprite: 103
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_AQUATOID_CORPSE_MED
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 398
+    floorSprite: 104
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_AQUATOID_CORPSE_NAV
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 396
+    floorSprite: 103
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_GILLMAN_CORPSE_CMD
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 399
+    floorSprite: 106
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_GILLMAN_CORPSE_SQD
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 400
+    floorSprite: 107
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_GILLMAN_CORPSE_NAV
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 401
+    floorSprite: 109
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_GILLMAN_CORPSE_TEC
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 402
+    floorSprite: 110
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_GILLMAN_CORPSE_MED
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 403
+    floorSprite: 108
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_TASOTH_CORPSE_SQD
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 48
+    floorSprite: 105
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_LOBSTERMAN_CORPSE_CMD
+    size: 0.4
+    costSell: 20000
+    weight: 45
+    bigSprite: 404
+    floorSprite: 111
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_LOBSTERMAN_CORPSE_SQD
+    size: 0.4
+    costSell: 20000
+    weight: 45
+    bigSprite: 407
+    floorSprite: 112
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_LOBSTERMAN_CORPSE_TEC
+    size: 0.4
+    costSell: 20000
+    weight: 45
+    bigSprite: 406
+    floorSprite: 114
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_LOBSTERMAN_CORPSE_NAV
+    size: 0.4
+    costSell: 20000
+    weight: 45
+    bigSprite: 405
+    floorSprite: 113
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_SLUGMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 413
+    floorSprite: 120
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 7250
+  - type: STR_SLUGMAN_CORPSE_CMD
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 408
+    floorSprite: 115
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_SLUGMAN_CORPSE_SQD
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 409
+    floorSprite: 116
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_SLUGMAN_CORPSE_TEC
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 410
+    floorSprite: 118
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_SLUGMAN_CORPSE_NAV
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 411
+    floorSprite: 117
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_SLUGMAN_CORPSE_MED
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 412
+    floorSprite: 119
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: MOLLUSCOID_WEAPON
+    bigSprite: 414
+    meleeSound: 42
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 60
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: STR_MOLLUSCOID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 414
+    floorSprite: 121
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 7750
+  - type: STR_TERRORPOD_CORPSE
+    size: 1
+    costSell: 25000
+    battleType: 11
+    listOrder: 8840
+  - type: TERRORPOD_CORPSE_1
+    name: STR_TERRORPOD_CORPSE
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: TERRORPOD_CORPSE_2
+    floorSprite: 123
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TERRORPOD_CORPSE_3
+    floorSprite: 124
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TERRORPOD_CORPSE_4
+    floorSprite: 125
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_KRAKEN_CORPSE
+    size: 1
+    costSell: 25000
+    battleType: 11
+    listOrder: 8850
+  - type: STR_KRAKEN_CORPSE_1
+    name: STR_KRAKEN_CORPSE
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: STR_KRAKEN_CORPSE_2
+    floorSprite: 126
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_KRAKEN_CORPSE_3
+    floorSprite: 127
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_KRAKEN_CORPSE_4
+    floorSprite: 128
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_MUTANT_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 32
+    bigSprite: 418
+    floorSprite: 310
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    listOrder: 7750
+  - type: STR_MUTANT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 10000
+
+  - type: STR_POLYP_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 20
+    bigSprite: 419
+    floorSprite: 311
+    invWidth: 2
+    invHeight: 3
+    armor: 10
+    recoveryPoints: 3
+    battleType: 11
+    recover: true
+    listOrder: 7690
+  - type: STR_POLYP
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+
+  - type: STR_PROBE_CORPSE
+    size: 0.4
+    costSell: 10000
+    weight: 20
+    bigSprite: 420
+    floorSprite: 312
+    invWidth: 2
+    invHeight: 2
+    armor: 10
+    recoveryPoints: 3
+    battleType: 11
+    recover: true
+    listOrder: 7690
+  - type: STR_PROBE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+
+  - type: MUTANT_WEAPON
+    meleeSound: 26
+    power: 35
+    strengthApplied: false
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 20
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+
+  - type: POLYP_WEAPON
+    bigSprite: 415
+    bulletSprite: 8
+    fireSound: 40
+    hitSound: 41
+    power: 100
+    damageType: 8
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    hitAnimation: -1
+
+  - type: PROBE_WEAPON
+    size: 0.4
+    weight: 3
+    bigSprite: 415
+    handSprite: 856
+    bulletSprite: 8
+    fireSound: 38
+    twoHanded: true
+    accuracySnap: 65
+    accuracyAimed: 85
+    tuSnap: 30
+    tuAimed: 50
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    armor: 45
+    hitSound: 31
+    hitAnimation: 46
+    power: 80
+    damageType: 5
+    clipSize: -1
+    recover: false
+    
+  - type: KRAKEN_WEAPON
+    bigSprite: 417
+    meleeSound: 42
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 20
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: KRAKEN_WEAPON_RANGED
+    weight: 3
+    bigSprite: 415
+    floorSprite: 29
+    handSprite: 40
+    fireSound: 36
+    hitSound: 31
+    hitAnimation: 8
+    power: 60
+    powerForAnimation: 30
+    damageType: 5
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuSnap: 50
+    tuAimed: 70
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 8
+    recover: false
+    vaporColor: 3
+    vaporDensity: 30
+    blastRadius: 2
+  - type: TERRORPOD_WEAPON
+    bigSprite: 416
+    meleeSound: 42
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 50
+    tuMelee: 20
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: STR_SLUGMAN_SLD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 13710
+  - type: STR_SLUGMAN_CMD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 13770
+  - type: STR_SLUGMAN_TEC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 13720
+  - type: STR_SLUGMAN_NAV
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 13730
+  - type: STR_SLUGMAN_SQD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 13740
+  - type: STR_SLUGMAN_MED
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 13750
+  - type: STR_MOLLUSCOID
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 30000
+    listOrder: 14450
+  - type: STR_WILD_TRISCENE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 14251
+  - type: STR_TERRORPOD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 14252
+  - type: STR_KRAKEN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 14253
+  - type: STR_COELGAUSS_CORPSE_1
+    floorSprite: 122
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_COELGAUSS_CORPSE_2
+    floorSprite: 307
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_COELGAUSS_CORPSE_3
+    floorSprite: 308
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_COELGAUSS_CORPSE_4
+    floorSprite: 309
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+# Weapons
+  - type: STR_DMPISTOL
+    size: 0.1
+    costBuy: 800
+    costSell: 600
+    weight: 5
+    bigSprite: 443
+    floorSprite: 332
+    handSprite: 96
+    bulletSprite: 1
+    fireSound: 20
+    compatibleAmmo:
+      - STR_DMPISTOL_CLIP
+    accuracySnap: 45
+    accuracyAuto: 35
+    accuracyAimed: 0
+    tuAimed: 0
+    tuSnap: 15
+    tuAuto: 40
+    autoShots: 4
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 2110
+  - type: STR_DMPISTOL_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 445
+    floorSprite: 334
+    handSprite: 240
+    hitSound: 21
+    hitAnimation: 26
+    power: 24
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    vaporColor: { mod: xcom2, index: 0 }
+    vaporDensity: 5
+    listOrder: 2111
+
+  - type: STR_DSMG
+    size: 0.2
+    costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 442
+    floorSprite: 331
+    handSprite: 928
+    bulletSprite: 2
+    fireSound: 19
+    compatibleAmmo:
+      - STR_DSMG_CLIP
+    accuracyAuto: 35
+    accuracySnap: 50
+    accuracyAimed: 0
+    tuAimed: 0
+    tuAuto: 35
+    tuSnap: 25
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 2310
+  - type: STR_DSMG_CLIP
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 2
+    bigSprite: 444
+    floorSprite: 334
+    hitSound: 16
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    vaporColor: { mod: xcom2, index: 0 }
+    vaporDensity: 10
+    listOrder: 2311
+
+  - type: STR_TFTD_BCANNON
+    size: 0.3
+    costBuy: 8500
+    costSell: 6200
+    weight: 17
+    bigSprite: 187
+    floorSprite: 200
+    handSprite: 600
+    bulletSprite: 4
+    fireSound: 83
+    compatibleAmmo:
+      - STR_TFTD_BCANNON_CLIP_AP
+      - STR_TFTD_BCANNON_CLIP_HE
+    accuracySnap: 55
+    accuracyAimed: 85
+    tuSnap: 35
+    tuAimed: 55
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    arcingShot: true
+    landOnly: true
+    listOrder: 3540
+
+  - type: STR_TFTD_BCANNON_CLIP_AP
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 5
+    bigSprite: 290
+    floorSprite: 205
+    handSprite: 624
+    hitSound: 21
+    hitAnimation: 26
+    power: 70
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    landOnly: true
+    listOrder: 3541
+
+  - type: STR_TFTD_BCANNON_CLIP_HE
+    size: 0.1
+    costBuy: 950
+    costSell: 575
+    weight: 6
+    bigSprite: 291
+    floorSprite: 206
+    handSprite: 648
+    hitSound: 0
+    hitAnimation: 8
+    power: 65
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    landOnly: true
+    listOrder: 3542
+
+  - type: STR_TFTD_BRIFLE
+    size: 0.2
+    costBuy: 4650
+    costSell: 3250
+    weight: 8
+    bigSprite: 188
+    floorSprite: 201
+    handSprite: 608
+    bulletSprite: 2
+    fireSound: 80
+    compatibleAmmo:
+      - STR_TFTD_BRIFLE_CLIP
+    accuracyAuto: 45
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuAuto: 45
+    tuSnap: 35
+    tuAimed: 50
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 4
+    landOnly: true
+    listOrder: 3530
+
+  - type: STR_TFTD_BRIFLE_CLIP
+    size: 0.1
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 435
+    floorSprite: 322
+    hitSound: 81
+    hitAnimation: 26
+    power: 45
+    damageType: 1
+    clipSize: 16
+    battleType: 2
+    landOnly: true
+    listOrder: 3531
+
+  - type: STR_BLMG
+    size: 0.2
+    costBuy: 10500
+    costSell: 3250
+    weight: 14
+    bigSprite: 426
+    floorSprite: 315
+    handSprite: 864
+    bulletSprite: 2
+    bulletSpeed: 40
+    fireSound: 80
+    compatibleAmmo:
+      - STR_BLMG_CLIP
+    accuracyAuto: 30
+    accuracySnap: 45
+    accuracyAimed: 0
+    tuAuto: 25
+    tuSnap: 15
+    tuAimed: 0
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    autoShots: 6
+    landOnly: true
+    listOrder: 3550
+
+  - type: STR_BLMG_CLIP
+    size: 0.1
+    costBuy: 500
+    costSell: 250
+    weight: 2
+    bigSprite: 434
+    floorSprite: 321
+    hitSound: 81
+    hitAnimation: 26
+    hitAnimFrames: 4
+    power: 32
+    damageType: 1
+    clipSize: 36
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    landOnly: true
+    listOrder: 3551
+
+  - type: STR_BSMG
+    size: 0.2
+    costBuy: 3100
+    costSell: 3250
+    weight: 14
+    bigSprite: 427
+    floorSprite: 316
+    handSprite: 872
+    bulletSprite: 2
+    fireSound: 80
+    compatibleAmmo:
+      - STR_BSMG_CLIP
+    accuracyAuto: 40
+    accuracySnap: 40
+    accuracyAimed: 0
+    tuAuto: 35
+    tuSnap: 15
+    tuAimed: 0
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 4
+    landOnly: true
+    listOrder: 3520
+
+  - type: STR_BSMG_CLIP
+    size: 0.1
+    costBuy: 350
+    costSell: 250
+    weight: 2
+    bigSprite: 435
+    floorSprite: 322
+    hitSound: 81
+    hitAnimation: 26
+    power: 38
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    landOnly: true
+    listOrder: 3521
+
+  - type: STR_BMPISTOL
+    size: 0.2
+    costBuy: 2500
+    costSell: 3250
+    weight: 14
+    bigSprite: 428
+    floorSprite: 317
+    handSprite: 880
+    bulletSprite: 2
+    fireSound: 80
+    compatibleAmmo:
+      - STR_BMPISTOL_CLIP
+    accuracyAuto: 35
+    accuracySnap: 55
+    accuracyAimed: 0
+    tuAuto: 30
+    tuSnap: 25
+    tuAimed: 0
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    autoShots: 4
+    landOnly: true
+    listOrder: 3515
+
+  - type: STR_BMPISTOL_CLIP
+    size: 0.1
+    costBuy: 250
+    costSell: 250
+    weight: 2
+    bigSprite: 436
+    floorSprite: 323
+    hitSound: 81
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    landOnly: true
+    listOrder: 3516
+
+  - type: STR_TFTD_BPISTOL
+    size: 0.1
+    costBuy: 1250
+    costSell: 950
+    weight: 5
+    bigSprite: 189
+    floorSprite: 202
+    handSprite: 616
+    bulletSprite: 2
+    fireSound: 82
+    compatibleAmmo:
+      - STR_TFTD_BPISTOL_CLIP
+    accuracySnap: 40
+    accuracyAimed: 65
+    tuSnap: 15
+    tuAimed: 35
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    landOnly: true
+    listOrder: 3510
+    armor: 50
+
+  - type: STR_TFTD_BPISTOL_CLIP
+    size: 0.1
+    costBuy: 350
+    costSell: 120
+    weight: 2
+    bigSprite: 193
+    floorSprite: 203
+    handSprite: 640
+    hitSound: 81
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    clipSize: 16
+    battleType: 2
+    landOnly: true
+    listOrder: 3511
+    armor: 50
+
+  - type: STR_TFTD_RECOIL
+    size: 0.4
+    costBuy: 9500
+    costSell: 1000
+    weight: 15
+    bigSprite: 197
+    floorSprite: 211
+    handSprite: 688
+    bulletSprite: 0
+    fireSound: 83
+    compatibleAmmo:
+      - STR_TFTD_RECOIL_CLIP
+    accuracySnap: 55
+    accuracyAimed: 110
+    tuSnap: 25
+    tuAimed: 65
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    landOnly: true
+    listOrder: 3560
+    armor: 50
+
+  - type: STR_TFTD_RECOIL_CLIP
+    size: 0.2
+    costBuy: 850
+    costSell: 150
+    weight: 2
+    bigSprite: 199
+    floorSprite: 212
+    handSprite: 696
+    hitSound: 0
+    hitAnimation: 8
+    power: 70
+    blastRadius: 1
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    armor: 50
+    landOnly: true
+    listOrder: 3561
+
+  - type: STR_TFTD_MINIGUN
+    size: 0.3
+    costBuy: 13500
+    costSell: 10125
+    weight: 20
+    bigSprite: 196
+    floorSprite: 209
+    handSprite: 672
+    bulletSprite: 2
+    bulletSpeed: 50
+    fireSound: 80
+    compatibleAmmo:
+      - STR_TFTD_MINIGUN_CLIP
+    accuracyAuto: 25
+    tuAuto: 40
+    autoShots: 10
+    autoRange: 20
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    landOnly: true
+    listOrder: 3570
+    armor: 50
+
+  - type: STR_TFTD_MINIGUN_CLIP
+    size: 0.1
+    costBuy: 750
+    costSell: 400
+    weight: 6
+    bigSprite: 198
+    floorSprite: 210
+    handSprite: 680
+    hitSound: 81
+    hitAnimation: 26
+    hitAnimFrames: 3
+    power: 28
+    damageType: 1
+    clipSize: 80
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    landOnly: true
+    listOrder: 3571
+
+  - type: STR_GLMG
+    size: 0.2
+    costSell: 36900
+    weight: 8
+    bigSprite: 429
+    floorSprite: 318
+    handSprite: 888
+    bulletSprite: 6
+    fireSound: 34
+    accuracyAuto: 38
+    accuracySnap: 45
+    accuracyAimed: 0
+    tuAuto: 45
+    tuSnap: 25
+    tuAimed: 0
+    compatibleAmmo:
+      - STR_GLMG_CLIP
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3910
+    autoShots: 6
+
+  - type: STR_GLMG_CLIP
+    size: 0.2
+    costSell: 1950
+    weight: 3
+    bigSprite: 437
+    floorSprite: 324
+    hitSound: 31
+    hitAnimation: 46
+    power: 40
+    damageType: 4
+    clipSize: 36
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 10
+    listOrder: 3911
+
+  - type: STR_GSMG
+    size: 0.2
+    costSell: 36900
+    weight: 8
+    bigSprite: 430
+    floorSprite: 319
+    handSprite: 896
+    bulletSprite: 6
+    fireSound: 34
+    accuracyAuto: 45
+    accuracySnap: 55
+    accuracyAimed: 0
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 0
+    compatibleAmmo:
+      - STR_GSMG_CLIP
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 3750
+    autoShots: 4
+
+  - type: STR_GSMG_CLIP
+    size: 0.2
+    costSell: 1950
+    weight: 3
+    bigSprite: 438
+    floorSprite: 325
+    hitSound: 31
+    hitAnimation: 46
+    power: 45
+    damageType: 4
+    clipSize: 15
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 10
+    listOrder: 3751
+
+  - type: STR_GMPISTOL
+    size: 0.1
+    costSell: 20000
+    weight: 7
+    bigSprite: 431
+    floorSprite: 320
+    handSprite: 904
+    bulletSprite: 5
+    fireSound: 35
+    accuracyAuto: 35
+    accuracySnap: 35
+    accuracyAimed: 0
+    tuAuto: 35
+    tuSnap: 15
+    tuAimed: 0
+    compatibleAmmo:
+      - STR_GMPISTOL_CLIP
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    twoHanded: false
+    listOrder: 3710
+    autoShots: 4
+
+  - type: STR_GMPISTOL_CLIP
+    size: 0.2
+    costSell: 1050
+    weight: 2
+    bigSprite: 439
+    floorSprite: 326
+    hitSound: 31
+    hitAnimation: 46
+    power: 35
+    damageType: 4
+    clipSize: 20
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 5
+    listOrder: 3711
+
+  - type: STR_TFTD_ACCEL
+    size: 0.3
+    costSell: 144000
+    weight: 12
+    bigSprite: 202
+    floorSprite: 214
+    handSprite: 712
+    bulletSprite: 6
+    fireSound: 34
+    compatibleAmmo:
+      - STR_TFTD_ACCEL_CLIP
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    waypoints: 2
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+    attraction: 1
+    underwaterOnly: true
+    listOrder: 4101
+
+  - type: STR_TFTD_ACCEL_CLIP
+    size: 0.2
+    costSell: 17028
+    weight: 4
+    bigSprite: 203
+    floorSprite: 216
+    handSprite: 728
+    hitSound: 0
+    hitAnimation: 8
+    power: 100
+    powerForAnimation: 20
+    damageType: 4
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 60
+    blastRadius: 1
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 10
+    listOrder: 4102
+
+  - type: STR_TFTD_VOLLEY
+    size: 0.2
+    costSell: 45900
+    weight: 10
+    bigSprite: 200
+    floorSprite: 213
+    handSprite: 704
+    bulletSprite: 6
+    fireSound: 34
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 30
+    tuAimed: 60
+    compatibleAmmo:
+      - STR_TFTD_VOLLEY_CLIP
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    arcingShot: true
+    listOrder: 3901
+
+  - type: STR_TFTD_VOLLEY_CLIP
+    size: 0.2
+    costSell: 1950
+    weight: 3
+    bigSprite: 201
+    floorSprite: 215
+    handSprite: 720
+    hitSound: 31
+    hitAnimation: 46
+    power: 70
+    damageType: 4
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 70
+    vaporColor: { mod: xcom2, index: 2 }
+    vaporDensity: 10
+    listOrder: 3902
+
+  - type: STR_TFTD_CKNIFE
+    size: 0.1
+    costBuy: 2600
+    costSell: 1250
+    weight: 2.5
+    bigSprite: 194
+    floorSprite: 207
+    handSprite: 656
+    meleeSound: 87
+    power: 50
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    twoHanded: false
+    meleeAnimation: 104
+    invWidth: 1
+    invHeight: 2
+    clipSize: -1
+    listOrder: 4901
+
+  - type: STR_TFTD_CSPEAR
+    size: 0.1
+    costBuy: 3650
+    costSell: 1950
+    weight: 2.5
+    bigSprite: 195
+    floorSprite: 208
+    handSprite: 664
+    meleeSound: 87
+    power: 65
+    damageType: 7
+    accuracyMelee: 140
+    tuMelee: 20
+    battleType: 3
+    twoHanded: false
+    meleeAnimation: 104
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    listOrder: 4902
+
+  - type: STR_DISPLACER_ARMOR
+    size: 0.8
+    costSell: 200000
+
+  - type: STR_WRECKED_DISPLACER_ARMOR
+    size: 0.8
+    costSell: 75000
+
+  - type: STR_DISPLACER_ARMOR_CORPSE
+    weight: 35
+    bigSprite: 204
+    floorSprite: 217
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_HVYDIV
+    size: 0.8
+    costBuy: 20500
+    costSell: 8000
+    listOrder: 10
+
+  - type: STR_HVYDIV_CORPSE
+    weight: 35
+    bigSprite: 421
+    floorSprite: 313
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_HVYARM
+    size: 0.8
+    listorder: 1750
+    costSell: 200000
+    listOrder: 11350
+
+  - type: STR_WRECKED_HVYARM
+    size: 0.8
+    costSell: 75000
+    listOrder: 11351
+
+  - type: STR_HVYARM_CORPSE
+    weight: 35
+    bigSprite: 422
+    floorSprite: 314
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_LLAUNCHER
+    requires:
+      - STR_LLAUNCHER
+    size: 0.3
+    costSell: 144000
+    weight: 12
+    bigSprite: 447
+    floorSprite: 337
+    handSprite: 952
+    bulletSprite: 10
+    fireSound: 26
+    compatibleAmmo:
+      - STR_LLAUNCHER_CLIP
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    waypoints: 9
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+    attraction: 1
+    underwaterOnly: true
+    listOrder: 4193
+  - type: STR_LLAUNCHER_CLIP
+    requires:
+      - STR_LLAUNCHER_CLIP
+    size: 0.2
+    costSell: 17028
+    weight: 4
+    bigSprite: 449
+    floorSprite: 339
+    hitSound: 0
+    hitAnimation: 8
+    power: 210
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+    armor: 60
+    blastRadius: 11
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 1 }
+    vaporDensity: 15
+    listOrder: 4194
+  - type: STR_SLAUNCHER
+    requires:
+    - STR_SLAUNCHER
+    size: 0.2
+    costSell: 120000
+    weight: 8
+    bigSprite: 446
+    floorSprite: 336
+    handSprite: 944
+    bulletSprite: 9
+    fireSound: 41
+    compatibleAmmo:
+      - STR_SLAUNCHER_CLIP
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 50
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 4
+    attraction: 1
+    listOrder: 4191
+  - type: STR_SLAUNCHER_CLIP
+    requires:
+    - STR_SLAUNCHER_CLIP
+    size: 0.1
+    costSell: 15200
+    weight: 3
+    bigSprite: 448
+    floorSprite: 338
+    hitSound: 0
+    hitAnimation: 8
+    power: 120
+    damageType: 6
+    clipSize: 1
+    battleType: 2
+    recoveryPoints: 1
+    armor: 60
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 1 }
+    vaporDensity: 10
+    listOrder: 4192
+
+  - type: STR_ION_CANNON
+    requires:
+      - STR_ION_CANNON
+    size: 0.2
+    costSell: 171600
+    weight: 12
+    bigSprite: 205
+    floorSprite: 218
+    handSprite: 736
+    bulletSprite: 11
+    fireSound: 84
+    compatibleAmmo:
+      - STR_ION_CANNON_CLIP
+    accuracySnap: 80
+    accuracyAimed: 130
+    tuSnap: 55
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+    attraction: 1
+    listOrder: 4197
+
+  - type: STR_ION_CANNON_CLIP
+    requires:
+      - STR_ION_CANNON_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 6
+    bigSprite: 206
+    floorSprite: 219
+    handSprite: 744
+    hitSound: 85
+    explosionHitSound: 85
+    hitAnimation: 108
+    power: 160
+    powerForAnimation: 60
+    blastRadius: 2
+    damageType: 5
+    clipSize: 5
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    vaporProbability: 50
+    vaporColorSurface: { mod: xcom2, index: 3 }
+    vaporDensitySurface: 30
+    vaporProbabilitySurface: 50
+    listOrder: 4198
+
+  - type: STR_ION_PISTOL
+    requires:
+      - STR_ION_PISTOL
+    size: 0.1
+    costSell: 84000
+    weight: 6
+    bigSprite: 207
+    floorSprite: 220
+    handSprite: 752
+    bulletSprite: 11
+    fireSound: 86
+    compatibleAmmo:
+      - STR_ION_PISTOL_CLIP
+    accuracySnap: 80
+    accuracyAimed: 105
+    tuSnap: 35
+    tuAimed: 50
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+    attraction: 1
+    listOrder: 4195
+
+  - type: STR_ION_PISTOL_CLIP
+    requires:
+      - STR_ION_PISTOL_CLIP
+    size: 0.1
+    costSell: 4440
+    weight: 4.5
+    bigSprite: 208
+    floorSprite: 221
+    handSprite: 760
+    hitSound: 90
+    hitAnimation: 600
+    power: 100
+    damageType: 5
+    clipSize: 12
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 15
+    vaporProbability: 30
+    vaporColorSurface: { mod: xcom2, index: 3 }
+    vaporDensitySurface: 15
+    vaporProbabilitySurface: 30
+    listOrder: 4196
+
+  - type: STR_HEAVY_LASER
+    size: 0.2
+    costSell: 46900
+    weight: 8
+    bigSprite: 211
+    floorSprite: 224
+    handSprite: 784
+    bulletSprite: 12
+    fireSound: 88
+    hitSound: 89
+    hitAnimation: 610
+    power: 90
+    damageType: 10
+    accuracySnap: 85
+    accuracyAimed: 140
+    tuSnap: 32
+    tuAimed: 65
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    landOnly: true
+    listOrder: 4105
+    damageAlter:
+      RandomType: 2
+
+  - type: STR_LASER_CARBINE
+    size: 0.2
+    costSell: 26900
+    weight: 6
+    bigSprite: 210
+    floorSprite: 223
+    handSprite: 776
+    bulletSprite: 12
+    fireSound: 88
+    hitSound: 89
+    hitAnimation: 610
+    power: 70
+    damageType: 10
+    accuracySnap: 90
+    accuracyAuto: 65
+    accuracyAimed: 110
+    tuSnap: 25
+    tuAuto: 55
+    tuAimed: 45
+    autoShots: 4
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    landOnly: true
+    listOrder: 4104
+    damageAlter:
+      RandomType: 2
+
+  - type: STR_LASER_PISTOL
+    size: 0.2
+    costSell: 16900
+    weight: 4
+    bigSprite: 209
+    floorSprite: 222
+    handSprite: 768
+    bulletSprite: 12
+    fireSound: 88
+    hitSound: 89
+    hitAnimation: 610
+    power: 55
+    damageType: 10
+    accuracySnap: 70
+    accuracyAuto: 45
+    accuracyAimed: 130
+    tuSnap: 15
+    tuAuto: 25
+    tuAimed: 35
+    autoShots: 5
+    clipSize: -1
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    landOnly: true
+    listOrder: 4103
+    damageAlter:
+      RandomType: 2
+
+  - type: STR_WRECKED_PLASTIC_ARMOR
+    listOrder: 11310
+    size: 0.8
+    costSell: 12000
+    recoveryPoints: 0
+    battleType: 11
+    recover: true
+
+  - type: STR_WRECKED_ION_ARMOR
+    listOrder: 11450
+    size: 0.8
+    costSell: 51500
+    recoveryPoints: 0
+    battleType: 11
+    recover: true
+
+  - type: STR_WRECKED_MAG_ARMOR
+    listOrder: 11550
+    size: 0.8
+    costSell: 60125
+    recoveryPoints: 0
+    battleType: 11
+    recover: true
+
+  - type: STR_CORPSE_ARMOR
+    battleType: 11
+    recover: true
+
+  - type: STR_CORPSE_ION
+    battleType: 11
+    recover: true
+
+  - type: STR_ZRBITE_FLARE
+    size: 0.1
+    costSell: 40
+    weight: 4
+    bigSprite: 212
+    floorSprite: 225
+    handSprite: 792
+    power: 23
+    battleType: 10
+    costPrime:
+      time: 15
+    primeActionName: STR_PRIME_FLARE
+    fuseType: -2
+    fuseTriggerEvents:
+      defaultBehavior: false
+      throwTrigger: true
+    armor: 150
+    attraction: 6
+    listOrder: 5001
+
+  - type: STR_TFTD_HSONIC_PISTOL
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    size: 0.1
+    costSell: 84000
+    weight: 3
+    bigSprite: 389
+    floorSprite: 302
+    handSprite: 816
+    bulletSprite: 8
+    fireSound: 38
+    compatibleAmmo:
+      - STR_TFTD_HSONIC_PISTOL_CLIP
+    accuracySnap: 65
+    accuracyAimed: 85
+    twoHanded: false
+    tuSnap: 30
+    tuAimed: 50
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 50
+    attraction: 1
+    listOrder: 4181
+
+  - type: STR_TFTD_HSONIC_PISTOL_CLIP
+    requires:
+      - STR_RSH_HSONIC_PISTOL
+    size: 0.1
+    costSell: 4440
+    weight: 3
+    bigSprite: 393
+    floorSprite: 303
+    handSprite: 840
+    hitSound: 31
+    hitAnimation: 46
+    twoHanded: false
+    power: 80
+    damageType: 5
+    clipSize: 20
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    listOrder: 4182
+
+  - type: STR_SNC_APISTOL
+    requires:
+      - STR_SNC_APISTOL_RSH
+    size: 0.1
+    costSell: 96000
+    weight: 4
+    bigSprite: 433
+    floorSprite: 328
+    handSprite: 920
+    bulletSprite: 8
+    fireSound: 38
+    compatibleAmmo:
+      - STR_SNC_APISTOL_CLIP
+    accuracySnap: 45
+    accuracyAuto: 35
+    accuracyAimed: 0
+    twoHanded: false
+    tuSnap: 25
+    tuAuto: 45
+    tuAimed: 0
+    autoShots: 4
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 50
+    attraction: 1
+    listOrder: 4183
+
+  - type: STR_SNC_APISTOL_CLIP
+    requires:
+      - STR_SNC_APISTOL_RSH
+    size: 0.1
+    costSell: 5525
+    weight: 3
+    bigSprite: 441
+    floorSprite: 330
+    hitSound: 31
+    hitAnimation: 46
+    twoHanded: false
+    power: 60
+    damageType: 5
+    clipSize: 28
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    listOrder: 4184
+    bulletSpeed: 40
+    hitAnimFrames: 5
+
+  - type: STR_TFTD_HSONIC_RIFLE
+    requires:
+      - STR_RSH_HSONIC_RIFLE
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 388
+    floorSprite: 302
+    handSprite: 808
+    bulletSprite: 8
+    fireSound: 36
+    compatibleAmmo:
+      - STR_TFTD_HSONIC_RIFLE_CLIP
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    attraction: 1
+    listOrder: 4185
+
+  - type: STR_TFTD_HSONIC_RIFLE_CLIP
+    requires:
+      - STR_RSH_HSONIC_RIFLE
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 392
+    floorSprite: 304
+    handSprite: 832
+    hitSound: 31
+    hitAnimation: 46
+    power: 95
+    damageType: 5
+    clipSize: 15
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    listOrder: 4186
+
+  - type: STR_SNC_ARIFLE
+    requires:
+      - STR_SNC_ARIFLE_RSH
+    size: 0.2
+    costSell: 156250
+    weight: 6
+    bigSprite: 432
+    floorSprite: 327
+    handSprite: 912
+    bulletSprite: 8
+    fireSound: 36
+    compatibleAmmo:
+      - STR_SNC_ARIFLE_CLIP
+    accuracySnap: 55
+    accuracyAuto: 45
+    accuracyAimed: 0
+    tuSnap: 30
+    tuAuto: 55
+    tuAimed: 0
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    attraction: 1
+    listOrder: 4187
+
+  - type: STR_SNC_ARIFLE_CLIP
+    requires:
+      - STR_SNC_ARIFLE_RSH
+    size: 0.1
+    costSell: 9950
+    weight: 3
+    bigSprite: 440
+    floorSprite: 329
+    hitSound: 31
+    hitAnimation: 46
+    power: 70
+    damageType: 5
+    clipSize: 18
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    listOrder: 4188
+
+  - type: STR_TFTD_HSONIC_CANNON
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 387
+    floorSprite: 300
+    handSprite: 800
+    bulletSprite: 8
+    fireSound: 37
+    compatibleAmmo:
+      - STR_TFTD_HSONIC_CANNON_CLIP
+    accuracySnap: 80
+    accuracyAimed: 115
+    tuSnap: 50
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+    attraction: 1
+    listOrder: 4189
+
+  - type: STR_TFTD_HSONIC_CANNON_CLIP
+    requires:
+      - STR_RSH_HSONIC_CANNON
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 391
+    floorSprite: 305
+    handSprite: 824
+    hitSound: 31
+    hitAnimation: 46
+    power: 130
+    damageType: 5
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: { mod: xcom2, index: 3 }
+    vaporDensity: 30
+    listOrder: 4190
+
+  - type: STR_TFTD_HSONIC_GRENADE
+    requires:
+      - STR_RSH_HSONIC_GRENADE
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 390
+    floorSprite: 306
+    handSprite: 848
+    power: 120
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    armor: 150
+    blastRadius: 5
+    attraction: 1
+    hitAnimation: 8
+    listOrder: 4199
+
+  - type: STR_ZRBEXP
+    size: 0.3
+    costSell: 12000
+    weight: 12
+    bigSprite: 450
+    floorSprite: 340
+    handSprite: 960
+    power: 200
+    damageType: 3
+    battleType: 4
+    invWidth: 2
+    invHeight: 2
+    armor: 140
+    blastRadius: -1
+    hitAnimation: 8
+    listOrder: 4199
+
+  # [=] Reaver's Easier TFTD and Add Dependicies for Sonic + Nerf + Orange Gauss [=]
+  - type: STR_DART_PISTOL
+    accuracySnap: 50
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 40
+  - type: STR_DART_POD
+    power: 24
+  - type: STR_GAUSS_PISTOL
+    bigSprite: 424
+    accuracyAuto: 40
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuAuto: 30
+    tuSnap: 20
+    tuAimed: 40
+  - type: STR_GAUSS_RIFLE
+    bigSprite: 423
+  - type: STR_HEAVY_GAUSS
+    bigSprite: 425
+    accuracyAuto: 55
+    accuracySnap: 70
+    accuracyAimed: 115
+    tuAuto: 55
+    tuSnap: 40
+    tuAimed: 75
+  - type: STR_MAGNA_BLAST_GRENADE
+    power: 70
+  - type: STR_MAGNA_PACK_EXPLOSIVE
+    power: 110
+  - type: STR_SONIC_CANNON
+    accuracySnap: 80
+    accuracyAimed: 130
+    tuSnap: 45
+    tuAimed: 75
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 85800
+  - type: STR_CANNON_POWER_CLIP
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 4795
+  - type: STR_SONIC_BLASTA_RIFLE
+    accuracySnap: 75
+    accuracyAimed: 120
+    tuSnap: 30
+    tuAimed: 60
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 63250
+  - type: STR_BLASTA_POWER_CLIP
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 3145
+  - type: STR_SONIC_PISTOL
+    accuracySnap: 70
+    accuracyAimed: 110
+    tuSnap: 25
+    tuAimed: 50
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 42000
+  - type: STR_PISTOL_POWER_CLIP
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 2250
+  - type: STR_VIBRO_BLADE
+    accuracyMelee: 130
+    tuMelee: 5
+    power: 50
+  - type: STR_THERMIC_LANCE
+    accuracyMelee: 160
+    tuMelee: 15
+    power: 125
+  - type: STR_HEAVY_THERMIC_LANCE
+    accuracyMelee: 190
+    tuMelee: 25
+    power: 200
+  - type: STR_SONIC_PULSER
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 7425
+  - type: STR_DISRUPTOR_PULSE_LAUNCHER
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 72000
+  - type: STR_THERMAL_SHOK_LAUNCHER
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 60000
+  - type: STR_THERMAL_SHOK_BOMB
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 7600
+  - type: STR_DISRUPTOR_AMMO
+    requires:
+      - STR_ALIENS_ONLY
+    costSell: 8500
+
+  # [=] Apply Custom Icons to Tanks [=]
+  - type: STR_COELACANTH_GAS_CANNON
+    customItemPreviewIndex: 0
+
+  - type: STR_COELACANTH_AQUA_JET
+    customItemPreviewIndex: 0
+
+  - type: STR_COELACANTH_GAUSS
+    customItemPreviewIndex: 1
+
+  - type: STR_DISPLACER_SONIC
+    customItemPreviewIndex: 2
+
+  - type: STR_DISPLACER_PWT
+    customItemPreviewIndex: 2
+
+  #Double Launcher
+  - type: STR_SMALL_TORPEDO
+    costBuy: 900
+    costSell: 720
+    weight: 8
+    clipSize: 2
+    power: 75
+
+  - type: STR_LARGE_TORPEDO
+    power: 100
+
+#Marts NEW UFOS
+  # [=] Weapon - CIV Rifle [=] <Civilian only weapon>(Although X-Com could pick it up and fight with it, it won't be recovered)
+  - type: STR_MFTD_CIV_RIFLE
+    size: 0.2
+    costBuy: 0
+    costSell: 2250
+    weight: 8
+    bigSprite: 68
+    floorSprite: 84
+    handSprite: 456
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_MFTD_CIV_RIFLE_CLIP
+    accuracyAuto: 35
+    accuracySnap: 60
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+  # [=] Weapon - CIV Rifle Ammo [=] <Civilian only weapon>
+  - type: STR_MFTD_CIV_RIFLE_CLIP
+    size: 0.1
+    costBuy: 0
+    costSell: 150
+    weight: 3
+    bigSprite: 69
+    floorSprite: 85
+    handSprite: 464
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Weapon - CIV Pistol [=] <Civilian only weapon>(Although X-Com could pick it up and fight with it, it won't be recovered)
+  - type: STR_MFTD_CIV_PISTOL
+    size: 0.1
+    costBuy: 0
+    costSell: 600
+    weight: 5
+    bigSprite: 66
+    floorSprite: 82
+    handSprite: 440
+    bulletSprite: 1
+    fireSound: 4
+    compatibleAmmo:
+      - STR_MFTD_CIV_PISTOL_CLIP
+    accuracySnap: 60
+    accuracyAimed: 78
+    tuSnap: 18
+    tuAimed: 30
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recover: false # DO NOT RECOVER THIS ITEM
+  # [=] Weapon - CIV Pistol Ammo [=] <Civilian only weapon>
+  - type: STR_MFTD_CIV_PISTOL_CLIP
+    size: 0.1
+    costBuy: 0
+    costSell: 52
+    weight: 3
+    bigSprite: 67
+    floorSprite: 83
+    handSprite: 448
+    hitSound: 22
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 12
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Civilian Military Corpse [=]
+  - type: STR_MFTD_CIV_MILITARY_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 71
+    floorSprite: 86
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Civilian Military Corpse [=]
+  - type: STR_MFTD_CIV_HEAVY_MILITARY_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 74
+    floorSprite: 89
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Civilian Diver Corpse [=]
+  - type: STR_MFTD_CIV_DIVER_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 72
+    floorSprite: 87
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Fake Civilian Corpses [=]
+  - type: CIVM_CORPSE_FAKE
+    name: STR_CORPSE
+    weight: 30
+    floorSprite: 50
+    invWidth: 0
+    invHeight: 0
+    armor: 12
+    battleType: 10 # Was 11 <Fake corpse stops crash>
+    recover: false
+  - type: CIVF_CORPSE_FAKE
+    name: STR_CORPSE
+    weight: 50
+    floorSprite: 51
+    invWidth: 0
+    invHeight: 0
+    armor: 12
+    battleType: 10 # Was 11 <Fake corpse stops crash>
+    recover: false
+
+  # [=] Civilian Diving Drill [=]
+  - type: STR_MFTD_DIVING_DRILL
+    size: 0.3
+    costSell: 10
+    transferTime: 48
+    weight: 5
+    bigSprite: 73
+    floorSprite: 88
+    handSprite: 472
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 16
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Civilian Diving Drill [=] (For UFOpaedia Article) <Rifle, Pistol, Drill>
+  - type: STR_MFTD_CIVILIAN_WEAPONS
+    size: 0.3
+    costSell: 10
+    transferTime: 48
+    weight: 5
+    bigSprite: 73
+    floorSprite: 88
+    handSprite: 472
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 16
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+    hidePower: true
+
+  # [=] Civilian Fire Extinguisher [=]
+  - type: STR_FIRE_EXT
+    size: 0.2
+    costBuy: 0
+    costSell: 420
+    weight: 9
+    bigSprite: 85
+    floorSprite: 95
+    handSprite: 480
+    bulletSprite: 1
+    fireSound: 76
+    explosionHitSound: 76
+    hitAnimation: 96
+    power: 40
+    accuracyAimed: 100
+    tuAimed: 64
+    damageType: 9
+    damageAlter:
+      RandomType: 4
+      FixRadius: 3
+    battleType: 1
+    clipSize: 3
+    isFireExtinguisher: true
+    arcingShot: true
+    maxRange: 6
+    invWidth: 2
+    invHeight: 2
+    bulletSpeed: 80
+    recover: false # DO NOT RECOVER THIS ITEM
+    #listOrder: 4601
+
+  # [=] Civilian Fireman Axe [=]
+  - type: STR_FIRE_AXE
+    size: 0.1
+    costBuy: 0
+    costSell: 945
+    weight: 6
+    bigSprite: 86
+    floorSprite: 96
+    handSprite: 488
+    meleeSound: 60
+    power: 80
+    damageType: 6
+    accuracyMelee: 100
+    skillApplied: false
+    tuMelee: 40
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    recover: false # DO NOT RECOVER THIS ITEM
+
+  # [=] Civilian Firefighter Items [=] (For UFOpaedia Article) <Fire Extinguisher, Fire Axe>
+  - type: STR_MFTD_EMERGENCY_ITEMS
+    size: 0.3
+    costSell: 10
+    transferTime: 48
+    weight: 5
+    bigSprite: 73
+    floorSprite: 88
+    handSprite: 472
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 16
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+    hidePower: true
+
+  # [=] Civilian Policeman Corpse [=]
+  - type: STR_POLICE_MALE_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 80
+    floorSprite: 90
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+  # [=] Civilian Policewoman Corpse [=]
+  - type: STR_POLICE_FEMALE_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 81
+    floorSprite: 91
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+  # [=] Civilian SWAT Corpse [=]
+  - type: STR_HUMAN_SOLDIER_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 82
+    floorSprite: 92
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+  # [=] Civilian Paramedic Corpse [=]
+  - type: STR_PARAMEDIC_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 83
+    floorSprite: 93
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+  # [=] Civilian Firefighter Corpse [=]
+  - type: STR_FIREFIGHTER_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 84
+    floorSprite: 94
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false

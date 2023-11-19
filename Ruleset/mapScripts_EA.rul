@@ -1,0 +1,89 @@
+mapScripts:
+
+
+
+# [=] Ocean Trench Base [=] (Terror Site - Part 1 of 2)
+  - type: STR_MFTD_TRENCHUPPERBASE
+    commands:
+    - type: addCraft
+      rects:
+        - [2,2,1,1]
+      label: 1
+    - type: addCraft
+      rects:
+        - [2,2,1,2]
+      conditionals: [-1]
+    - type: addBlock
+      size: [3,4]
+
+
+# [=] Warehouse (Arms & Volatile) [=] (Terror Mission)
+  - type: STR_MFTD_WAREHOUSE
+    commands:
+    - type: addCraft
+      rects:
+        - [1,1,1,1]
+      label: 1
+    - type: addCraft
+      rects:
+        - [1,1,1,2]
+      conditionals: [-1]
+    - type: addBlock
+      size: [3,4]
+
+# [=] Offshore Rig [=] (Terror Mission)
+  - type: STR_MFTD_OFFSHORE_MAPSCRIPT
+    commands:
+    - type: addCraft
+      rects:
+        - [1,0,1,1]
+      label: 1
+    - type: addCraft
+      rects:
+        - [1,0,1,2]
+      conditionals: [-1]
+    - type: addBlock
+      size: 6
+
+
+# [=] Ocean Labs [=] (Terror Mission)
+  - type: STR_MFTD_OCEANLABS_MAPSCRIPT
+    commands:
+    - type: addBlock
+      size: 4
+
+
+# [=] XCOM-UFO City Terror Terrain [=] (Terror Mission)
+  - type: URBAN
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 100
+      rects:
+        - [0, 0, 5, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [0, 0, 1, 5]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [0, 0, 5, 5]
+    - type: addBlock
+      size: 2
+      executions: 4
+      blocks: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+      freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      blocks: [9, 10, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]

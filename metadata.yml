@@ -1,0 +1,7 @@
+name: "TFTD: Vanilla Plus"
+version: "1.0"
+requiredExtendedVersion: "true"
+author: "Daev"
+description: "Merge of many, master of all"
+id: VPLUS
+master: xcom2

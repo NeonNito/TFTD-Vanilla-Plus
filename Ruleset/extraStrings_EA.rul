@@ -1,0 +1,744 @@
+extraStrings:
+  - type: en-US
+    strings:
+
+      STR_DAMAGE_10: "LASER BEAM"
+
+# [=] Item Names [=]
+      STR_NONE_UFO: "XCOM Diving Suit"
+      STR_TFTD_BCANNON: "Heavy Cannon"
+      STR_TFTD_BRIFLE: "Rifle"
+      STR_TFTD_BPISTOL: "Pistol"
+      STR_TFTD_BCANNON_CLIP_AP: "H.C. Clip AP"
+      STR_TFTD_BCANNON_CLIP_HE: "H.C. Clip HE"
+      STR_TFTD_BRIFLE_CLIP: "Rifle Clip"
+      STR_TFTD_BPISTOL_CLIP: "Pistol Clip"
+      STR_TFTD_CKNIFE: "Diving Knife"
+      STR_TFTD_CSPEAR: "Diving Spear"
+      STR_TFTD_MINIGUN: "Minigun"
+      STR_TFTD_MINIGUN_CLIP: "Minigun Ammo Box"
+      STR_TFTD_RECOIL: "Rocket Launcher"
+      STR_TFTD_RECOIL_CLIP: "AP Rocket"
+      STR_TFTD_VOLLEY: "Gauss Volley Gun"
+      STR_TFTD_VOLLEY_CLIP: "Gauss Volley Gun Clip"
+      STR_TFTD_ACCEL: "Gauss Accelerator"
+      STR_TFTD_ACCEL_CLIP: "Gauss Ferro-Slug"
+      STR_DISPLACER_ARMOR: "Displacer Armor"
+      STR_DISPLACER_ARMOR_CORPSE: "Corpse"
+      STR_WRECKED_DISPLACER_ARMOR: "Displacer Armor (Damaged)"
+      STR_DISPLACER_ARMOR_UC: "DISPLACER ARMOR"
+      STR_DISPLACER_ARMOR_REPAIR: "Displacer Armor (Repair)"
+      STR_ION_CANNON: "Ion Cannon"
+      STR_ION_CANNON_CLIP: "Ion Cannon Clip"
+      STR_ION_PISTOL: "Ion Pistol"
+      STR_ION_PISTOL_CLIP: "Ion Pistol Clip"
+      STR_HEAVY_LASER: "Zrbite Heavy Laser"
+      STR_LASER_CARBINE: "Zrbite Laser Carbine"
+      STR_LASER_PISTOL: "Zrbite Laser Pistol"
+      STR_WRECKED_PLASTIC_ARMOR: "Plastic Aqua-Armor (Damaged)"
+      STR_WRECKED_ION_ARMOR: "Ion Armor (Damaged)"
+      STR_WRECKED_MAG_ARMOR: "Mag. Ion Armor (Damaged)"
+      STR_PLASTIC_AQUA_ARMOR_REPAIR: "Plastic Aqua-Armor (Repair)"
+      STR_ION_ARMOR_REPAIR: "Ion Armor (Repair)"
+      STR_MAGNETIC_ION_ARMOR_REPAIR: "Magnetic Ion Armor (Repair)"
+      STR_PRIME_FLARE: "Prime Flare"
+      STR_ZRBITE_FLARE: "Zrbite-Flare"
+      STR_TFTD_HSONIC_CANNON: "Sonic Cannon"
+      STR_TFTD_HSONIC_RIFLE: "Sonic Rifle"
+      STR_TFTD_HSONIC_PISTOL: "Sonic Pistol"
+      STR_TFTD_HSONIC_CANNON_CLIP: "Sonic Cannon Clip"
+      STR_TFTD_HSONIC_RIFLE_CLIP: "Sonic Rifle Clip"
+      STR_TFTD_HSONIC_PISTOL_CLIP: "Sonic Pistol Clip"
+      STR_TFTD_HSONIC_GRENADE: "Zrbite Pulse Grenade"
+      STR_UFO_HSONIC_CANNON: "Sonic Cannon"
+      STR_UFO_HSONIC_RIFLE: "Sonic Rifle"
+      STR_UFO_HSONIC_PISTOL: "Sonic Pistol"
+      STR_UFO_HSONIC_GRENADE: "Zrbite Pulse Grenade"
+      STR_TFTD_HSONIC_CANNON_CLIP_CONV: "Convert S. Cannon Clip"
+      STR_TFTD_HSONIC_RIFLE_CLIP_CONV: "Convert S. Rifle Clip"
+      STR_TFTD_HSONIC_PISTOL_CLIP_CONV: "Convert S. Pistol Clip"
+      STR_RSH_HSONIC_CANNON: "Sonic Cannon"
+      STR_RSH_HSONIC_RIFLE: "Sonic Rifle"
+      STR_RSH_HSONIC_PISTOL: "Sonic Pistol"
+      STR_RSH_HSONIC_GRENADE: "Zrbite Explosives"
+      STR_AQUATOID_CORPSE_CMD: "Aquatoid Corpse"
+      STR_AQUATOID_CORPSE_SQD: "Aquatoid Corpse"
+      STR_AQUATOID_CORPSE_TEC: "Aquatoid Corpse"
+      STR_AQUATOID_CORPSE_MED: "Aquatoid Corpse"
+      STR_AQUATOID_CORPSE_NAV: "Aquatoid Corpse"
+      STR_GILLMAN_CORPSE_CMD: "Gillman Corpse"
+      STR_GILLMAN_CORPSE_SQD: "Gillman Corpse"
+      STR_GILLMAN_CORPSE_NAV: "Gillman Corpse"
+      STR_GILLMAN_CORPSE_TEC: "Gillman Corpse"
+      STR_GILLMAN_CORPSE_MED: "Gillman Corpse"
+      STR_TASOTH_CORPSE_SQD: "Tasoth Corpse"
+      STR_LOBSTERMAN_CORPSE_CMD: "Lobsterman Corpse"
+      STR_LOBSTERMAN_CORPSE_SQD: "Lobsterman Corpse"
+      STR_LOBSTERMAN_CORPSE_NAV: "Lobsterman Corpse"
+      STR_LOBSTERMAN_CORPSE_TEC: "Lobsterman Corpse"
+      STR_SLUGMAN_CORPSE: "Slugman Corpse"
+      STR_SLUGMAN_CORPSE_CMD: "Slugman Corpse"
+      STR_SLUGMAN_CORPSE_SQD: "Slugman Corpse"
+      STR_SLUGMAN_CORPSE_TEC: "Slugman Corpse"
+      STR_SLUGMAN_CORPSE_NAV: "Slugman Corpse"
+      STR_SLUGMAN_CORPSE_MED: "Slugman Corpse"
+      STR_SLUGMAN_SLD: "Slugman Soldier"
+      STR_SLUGMAN_CMD: "Slugman Commander"
+      STR_SLUGMAN_SQD: "Slugman Squad Leader"
+      STR_SLUGMAN_MED: "Slugman Medic"
+      STR_SLUGMAN_TEC: "Slugman Technician"
+      STR_SLUGMAN_NAV: "Slugman Navigator"
+      MOLLUSCOID_WEAPON: "Molluscoid Claws"
+      STR_MOLLUSCOID_CORPSE: "Molluscoid Corpse"
+      STR_SLUGMAN: "Slugman"
+      STR_SLUGMAN_UNDERWATER: "Slugman"
+      STR_KRAKEN_CORPSE: "Kraken Corpse"
+      STR_TERRORPOD_CORPSE: "Terrorpod Corpse"
+      STR_TERRORPOD_AUTOPSY: "Terrorpod autopsy"
+      STR_TERRORPOD: "Terrorpod"
+      STR_SLUGMAN_AUTOPSY: "Slugman autopsy"
+      STR_MOLLUSCOID: "Molluscoid"
+      STR_MOLLUSCOID_AUTOPSY: "Molluscoid autopsy"
+      STR_KRAKEN: "Kraken"
+      STR_KRAKEN_AUTOPSY: "Kraken autopsy"
+      STR_WILD_TRISCENE: "Wild Triscene"
+      KRAKEN_WEAPON_RANGED: "Sonic Siphon"
+      TERRORPOD_WEAPON: "Crushing Claws"
+      KRAKEN_WEAPON: "Tentacles"
+      STR_POOL: "Training Pool"
+      STR_LIVING_QUARTERS_2: "Large Living Quarters"
+      STR_GENERAL_STORES_2: "Large Storage Facility"
+      STR_CORRIDOR_NS: "Corridor (N-S)"
+      STR_CORRIDOR_EW: "Corridor (E-W)"
+      STR_CORRIDOR_PROXY: "Corridor"
+      STR_MEDBAY: "Medical Bay"
+      STR_SONIC_CANNON: "Alien Sonic Cannon"
+      STR_CANNON_POWER_CLIP: "Alien Cannon Power Clip"
+      STR_SONIC_BLASTA_RIFLE: "Alien Sonic Rifle"
+      STR_BLASTA_POWER_CLIP: "Alien Sonic Rifle Clip"
+      STR_SONIC_PISTOL: "Alien Sonic Pistol"
+      STR_PISTOL_POWER_CLIP: "Alien Sonic Pistol Clip"
+      STR_DISRUPTOR_PULSE_LAUNCHER: "Alien Large Launcher"
+      STR_THERMAL_SHOK_LAUNCHER: "Alien Small Launcher"
+      STR_THERMAL_SHOK_BOMB: "Alien Shok Bomb"
+      STR_DISRUPTOR_AMMO: "Alien Disruptor Ammo"
+      STR_PROBE_CORPSE: "Aqua-Prob Wreck"
+      STR_POLYP_CORPSE: "Flying Polyph Corpse"
+      STR_MUTANT_CORPSE: "Mutant Corpse"
+      STR_PROBE: "Aqua-Probe"
+      STR_POLYP: "Flying Polyp"
+      STR_MUTANT: "Mutant"
+      STR_PROBE_AUTOPSY: "Aqua-Probe autopsy"
+      STR_POLYP_AUTOPSY: "Flying Polyp autopsy"
+      STR_MUTANT_AUTOPSY: "Mutant autopsy"
+      POLYP_WEAPON: "Acid Spew"
+      MUTANT_WEAPON: "Mutated Claws"
+      STR_TRAINING_METHODS: "Sub-Sea Training Methods"
+      STR_HVYDIV: "Heavy Diving Suit"
+      STR_HVYDIV_UC: "HVY DIVING SUIT"
+      STR_HVYDIV_CORPSE: "Corpse"
+      STR_HVYARM: "Hvy. Plastic Aqua-Armor"
+      STR_HVYARM_UC: "HVY PLASTIC ARMOR"
+      STR_HVYARM_CORPSE: "Corpse"
+      STR_WRECKED_HVYARM: "Hvy Plastic Aqua-Armor (Damaged)"
+      STR_NONE_UC: "DIVING SUIT"
+      STR_MORAY: "MORAY"
+      STR_MORAY_RSH: "Submersible Craft Upgrades"
+      STR_BLMG: "Light Machine Gun"
+      STR_BLMG_CLIP: "LMG Magazine"
+      STR_BSMG: "Submachine Gun"
+      STR_BSMG_CLIP: "SMG Clip"
+      STR_BMPISTOL: "Auto-Pistol"
+      STR_BMPISTOL_CLIP: "Auto-Pistol Clip"
+      STR_GLMG: "Gauss Machine Gun"
+      STR_GLMG_CLIP: "Gauss MG Clip"
+      STR_GSMG: "Gauss Stuttergun"
+      STR_GSMG_CLIP: "Gauss SG Clip"
+      STR_GMPISTOL: "Gauss Autopistol"
+      STR_GMPISTOL_CLIP: "Gauss Autopistol Clip"
+      STR_DSMG: "Jet Repeater"
+      STR_DSMG_CLIP: "Jet Repeater Clip"
+      STR_DMPISTOL: "Dart Autogun"
+      STR_DMPISTOL_CLIP: "Dart Autogun Clip"
+      STR_LLAUNCHER: "Large Pulse Launcher"
+      STR_LLAUNCHER_CLIP: "Pulse Wave Torpedo"
+      STR_SLAUNCHER: "Small Pulse Launcher"
+      STR_SLAUNCHER_CLIP: "Thermal Shock Pod"
+      STR_SNC_APISTOL: "Sonic Autopistol"
+      STR_SNC_APISTOL_CLIP: "Sonic Autopistol Clip"
+      STR_SNC_ARIFLE: "Sonic Autorifle"
+      STR_SNC_ARIFLE_CLIP: "Sonic Autorifle Clip"
+      STR_ZRBEXP: "Zrbite Pulse Bomb"
+      STR_NEPTUNE: "NEPTUNE"
+      STR_HVYARM_REPAIR: "Hvy. Plastic Aqua-Armor (Repair)"
+      STR_LLAUNCHER_CLIP_CONVERT: "Convert DPT Ammo"
+      STR_SLAUNCHER_CLIP_CONVERT: "Convert TSB Ammo"
+
+      
+  
+      #UFOPADIA ENTRIES
+      STR_TFTD_BCANNON_TEXT: "The Modern VF-R12 Heavy Surface Cannon, built using alloys from the first alien war, is the current standard in payload deployal for the current stand PMC Armies. Its Rifled design alongside specially designed shells allow for long range volley fire."
+      STR_TFTD_BRIFLE_TEXT: "The Fed Korean made AR-26 Prototype Assault Rifle is the top-of-the-line, battle tested, combat rifle. Using the modern 30-09 Mass Reactive cartridge with proprietary powder mix allows for the fastest bullet speeds on the planet."
+      STR_TFTD_BPISTOL_TEXT: "The German Syndicate Survival pistol, now named the Operator Pistol, is the most common hand gun in the EU Bloc. Based on antique designs dating back to the old wars before the invasion, it fits snuggly in the hand, and allows for quick shots."
+      STR_TFTD_CKNIFE_TEXT: "Specifically R&D’d by the science team and bankrolled by the benefactors of X-COM, This dual-use combat knife utilizes alien alloys to keep a near atom-sized edge."
+      STR_TFTD_CSPEAR_TEXT: "A Spear design of the Combat knife, as we are unaware of the extent of the enemy, having a tool ready to prod into coral reefs and caves should prove invaluable."
+      STR_TFTD_MINIGUN_TEXT: "The American made C45 Rockwell minigun is the world's standard of volume of fire, designed for use with the exo suits used in the succession wars, this weapon provides the firepower of an aircraft in the palm of your hand."
+      STR_TFTD_RECOIL_TEXT: "While its age is showing, the British Nottingham Recoilless Rifle was and still is the go-to for low profile and mobile anti-armor squads. While the payloads are not nearly as large as its competitors, the ease of use allows for more accurate and quicker shots."
+      STR_TFTD_VOLLEY_TEXT: "A gauss weapon of unique design, it uses a range finding system to configure the exact velocity and power output to reach any given point at the required velocity. This in practice allows for a gauss projectile to launch in an arc instead of straight." 
+      STR_TFTD_VOLLEY_CLIP_TEXT: "Simple Conductive alloy slugs in a clip, these slugs are larger than the average gauss slug due to the requirement of needing to gain velocity on the downward portion of its trajectory."
+      STR_TFTD_ACCEL_TEXT: "Utilizing the Magnetic Navigation systems found in alien subs, we have been able to create a weapon that can bend the trajectory of the projectile through the water at the users will."
+      STR_TFTD_ACCEL_CLIP_TEXT: "A large solid slug of alloy with Superconducting coils wrapped around it. The accelerator can propel this object at such speeds it causes a small explosion around the impact, mainly concussive, it can demolish buildings and armor."
+      STR_DISPLACER_ARMOR_TEXT: "The ultimate synthesis of Alien Technology in a man-portable armor suit. With near immunity to all forms of damage, and the full integration of ion displacers, this armor allows for both land and sea domination. This armor is able to fly on land and is able to Magnetic Navigation to float underwater."
+      STR_ION_PISTOL_TEXT: "Our first attempt and Miniaturizing the Ion Beam Acceleration technology. SImilar to  the displacer technology, we had to use a special form of the Aqua Plastics to accommodate the tolerances. By refining Zrbite into its purest form, we are able to create a weapon with the power of the Sonic Rifle in the size of a pistol. This design of course, begs to be scaled up, and our team is practically salivating for approval."
+      STR_ION_PISTOL_CLIP_TEXT: "By refining Zrbite into its purest form, compacting the powder created, the Zrbite archives a green glow. Unfortunately, the power output is very specialized, as well as high. The amount of energy is limited due to the nature of Ion Displacement, but its power is immense." 
+      STR_ION_CANNON_TEXT: "After numerous failed attempts, we have achieved a stable reaction chamber as well as a sturdy focusing frame. The design, again, utilizes a special variant of Aqua Plastics and borrows from the design of deep sea crustaceans. Some of our soldiers find the gun more alien than the alien weapons, but it allows for stable displacement reactions."
+      STR_ION_CANNON_CLIP_TEXT: "An Upscaled version of the Ion Pistol Clip, it contains triple the amount of the Zrbite, but it has nearly half the shots of the pistol, due to the immensity of the discharge of the cannon."
+      STR_LASER_PISTOL_TEXT: "By utilizing Zrbite instead of Elerium power sources, we have created a laser pistol without the need for Elerium or Deuterium sources. Unfortunately, after numerous tests, we have not been able to get any sort of laser weapon to work underwater. But the Zrbite seems to have more powerful output than the Elerium variants, and will be useful for surface engagements."
+      STR_LASER_CARBINE_TEXT: "A variant of the Zrbite laser system, it has a slightly larger reaction chamber and focusing lens’. Its auto fire has less laser pulses, but it is slightly more accurate."
+      STR_HEAVY_LASER_TEXT: "Using a lens reflection chamber with a double-stacked Zrbite power source, we have created a marksman rifle and cannon in one. With a power laser beam and dead accurate rangefinding parameters, this weapon is a dead-shot."
+      STR_ZRBITE_FLARE_UFOPEDIA: "We found that when Zrbite was exposed to certain sound frequencies that it would emit a pure blue, almost ultra-violet light.  Luckily, we can easily reproduce that frequency using the primer found in Sonic Pulsers."
+      STR_TFTD_HSONIC_PISTOL_UFOPAEDIA_TEXT: "Our first successful attempt at modifying and adapting the alien sonic weaponry for our uses. With the lockout devices removed, and human usable ergonomics implemented, our first, low-powered, human-usable sonic weapon is available, but this only opens new possibilities for new weapory."
+      STR_TFTD_HSONIC_RIFLE_UFOPAEDIA_TEXT: "By using the same basic blueprint as the pistol, and creating a miniture zrbite reaction chamber, we have been able to match the power ourput of alien “Blasta” Rifle, as our Aquanauts termed it, and in a similar size. The new chamber blueprint is designed to be scaled up, and we are eager to attempt to do so."
+      STR_TFTD_HSONIC_CANNON_UFOPAEDIA_TEXT: "By making a larger reaction chamber, we ran into in-stability issues in the framing, and had to look at the alien sonic cannon for guidance, by copying the shape and form of their device, we have been able to keep the sonic frequencies of the output from rattling the gun apart, or violently exploding. This is the largest human-capable sonic weapon we can design."
+      STR_TFTD_HSONIC_GRENADE_UFOPAEDIA_TEXT: "After Disassembling the alien sonic pulser, we found the reaction mechanism very simple to replicate, much easier than decoding the control mechanism the aliens use. We can easily convert the ones we have into human usable versions, but at a cost." 
+      STR_TFTD_HSONIC_PCLIP_UFOPAEDIA_TEXT: "A simple conversion of alien pistol power cell, a small amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."  
+      STR_TFTD_HSONIC_RCLIP_UFOPAEDIA_TEXT: "A simple conversion of alien rifle power cell, a decent amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+      STR_TFTD_HSONIC_CCLIP_UFOPAEDIA_TEXT: "A simple conversion of alien cannon power cell, a large amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+      STR_MOLLUSCOID_TEXT: "The Molluscoid is a genetic bio-weapon, created from a completely unknown creature’s DNA being combined with that of earth mollusks and being modified with aqua-plastics. These creatures are purpose built by the aliens as a means of disruption. With no discernable way to digest food or even swallow, its only use seems to be the killing of humans."
+      STR_MOLLUSCOID_AUTOPSY_TEXT: "After removing the shell of this creature, it seems to be mutilated and drugged Mollusk, it has mutated calcified teeth and claws, allowing for quick and devastating attacks, but has nearly none of its internal organs left. All that is left is a series of implants that feed fluids to the brain stem and metabolic systems, while its mouth literally leads to nowhere."
+      STR_SLUGMAN_TEXT: "Upon inspection this creature is clearly chattel, their intelligence is that of a smart dog or a small child. The can grasp orders and basic concepts, but having no real understanding of what it is doing or why. Like a parrot it merely memorizes and repeats the data being transmitted to the implants in its brain stem and its eye stalks. It matters not unfortunately, as removal of these implants instantly kills the creature."
+      STR_SLUGMAN_AUTOPSY_TEXT: "The creature’s DNA make up is closely related to earth gastropods, it contains a full set of normal organs, as well as a fully developed musculature system, it also has a sub-dermal layer of a mass-reactive gel that allows for near immunity to explosives. Small implants located at the base of the nerve stem as well as in the eye stalks show their affiliation with the aliens, but we do not know if they are from this planet or created by them."
+      STR_TERRORPOD_AUTOPSY_TEXT: "This giant crab is only similar in name, the internals of this creature resemble a tank more than they do an animal. Seemingly remote controlled with implants, it has no central brain stem or intelligence of any sort, and is closer to a biological machine, with glycol-based hydraulic systems controlled by electrical impulses. The shell of this creature is designed to stop all but the most specialized of attacks."
+      STR_TERRORPOD_TEXT: "The Terrorpod is an alien SWS, while it lacks a ranged weapon, it has claws that can rip through the strongest of alien alloys and has immense maneuverability. While it is nearly immune to all forms of attack, our gauss weaponry seems to be able to penetrate the shell at medium distances. The creature is a weapon of terror, designed to sow discord and annihilation in whoever it faces."
+      STR_KRAKEN_AUTOPSY_TEXT: "Almost identical to the Giant Octopus, this creature has 3x the muscle density and 3x the size of the earth creature. While it contains numerous implants in the eyes as well as an overdeveloped siphon muscle. So powerful in fact, it is able to launch jets of water at supersonic speeds with enough force to create a shockwave on impact. The creature contains no implants near brain stems or nerve cords, It seemling has full control of itself."
+      STR_KRAKEN_TEXT: "A super predator of the deep, these creatures show extreme intelligence, and clearly have their own free will. Their mental acuity shows no bounds, as they have escaped nearly all of our containment systems and have shown to be able to use tools and weaponry. We have only been able to contain them using heavy sedatives. They are nothing like the Tasoths or Lobstermen they accompany, and they almost seem to be willingly assisting the aliens in the fight to destroy us. "     
+      STR_POOL_UFOPEDIA: "An Enclosed Pool that allows our aquanauts to hone their skills while not on combat deployments. The pool extends a good depth into the sea below, allowing for pressure diving and edurance training."
+      STR_LIVING_QUARTERS_2_UFOPEDIA: "Meant for large bases, this facility is more space-efficient than the standard Living Quarters, housing 225 personnel in considerable comfort as well as providing 25 storage space."
+      STR_CORRIDOR_PROXY_UFOPEDIA: "A simple passageway with side doors. Comes in two varieties: North to South and East to West."
+      STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units)."
+      STR_MEDBAY_TEXT: "Utilizing the latest in medical sciences, we can build a state of the art medical wing that should halve the time it takes for our aquanauts to recover."
+      STR_MUTANT_TEXT: "A clear attempt by the aliens to integrate our DNA into their genetic stock, although this is clearly a failed experiment, the aliens seem to use these thralls as attack dogs, getting any use out of them that they can."
+      STR_MUTANT_AUTOPSY_TEXT: "DNA testing reveals this creature to be a synthesis of human and alien DNA, this creature appears to be unstable, as it is riddled with multiple cancers, tumors, and shows symptoms of radiation poisoning."
+      STR_PROBE_TEXT: "This hybrid of alien biocybernetics and trace amounts of DNA we cannot hope to identify, is a hyper-intelligent computer matrix, under the control of alien neural networks. A Machine controlled by operators remotely, and enhanced by the latent implants within. "
+      STR_PROBE_AUTOPSY_TEXT: "What is left of the machine that surrounded the cerebral mass at the center seems to have vanished, or more precisely, disintegrated. Particles of magnetized plastic alloys have been found on the mass and in the area, seemingly attracted to the implants within."
+      STR_POLYP_TEXT: "This colony of Polyps, or atleast a close relative of them, is a near-sentient creature controlled by Implants connected to their masters, the slugmen. The combined intelligence of the colony is close to that of a 3 year old human, and they are able to have commands transmitted remotely."
+      STR_POLYP_AUTOPSY_TEXT: "A wet mass of what appears to be coral polyps, and seems to move in a pattern of grouped spheres using jet propulsion. Many glands containing a form of bile or acid are found at the center of these spheres, and are fired out of them in a projectile."
+      STR_NONE_TEXT: "Our standard issue diving suit, able to withstand crushing pressures of the ocean floor at the cost of mobilty and protection"
+      STR_HVYDIV_TEXT: "A modification of our standarad suit, by adding extra plating and using alloy chain-mesh under the outer layers, at the cost of weight"
+      STR_HVYARM_TEXT: "A heavier version of out plastic armor, but encasing the entire torso in plastics, we can increase the survivability of our aquanauts, at the cost of weight and accuarcy"
+      STR_SHIP_RESCUE_P1_BRIEFING: "This mission is a bug hunt, eliminate all Alien units on the ship, and preserve the lives of any civilians onboard. The lower decks are locked down, but if the enemy aren't eliminated it's just a matter of time until they gain access. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+      STR_SHIP_RESCUE_P2_BRIEFING: "This mission is a bug hunt, eliminate all Alien units on the ship, and preserve the lives of any civilians onboard. The Aliens have made a beeline for the lower decks for unknown reasons. To abort, place all aquanauts on the lift start point and click on the 'Abort Mission' icon."
+      STR_MORAY_TEXT: "An upgrade to the Barracuda, we utilized Alien aqua plastics to re-enforce the hull of the barracuda and upgrade the engines, the Moray should put us at a level field with smaller alien USOs."
+      STR_NEPTUNE_TEXT: "The Neptune, is an upgrade to our assault squad transporter, fitted with Aqua Plastic plating and upgraded flight engines. Its large capacity and robust construction makes it is the new mainstay of the X-COM fleet."
+      STR_DSMG_TEXT: "A modification of the Jet Harpoon, using slightly smaller projectiles and a faster firing mechanism, allows for inaccurate high rates of fire."
+      STR_DMPISTOL_TEXT: "A modification of the Dart Pistol, using a faster firing mechanism, allows for one-handed, inaccurate, high rates of fire and high mobility."
+      STR_BLMG_TEXT: "An older model of the MBJ series Manslayer, it is still used in many conflicts found throught the Euarasian Bloc and Neo-China. Recent militants have been found smuggling them through out the ports of HK"
+      STR_BSMG_TEXT: "Used in the recent UN raid on the Trans-Siberan Cartel, the P97 10mm Submachine gun is able to throw close quarters volume of fire in a rapid dance of death"
+      STR_BMPISTOL_TEXT: "Inspired by the old models of the IMI company, this fully automatic pistol design has a strange issue of no one really knowing who designed it originally. As these are often found in the slums of New Favela, often made of scrap alloys and refuse, modern companies have made their own take on it."
+      STR_GLMG_TEXT: "A variant of our heavy gauss, designed to shoot smaller projectiles at a higher rate, rather than the opposite. Although this causes accuracy to fall off at long ranges"
+      STR_GLMG_CLIP_TEXT: "A simple box of Ferro-Magnetic slugs in linked chain"
+      STR_GSMG_TEXT: "A Variant of our Gauss Rifle, designed to shoot smaller projectiles at a higher rate, rather than the opposite. Although this causes accuracy to fall off at long ranges"
+      STR_GSMG_CLIP_TEXT: "Ferro-Magnetic Slugs, specifially designed for faster travel speed and light weight"
+      STR_GMPISTOL_TEXT: "A Variant of our Gauss Pistol, designed to shoot smaller projectiles at a higher rate, rather than the opposite. Although this causes accuracy to fall off at long ranges"
+      STR_GMPISTOL_CLIP_TEXT: "Ferro-Magnetic Slugs, specifially designed for faster travel speed and light weight"
+      STR_LLAUNCHER_TEXT: "Using the designs and parts from the Alien Launcher, we are able to replicate the function perfectly, although, we need around double the parts to create them. The Pulse Wave Projectiles will wreak devestation upon those who oppose us"
+      STR_LLAUNCHER_CLIP_TEXT: "By either converting the Alien's ammo or creating our own, a large chuck of Zrbite wrapped in an Ionic weave that allows it to travel via M.C. waypoints."
+      STR_SLAUNCHER_TEXT: "After studying the Alien Launcher, we are able to replicate the design to something human usable"
+      STR_SLAUNCHER_CLIP_TEXT: "A simple creation of Thermal Pulse Dentonation, we can create a bomb that stuns our enemies"
+      STR_SNC_APISTOL_TEXT: "By modulating the output of the reaction chamber, we are able to create a repeated tone that allows for Auto-Fire in our sonic weapons. Unfortunatly, it also disables the sonic foci, so aimed shots are no longer possible"
+      STR_SNC_APISTOL_CLIP_TEXT: "A simple creation based on the alien power cell, a small amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+      STR_SNC_ARIFLE_TEXT: "A scaledup variant of the Autopistol, while accuracy is improved, there is still a large drop off in accuracy, but we were able to focus it the best we could."
+      STR_SNC_ARIFLE_CLIP_TEXT: "A simple creation based on the alien power cell, a decent amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+      STR_ZRBEXP_TEXT: "A rather crude creation, a chuck of Zrbite strapped to a nucleation exciter, we are able to create a devastating blast that can even punch through USO hulls."
+
+
+      #NEW UFOS
+# [=] Ocean Region [=]
+
+      MFTD_SHIPPING_LANES_WIDE: "Shipping Lanes"
+
+# [=] Units [=]
+      MFTD_CIV_DIVER: "Civilian Diver"
+      MFTD_CIV_DIVER_ARMED: "Civilian Diver"
+      MFTD_CIV_MILITARY_MALE: "Soldier"
+      MFTD_CIV_MILITARY_FEMALE: "Soldier"
+      MFTD_CIV_HEAVY_MILITARY_MALE: "Heavy Soldier"
+      MFTD_CIV_HEAVY_MILITARY_FEMALE: "Heavy Soldier"
+      
+      STR_POLICE_MALE: "Police Officer"
+      STR_POLICE_FEMALE: "Police Officer"
+      STR_HUMAN_SOLDIER: "SWAT"
+      STR_PARAMEDIC: "Paramedic"
+      STR_FIREFIGHTER: "Firefighter"
+      STR_POLICE_MALE_CORPSE: "Corpse"
+      STR_POLICE_FEMALE_CORPSE: "Corpse"
+      STR_HUMAN_SOLDIER_CORPSE: "Corpse"
+      STR_PARAMEDIC_CORPSE: "Corpse"
+      STR_FIREFIGHTER_CORPSE: "Corpse"
+      STR_FIRE_EXT: "Fire Extinguisher"
+      STR_FIRE_EXT_UFOPEDIA: "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations. It is not intended for use on an out-of-control fire, such as one which has reached the ceiling, endangers the user (i.e. no escape route, smoke, explosion hazard, etc.), or otherwise requires the expertise of a fire brigade."
+      STR_FIRE_AXE: "Firefighter Axe"
+
+
+# [=] Items [=]
+
+# Civilian Pistol
+      STR_MFTD_CIV_PISTOL: "Pistol"
+      STR_MFTD_CIV_PISTOL_CLIP: "Pistol Clip"
+
+# Civilian Rifle
+      STR_MFTD_CIV_RIFLE: "Rifle"
+      STR_MFTD_CIV_RIFLE_CLIP: "Rifle Clip"
+
+# Civilian Diving Drill
+      STR_MFTD_DIVING_DRILL: "Diving Drill"
+
+
+# [=] Mission Briefings [=]
+
+# Terror Mission: "Oil Tanker" "Warship"
+      STR_MFTD_OTHER_SHIPS_BRIEFING: "Eliminate all Alien units on the ship, and preserve the lives of any civilians onboard. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+# Terror Mission: Warehouse (Arms & Volatile)
+      STR_MFTD_ALIENS_ATTACK_WAREHOUSE: "ALIENS ATTACK{NEWLINE}WAREHOUSE"
+      STR_MFTD_WAREHOUSE_PROTECTION: "WAREHOUSE PROTECTION MISSION"
+      STR_MFTD_WAREHOUSE_BRIEFING: "Landing will take place on the warehouse roof. Eliminate all Alien units assaulting the building, and preserve the lives of any civilians in the area. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+# Terror Mission: Offshore Rig
+      STR_MFTD_ALIENS_ATTACK_OFFSHORE_RIG: "ALIENS ATTACK{NEWLINE}OFFSHORE RIG"
+      STR_MFTD_OFFSHORE_RIG_PROTECTION: "OFFSHORE RIG PROTECTION MISSION"
+      STR_MFTD_OFFSHORE_RIG_BRIEFING: "Eliminate all Alien units assaulting the offshore oil rig, and preserve the lives of any civilians on the structure. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+# Terror Mission: Surface Base
+      STR_MFTD_ALIENS_ATTACK_SURFACE_BASE: "ALIENS ATTACK{NEWLINE}OFFSHORE LABORATORIES"
+      STR_MFTD_SURFACE_BASE_PROTECTION: "SURFACE BASE PROTECTION MISSION"
+      STR_MFTD_SURFACE_BASE_BRIEFING_ALT: "This mission is a bug hunt, eliminate all Alien units assaulting the surface base, and preserve the lives of any civilians onboard. The Aliens are dispersed between the surface structure and the ocean floor, secure the above water buildings before using the base's lift to descend to the undersea complex below."
+      STR_MFTD_SURFACE_BASE_BRIEFING: "Eliminate all Alien units assaulting the offshore base, and preserve the lives of any civilians onboard. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon. "
+
+
+
+# Terror Mission: Underwater Base
+      STR_MFTD_UNDERWATER_PROTECTION: "UNDERWATER BASE PROTECTION MISSION"
+      STR_MFTD_UNDERWATER_BRIEFING: "X-Com soldiers will use the base's lift to descend to the ocean floor and eliminate the remaining Alien units assaulting the underwater base, and preserve the lives of any civilian divers. To quit, return aquanauts to the lift and click on the 'Abort Mission' icon."
+
+
+# Terror Mission: Ocean Trench Base
+      STR_MFTD_ALIENS_ATTACK_UNDERWATER_BASE: "ALIENS ATTACK{NEWLINE}UNDERWATER LABORATORIES"
+      STR_MFTD_TRENCHUPPERBASE_PROTECTION: "UNDERWATER BASE PROTECTION MISSION"
+      STR_MFTD_TRENCHUPPERBASE_BRIEFING: "This mission is a bug hunt, eliminate all Alien units assaulting the ocean trench base, and preserve the lives of any civilian divers onboard. The Aliens are dispersed between this base on the edge of the trench and a second facility located deep inside the trench, secure the above buildings before using the base's lift to descend to the other undersea complex below. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+
+
+
+
+
+
+
+
+
+# [=] Deployment names [=]
+
+# Civilian, Hellrazor and Luke83
+      MAP_URBAN: "City"
+
+# New_Civilian
+      MAP_LINERT2: "Cruise Ship P1 Layout 2"
+      MAP_LINERT4: "Cruise Ship P1 Layout 3"
+      MAP_LINERT5: "Cruise Ship P1 Layout 4"
+      MAP_LINERVARIANT: "Cruise Ship P2 Layout 2"
+      MAP_CARGO2: "Cargo Ship Layout 2"
+      MAP_LPIPES: "Abandoned Research Facility"
+      MAP_SEABED2: "Seabed Mud"
+      MAP_SEAMOUNT: "Seabed Mountain"
+
+
+# Murkhach@centrum.cz
+      STR_MFTD_HOCUS: "Hocus"
+      STR_MFTD_AMOEBA: "Amoeba"
+
+
+# Wolwerin
+      STR_MFTD_WORM: "Worm"
+      STR_MFTD_TERROR: "Terror"
+      STR_MFTD_DREADNOUGHT_W: "Dreadnought-W"
+      STR_MFTD_SCOUT: "Scout"
+      STR_MFTD_SHIP_DESTROYER: "Ship Destroyer"
+      STR_MFTD_DOUBLE_SCOUT: "Double Scout"
+      STR_MFTD_DOUBLE_HUNTER: "Double Hunter"
+      STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT: "Intimidation Of The Government"
+      STR_MFTD_COMBAT_INTERCEPTOR: "Combat Interceptor"
+
+
+# Blank
+      STR_MFTD_BOMBER: "Bomber"
+      STR_MFTD_CORVETTE: "Corvette"
+      STR_MFTD_PATROL: "Patrol"
+      STR_MFTD_CARRACK: "Carrack"
+      STR_MFTD_FRIGATE: "Frigate"
+      STR_MFTD_DESTROYER: "Destroyer"
+      STR_MFTD_BLOCKADE_RUNNER: "Blockade Runner"
+      STR_MFTD_GUNBOAT: "Gunboat"
+      STR_MFTD_HVY_DESTROYER: "Heavy Destroyer"
+      STR_MFTD_RAIDER: "Raider"
+      STR_MFTD_IRONCLAD: "Ironclad"
+      STR_MFTD_BATTLECRUISER: "Battlecruiser"
+      STR_MFTD_BATTLESTAR: "Battlestar"
+
+
+# The Martian
+      STR_MFTD_BANDIT: "Bandit"
+      STR_MFTD_CARP: "Carp"
+      STR_MFTD_CLAM: "Clam"
+      STR_MFTD_CLAW: "Claw"
+      STR_MFTD_DARTS: "Darts"
+      STR_MFTD_FERRY: "Ferry"
+      STR_MFTD_HERMIT: "Hermit"
+      STR_MFTD_HYDROFOIL: "Hydrofoil"
+      STR_MFTD_OBSERVER: "Observer"
+      STR_MFTD_SEARCHER: "Searcher"
+      STR_MFTD_SHRIMP: "Shrimp"
+      STR_MFTD_SQUID: "Squid"
+      STR_MFTD_TOWER: "Tower"
+      STR_MFTD_TURTLE: "Turtle"
+      STR_MFTD_WAVE_RAIDER: "Wave Raider"
+      STR_MFTD_WHIRLIGIG: "Whirligig"
+      STR_MFTD_URCHIN: "Urchin"
+      STR_MFTD_TADPOLE: "Tadpole"
+      STR_MFTD_JELLYFISH: "Jellyfish"
+      STR_MFTD_PUFFERFISH: "Pufferfish"
+      STR_MFTD_PIRANHA: "Piranha"
+      STR_MFTD_DREDGE: "Dredge"
+      STR_MFTD_MORAY: "Moray"
+      STR_MFTD_SHARK: "Shark"
+      STR_MFTD_LANTERN: "Lantern"
+      STR_MFTD_CONCH: "Conch"
+      STR_MFTD_WHALE: "Whale"
+      STR_MFTD_ALTAR: "Altar"
+      STR_MFTD_HONEYCOMB: "Honeycomb"
+      STR_MFTD_OUBLIETTE: "Oubliette"
+      STR_MFTD_WHIRLPOOL: "Whirlpool"
+      STR_MFTD_BLADE: "Blade"
+      STR_MFTD_EEL: "Eel"
+      STR_MFTD_MANTA: "Manta"
+      STR_MFTD_COLLECTOR: "Collector"
+      STR_MFTD_NAUTILUS: "Nautilus"
+
+      STR_MFTD_SURFACEBASE: "Surface Base"
+      STR_MFTD_OCEANLABS: "Underwater Labs"
+      MAP_MFTD_OCEANLABSMALL: "Small Ocean Lab"
+      MAP_MFTD_OCEANRESEARCH: "Ocean Research"
+      MAP_MFTD_UNDERWATERBASE: "Underwater Base"
+      STR_MFTD_OFFSHORE: "Offshore Rig"
+      STR_MFTD_OTHER_SHIPS_TERROR: "Surface Ship Terror Mission"
+      MAP_MFTD_OILTANKER: "Oil Tanker"
+      MAP_MFTD_WARSHIP: "Warship"
+      STR_MFTD_WAREHOUSE: "Warehouse"
+      MAP_MFTD_ARMSWAREHOUSE: "Arms Warehouse"
+      MAP_MFTD_VOLATILEWAREHOUSE: "Volatile Warehouse"
+      STR_MFTD_TRENCHUPPERBASE: "Ocean Trench Base"
+      MAP_MFTD_TRENCHUPPERBASE: "Trench Base"
+      MAP_MFTD_TRENCHUPPERBASEBURIED: "Buried Trench Base"
+
+# Inventorum Development Team 
+      MAP_MFTD_AIRCRAFT_CARRIER: "Aircraft Carrier"
+
+# [=] Mission Names [=]
+      STR_MFTD_ALIEN_TERROR_MISSION_SURFACE_BASE: "Offshore Base Attack"
+      STR_MFTD_ALIEN_TERROR_MISSION_OFFSHORE_RIG: "Offshore Resource Raid"
+      STR_MFTD_ALIEN_TERROR_MISSION_OTHER_SHIPS: "Surface Vessel Attack"
+      STR_MFTD_ALIEN_TERROR_MISSION_WAREHOUSE: "Surface Warehouse Raid"
+      STR_MFTD_ALIEN_TERROR_MISSION_TRENCHUPPERBASE: "Underwater Base Attack"
+      STR_MFTD_EXCAVATION: "Deep Sea Excavation"
+      STR_MFTD_HARVESTING: "Harvesting Marine Life"
+      STR_MFTD_SPREADING_HAVOC: "Spreading Havoc"
+
+
+
+
+# [=] ufopaedia [=] [=] ufopaedia [=] [=] ufopaedia [=] [=] ufopaedia [=] [=] ufopaedia [=]
+
+      STR_MFTD_CIVILIAN_WEAPONS: "Civilian Weapons"
+
+      STR_MFTD_CIVILIAN_WEAPONS_UFOPAEDIA: "X-Com soldiers may encounter armed civilian or military personnel in the field. X-Com's own equipment provides greater firepower than these nonspecialized weapons however if used in an emergency situation they may be found to be comparable with our dart weapons.{NEWLINE}{NEWLINE}X-Com will not recover this equipment and will instead return it to its owner at the end of a mission."
+
+      STR_MFTD_EMERGENCY_ITEMS: "Emergency Items"
+
+      STR_MFTD_EMERGENCY_ITEMS_UFOPAEDIA: "Emergency first responding teams are often scrambled to attend disaster zones, which also include alien incursions. Relief units, such paramedics and firefighters are deployed alongside law enforcement officers to organize and carry on evacuation efforts. {NEWLINE}{NEWLINE}Their tools are not necessary for our needs, X-Com will not recover this equipment and will instead return it to its owner at the end of a mission."
+
+      STR_MFTD_EXCAVATION_UFOPEDIA: "The Aliens conduct excavation missions to unearth structures that have been buried by time. The ancient nature of these facilities suggests that these Aliens have been active on Earth long before we previously speculated.{NEWLINE}{NEWLINE}Once a building is excavated it is not restored to working order, instead the contents are extracted and moved to another location. It is unclear what the Aliens are obtaining from these sites or the location that these objects are then being taken to."
+
+
+      STR_MFTD_HARVESTING_UFOPEDIA: "Marine life is harvested by the Aliens on a scale well beyond what humanity can currently achieve. During these operations the Aliens may make repeated landings on the ocean floor which present a vulnerability that can be exploited by X-Com to capture their craft intact"
+
+
+      STR_MFTD_SPREADING_HAVOC_UFOPEDIA: "The Aliens use their crafts to cause massive explosions in the ocean depths. The effects of this can be observed throughout entire regions of the ocean resulting in shockwaves that can destroy surface ships and create tsunamis that threaten coastal cities.{NEWLINE}{NEWLINE}After each detonation Alien craft are likely to spend extended periods of time on the ocean floor observing the results.{NEWLINE}{NEWLINE}Once detected stopping this activity should be a high priority for{NEWLINE}X-Com to prevent panic in the effected governments."
+
+
+      STR_MFTD_UNDERWATER_LABORATORY_ATTACK: "Underwater Laboratory Attack"
+
+      STR_MFTD_UNDERWATER_LABORATORY_ATTACK_UFOPEDIA: "The Aliens jealousy guard their secrets and will destroy trespassers who would disrupt their own experiments or perhaps glean some information about their aquatic activities. The Alien's procedure when launching this type of attack is to deploy soldiers and hunt down all human life on site before destroying the structure itself.{NEWLINE}{NEWLINE}The brief period of time the Aliens spend sweeping the area with their infantry may provide X-Com a chance to rescue any survivors.{NEWLINE}{NEWLINE}In the event X-Com is called to defend an underwater laboratory any related surface structures may also need to be secured before civilians can be extracted from the site and taken to a safe location."
+
+
+      STR_MFTD_OIL_RAID: "Oil Supply Attack"
+
+      STR_MFTD_OIL_RAID_UFOPEDIA: "The Aliens are not just sinking Oil Tankers and destroying Oil Rigs, instead they first send their soldiers to secure the site and then move the stored chemicals onto their own craft before destroying the ship or offshore platform.{NEWLINE}{NEWLINE}Altough it was initially believed the destruction of these ships and structures was solely to deny humanity the resources it appears the Aliens also have some as yet unknown use for them."
+
+      
+
+
+
+# [=] Murkhach@centrum.cz's Ufopaedia [=] [=] Murkhach@centrum.cz's Ufopaedia [=]
+
+
+# [=] Alien Craft [=]----------------
+
+
+# [=] Hocus [=]
+      STR_MFTD_HOCUS_UFOPEDIA: "Hocus is fast armored all-round ship equipped with decent{NEWLINE}MC-shield. The additional Zrbite onboard supplies are protected by timed self-destruct mechanism."
+
+# [=] Amoeba [=]
+      STR_MFTD_AMOEBA_UFOPEDIA: "Amoeba are gigantic ships dedicated for colecting resources in magnetic nets that are dragged through the oceans. Although they seem as bulky and slow target, they are lethal at close range. In order to increase they endurance they are equipped with powerfull MC shield."
+
+
+# [=] Blank's Ufopaedia [=] [=] Blank's Ufopaedia [=] [=] Blank's Ufopaedia [=] [=] Blank's Ufopaedia [=]
+
+# [=] Alien Craft [=]----------------
+
+# [=] Battlestar [=]
+      STR_MFTD_BATTLESTAR_UFOPEDIA: "The battlestar is an alien warship of ancient design. Disturbingly, untold numbers may lie dormant beneath the silty seabed"
+
+
+# [=] Battlecruiser [=]
+      STR_MFTD_BATTLECRUISER_UFOPEDIA: "The battlecruiser is one of the more dangerous warships the aliens possess but is lacking in the ability to opperate independantly. As such, battlecruisers sighted are almost always part of a larger alien fleet"
+
+
+# [=] Blockade Runner [=]
+      STR_MFTD_BLOCKADE_RUNNER_UFOPEDIA: "A fast and stealthy cargo runner. Responsible for carrying off many human captives before they're even noticed"
+
+
+# [=] Bomber [=]
+      STR_MFTD_BOMBER_UFOPEDIA: "A small submarine that's easy to go unnoticed yet carries some of the more insidious weapons in the alien's arsenal. A single bomber allowed to run unhindered can potentially cause untold numbers of civilian deaths"
+
+
+# [=] Gunboat [=]
+      STR_MFTD_GUNBOAT_UFOPEDIA: "The most powerful alien vessel of its size class. It's small and versatile enough to support the aliens in their ground missions"
+
+
+# [=] Heavy Destroyer [=]
+      STR_MFTD_HVY_DESTROYER_UFOPEDIA: "A fast yet dangerous vessels which epitomises the alien strategy of lightning raids on the surface"
+
+
+# [=] Ironclad [=]
+      STR_MFTD_IRONCLAD_UFOPEDIA: "The Ironclad is a heavily armored submarine which was first thought to be built for war but is in fact used by the aliens to trawl the most dangerous undersea currents in search of ancient alien artefacts to reclaim"
+
+
+# [=] Raider [=]
+      STR_MFTD_RAIDER_UFOPEDIA: "This alien vessel prowls the oceans undetected by the conventional navies of the world. It attacks and leaves without being seen, leaving only empty ghost ships and mysterious unexplained phenomenon."
+
+
+# [=] Frigate [=]
+      STR_MFTD_FRIGATE_UFOPEDIA: "Small alien ship of unknown purpose"
+
+
+# [=] Destroyer [=]
+      STR_MFTD_DESTROYER_UFOPEDIA: "This small alien submarine carries a small crew"
+
+
+# [=] Corvette [=]
+      STR_MFTD_CORVETTE_UFOPEDIA: "A small alien vessel that is of little threat on its own but is always part of a larger alien plan"
+
+
+# [=] Carrack [=] 
+      STR_MFTD_CARRACK_UFOPEDIA: "An alien flying sub that is hard to track"
+
+
+# [=] Patrol [=]
+      STR_MFTD_PATROL_UFOPEDIA: "A small alien submarine on a routine patrol around earth's oceans. It reports back what it sees to its overlords."
+
+
+
+
+# [=] The Martian's Craft [=] [=] The Martian's Craft [=] [=] The Martian's Craft [=] [=] The Martian's Craft [=]
+
+
+# [=] Altar [=]
+      STR_MFTD_ALTAR_UFOPEDIA: "This strangely shaped large alien craft is encased in a protective shield that augments its otherwise brittle construction. The significance of the stonelike sections of the ship to the aliens remains unknown."
+
+
+# [=] Bandit [=]
+      STR_MFTD_BANDIT_UFOPEDIA: "A series of narrow catwalks connect what could otherwise be two small fully functional separate crafts. Fortunately this redundancy does little to add to the crafts overall survivability."
+
+
+# [=] Blade [=]
+      STR_MFTD_BLADE_UFOPEDIA: "Disturbingly fast in spite of its very large size this alien craft quickly slices through the ocean with the majority of its primary control systems located on a bridge that is suspended between two massive ultrathin wings."
+
+
+# [=] Carp [=]
+      STR_MFTD_CARP_UFOPEDIA: "This small craft is neither well armored or excessively fast for its size, but it makes up for this with its long range weapon system."
+
+
+#  [=] Clam [=]
+      STR_MFTD_CLAM_UFOPEDIA: "This small slow moving armored craft can easily take twice the hammering that other similarly sized alien ships can withstand."
+
+
+# [=] Claw [=]
+      STR_MFTD_CLAW_UFOPEDIA: "A very large alien ship with a massive weapons array in its two hook like lower sections. This ship is used to quickly cut apart surface vessels that have been brought to the ocean floor and siphon any fuel or resources into its own holding bays."
+
+
+# [=] Collector [=]
+      STR_MFTD_COLLECTOR_UFOPEDIA: "This very large alien craft is used to harvest specific organs from both human and animal victims with the unwanted remains often being ejected from the ship on the spot. The speed at which this craft's facilities can butcher captured organisms is truly terrifying."
+
+
+# [=] Conch [=]
+      STR_MFTD_CONCH_UFOPEDIA: "A well armored medium sized ship in the alien fleet. With most of this craft's vital components safely situated in its central areas a considerable amount of firepower must be brought to bear to sink it."
+
+
+# [=] Darts [=]
+      STR_MFTD_DARTS_UFOPEDIA: "These three fragile small craft have both a high speed and excellent maneuverability that makes them difficult to keep up with let alone hit during combat. This combined with a weak but very long range weapon make them an irritating foe. The ships linked guidance system will cause all three craft to crash if one is shot down."
+
+
+# [=] Dredge [=]
+      STR_MFTD_DREDGE_UFOPEDIA: "This medium sized alien craft is designed to scrape across the ocean floor and sift the contents of anything it scoops into its holding bay. Although often employed to comb the sea for resources if a surface vessel is detected it can swiftly make its own debris to sweep up."
+
+# [=] Eel [=]
+      STR_MFTD_EEL_UFOPEDIA: "X-Com pilots are being trained to identify this dangerous very large alien craft from its deceptively small front profile. This long craft is often used by the aliens to attack surface vessels and capture their crews along with any cargo deemed useful."
+
+
+# [=] Ferry [=]
+      STR_MFTD_FERRY_UFOPEDIA: "A small craft used by the aliens to haul various equipment on an external cargo platform. Although not the fastest ship it is somewhat durable in design and moderately armed."
+
+
+# [=] Hermit [=]
+      STR_MFTD_HERMIT_UFOPEDIA: "A very small but also very well armored craft for its size."
+
+
+# [=] Honeycomb [=]
+      STR_MFTD_HONEYCOMB_UFOPEDIA: "This large craft is often used by the aliens when they are seeking to seize supplies from a surface target."
+
+
+# [=] Hydrofoil [=]
+      STR_MFTD_HYDROFOIL_UFOPEDIA: "When it surfaces this speedy small craft throws up huges plumes of water behind it while quickly closing with its target. Both sailors and airline pilots have learned to fear such sightings as this alien ship is almost exclusively deployed to hunt them down. The alien craft itself is fragile and relies on its speed to protect it."
+
+
+# [=] Jellyfish [=]
+      STR_MFTD_JELLYFISH_UFOPEDIA: "A small alien craft who's stiltlike construction grants it its name. This ship is often deployed when the aliens are hunting for surface vessels to pillage."
+
+
+# [=] Lantern [=]
+      STR_MFTD_LANTERN_UFOPEDIA: "Far to often sailors report sighting the glowing lights of this medium sized alien craft beneath the waves right before contact is lost with their vessel."
+
+
+# [=] Manta [=]
+      STR_MFTD_MANTA_UFOPEDIA: "A very large alien craft designed to allow its crew to quickly board humanity's offshore structures. At times it is also fielded when the aliens have excavated something from the ocean floor that they consider of high importance and want transported immediately to a safer location."
+
+
+# [=] Moray [=]
+      STR_MFTD_MORAY_UFOPEDIA: "A medium sized alien craft that is often deployed in preparation for an assault against one of humanities underwater laboratories."
+
+
+# [=] Nautilus [=]
+      STR_MFTD_NAUTILUS_UFOPEDIA: "A very large and heavily armored craft that is usually tasked with missions that focus its activities around the ocean floor."
+
+
+# [=] Observer [=]
+      STR_MFTD_OBSERVER_UFOPEDIA: "A small alien craft filled with various sensors that allow it to quickly chart ocean regions and monitor all marine life and surface vessel traffic in the area."
+
+
+# [=] Oubliette [=]
+      STR_MFTD_OUBLIETTE_UFOPEDIA: "When not being used to harvest marine life this large alien craft is sent to neutralize any armed forces in an area before an alien strike force is deployed against a specific offshore target."
+
+
+# [=] Piranha [=]
+      STR_MFTD_PIRANHA_UFOPEDIA: "A small alien scout with a quick firing weapon system. This craft is often sent to gather reconnaissance data when the aliens detect a underwater structure of human origin."
+
+
+# [=] Pufferfish [=]
+      STR_MFTD_PUFFERFISH_UFOPEDIA: "This small alien craft is used to recon areas in preparation for an attack against a surface structure. It is well armored for its size."
+
+
+# [=] Searcher [=]
+      STR_MFTD_SEARCHER_UFOPEDIA: "When the aliens want to track a specific target this small craft is deployed. Its array of sensors easily allow it to hunt down and trace the movements of the largest human vessel or smallest ocean dwelling fish."
+
+
+# [=] Shark [=]
+      STR_MFTD_SHARK_UFOPEDIA: "The twin fins of this medium sized alien craft are often spotted breaking the ocean surface while circling an offshore oil rig hours before the structure is destroyed. This well armed craft makes short work of any vessels leaving or approaching its target while other alien craft prepare to assault the rig directly."
+
+
+# [=] Shrimp [=]
+      STR_MFTD_SHRIMP_UFOPEDIA: "This very small alien craft quickly moves about the ocean and is often tasked with locating objects of interest on the ocean floor or with tracking down X-Com's floating bases."
+
+
+# [=] Squid [=]
+      STR_MFTD_SQUID_UFOPEDIA: "This large alien ship is filled with medical devices that are used to conduct experiments and at times also to brainwash captured humans to work against their country and convince others to stop resisting the aliens. This craft is a high value target for X-Com and should be destroyed whenever possible."
+
+
+# [=] Tadpole [=]
+      STR_MFTD_TADPOLE_UFOPEDIA: "One of the smallest alien ships in their fleet. This craft is tasked with patrolling the ocean in search of offshore structures that contain resources the aliens find desirable. Its presence in a region always signals the alien's intent to launch a raid against humanity in the immediate future."
+
+
+# [=] Tower [=]
+      STR_MFTD_TOWER_UFOPEDIA: "More than just a craft this ship plays a crucial role when the aliens are building new underwater structures. Composed of the various sections of the alien colony the Tower is quickly dismantled when it arrives at its destination and the parts are then reconfigured rapidly into a new fully functional alien base."
+
+
+# [=] Urchin [=]
+      STR_MFTD_URCHIN_UFOPEDIA: "A very small alien craft used to scout for targets worth attacking. Although weak in power its weapon system possesses a notably high range."
+
+
+# [=] Wave Raider [=]
+      STR_MFTD_WAVE_RAIDER_UFOPEDIA: "A key component of the alien's resource raiding strategy, this well armored medium sized alien craft is able to transport secured supplies safely to desired locations with little to fear from the majority of humanities military forces."
+
+
+# [=] Whale [=]
+      STR_MFTD_WHALE_UFOPEDIA: "This large submersible alien tanker is used to transport various liquid chemicals. Powerful energy fields are used to both process the liquids into desired states and also to prevent them from mixing with or dissipating into the surrounding water."
+
+
+# [=] Whirligig [=]
+      STR_MFTD_WHIRLIGIG_UFOPEDIA: "This small craft is often used to transport the alien's large organic monstrosities such as the Hallucinoid or Xarquid. X-Com soldiers can expect to face several of the alien's dangerous creatures along with the ships crew when trying to secure it."
+
+
+# [=] Whirlpool [=]
+      STR_MFTD_WHIRLPOOL_UFOPEDIA: "This large craft is able to create powerful currents that are capable of pulling large surface ships straight to the bottom of the ocean. It is often used by the aliens to scour loose material from sections of the ocean floor in hopes of revealing more valuable resources for them to excavate."
+
+
+# [=] Turtle [=]
+      STR_MFTD_TURTLE_UFOPEDIA: "Once landed this very large alien craft begins transferring the contents of the ocean floor into a large holding tank inside the ship where it is sifted for usable resources."
+
+
+
+# <--- For Wolwerin's Craft
+
+# [=] Worm [=] (Small) GT0000
+      STR_MFTD_WORM_UFOPEDIA: "A small alien craft that is usually assigned the task of securing areas for later operations."
+
+
+# [=] Terror [=] (Large) GT0001
+      STR_MFTD_TERROR_UFOPEDIA: "When not being used for Excavation this large fortress of a craft is deployed to provide countries that are offering resistance with a display of overwhelming force. This ultimatum is usually followed up by a seemingly more agreeable offer that would result in that country severing their ties with X-Com."
+
+
+# [=] Dreadnought-W [=] (Very Large) GT0002
+      STR_MFTD_DREADNOUGHT_W_UFOPEDIA: "This very large craft represents an even more heavily armored version of the alien's Dreadnought design. Although it lacks some of the speed and weapon power of its counterpart the increased survivability and firing rate may make this an even more fearsome opponent."
+
+
+# [=] Scout [=] (Average/Medium) GT0003
+      STR_MFTD_SCOUT_UFOPEDIA: "A medium sized craft designed primarily for reconnaissance."
+
+
+# [=] Ship Destroyer [=] (Very Large) GT0004
+      STR_MFTD_SHIP_DESTROYER_UFOPEDIA: "As its name suggests this very large alien craft is specifically equipped with devices that allow it to quickly locate and destroy humanity's naval forces."
+
+
+# [=] Double Scout [=] (Average/Medium) GT0005
+      STR_MFTD_DOUBLE_SCOUT_UFOPEDIA: "Although technically two distinct craft their shared guidance system causes them to behave more like a single unified ship. This also offers a vulnerability as if either is shot down both will be sent hurtling towards the ocean floor."
+
+
+# [=] Double Hunter [=] (Large) GT0006
+      STR_MFTD_DOUBLE_HUNTER_UFOPEDIA: "Two craft which only deploy in tandem and exclusively when the aliens are conducting a resource raid mission. Neither ship has all of the equipment onboard it requires to stay operational instead a constant stream of communication between their systems allows both to function. Because of this they cannot stray very far from each other and if this link is disrupted both craft will quickly crash."
+
+      
+# [=] Intimidation Of The Government [=] (Large) GT0007
+      STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT_UFOPEDIA: "The appearance of this large craft usually marks the completion of alien infiltration in a country. Leading members of the target government are covertly brought on board and offered knowledge, technology and promises of untold power if they cease all resistance and withdraw their support from X-Com. Once detected the destruction of this craft is the highest priority."
+
+
+# [=] The Combat Interceptor [=] (Large) GT0008
+      STR_MFTD_COMBAT_INTERCEPTOR_UFOPEDIA: "This large predatory alien craft is designed to use its speed and fast firing weapons to actively hunt down humanity's military vessels."
+

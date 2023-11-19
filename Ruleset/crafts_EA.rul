@@ -1,0 +1,620 @@
+crafts:
+
+  - type: STR_TRITON
+    sprite: 0
+    fuelMax: 1400
+    damageMax: 160
+    speedMax: 790
+    accel: 2
+    soldiers: 14
+    vehicles: 3
+    costBuy: 600000
+    costRent: 600000
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    maxDepth: 3
+    battlescapeTerrainData:
+      name: TRITON_2
+      mapDataSets:
+        - BLANKS
+        - TRITON_MODULAR
+      mapBlocks:
+        - name: TRITON_2
+          width: 10
+          length: 20
+    deployment:
+      - [5, 8, 0, 2]
+      - [4, 8, 0, 2]
+      - [5, 7, 0, 2]
+      - [4, 7, 0, 2]
+      - [5, 6, 0, 2]
+      - [4, 6, 0, 2]
+      - [5, 5, 0, 3]
+      - [4, 5, 0, 3]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 3, 0, 4]
+      - [4, 3, 0, 4]
+      - [3, 8, 0, 2]
+      - [3, 7, 0, 2]
+      - [3, 6, 0, 3]
+      - [3, 5, 0, 3]
+      - [3, 4, 0, 3]
+      - [3, 3, 0, 3]
+
+  - type: STR_BARRACUDA
+    sprite: 3
+    fuelMax: 800
+    damageMax: 120
+    speedMax: 2100
+    accel: 3
+    #soldiers: 6
+    costBuy: 600000
+    costRent: 600000
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+    maxDepth: 2
+    #maxItems: 30
+    allowLanding: false
+    listOrder: 125
+    battlescapeTerrainData:
+      name: BARACUDA
+      mapDataSets:
+        - BLANKS
+        - BARACUDA
+      mapBlocks:
+        - name: BARACUDA
+          width: 10
+          length: 10
+    deployment:
+      - [5, 4, 0, 2]
+      - [4, 4, 0, 2]
+      - [3, 4, 0, 2]
+      - [5, 3, 0, 3]
+      - [4, 3, 0, 2]
+      - [3, 3, 0, 2]
+
+  - type: STR_MORAY
+    sprite: 171
+    fuelMax: 1000
+    damageMax: 180
+    speedMax: 2850
+    costSell: 750000
+    costRent: 300000
+    accel: 4
+    weapons: 2
+    refuelRate: 60
+    repairRate: 3
+    transferTime: 96
+    score: 250
+    maxDepth: 2
+    allowLanding: false
+    listOrder: 205
+
+  - type: STR_NEPTUNE
+    sprite: 23
+    fuelMax: 2000
+    damageMax: 200
+    speedMax: 1800
+    accel: 2
+    soldiers: 30
+    vehicles: 6
+    costRent: 425000
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+    maxDepth: 2
+    listOrder: 150
+    requires:
+      - STR_MORAY_RSH
+    allowLanding: True
+    battlescapeTerrainData:
+      name: NEPTUNE
+      mapDataSets:
+        - BLANKS
+        - TRITON_2
+      mapBlocks:
+        - name: NEPTUNE
+          width: 10
+          length: 20
+    deployment:
+      - [7, 8, 0, 4]
+      - [6, 8, 0, 4]
+      - [5, 8, 0, 4]
+      - [4, 8, 0, 4]
+      - [3, 8, 0, 4]
+      - [2, 8, 0, 4]
+      - [7, 7, 0, 4]
+      - [6, 7, 0, 4]
+      - [5, 7, 0, 4]
+      - [4, 7, 0, 4]
+      - [3, 7, 0, 4]
+      - [2, 7, 0, 4]
+      - [7, 6, 0, 4]
+      - [6, 6, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 6, 0, 4]
+      - [3, 6, 0, 4]
+      - [2, 6, 0, 4]
+      - [7, 5, 0, 4]
+      - [6, 5, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 5, 0, 4]
+      - [3, 5, 0, 4]
+      - [2, 5, 0, 4]
+      - [7, 4, 0, 4]
+      - [6, 4, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [3, 4, 0, 4]
+      - [2, 4, 0, 4]
+   
+  - type: STR_MANTA
+    sprite: 4
+    fuelMax: 40
+    damageMax: 400
+    speedMax: 4600
+    accel: 10
+    weapons: 2
+    soldiers: 8
+    vehicles: 1
+    refuelItem: STR_ZRBITE
+    refuelRate: 10
+    score: 250
+    maxDepth: 3
+    maxItems: 45
+    allowLanding: True
+    battlescapeTerrainData:
+      name: MANTAX
+      mapDataSets:
+        - BLANKS
+        - MANTAX
+      mapBlocks:
+        - name: MANTAX
+          width: 10
+          length: 10
+    deployment:
+      - [4, 7, 0, 4]
+      - [5, 7, 0, 4]
+      - [4, 6, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 5, 0, 4]
+      - [4, 4, 0, 4]
+      - [5, 4, 0, 4]
+
+  - type: STR_HAMMERHEAD
+    sprite: 1
+    fuelMax: 60
+    damageMax: 960
+    speedMax: 4030
+    accel: 9
+    weapons: 1
+    soldiers: 16
+    vehicles: 1
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 300
+    maxDepth: 2
+    battlescapeTerrainData:
+      name: HAMMER_2
+      mapDataSets:
+        - BLANKS
+        - HAMMER_2
+      mapBlocks:
+        - name: HAMMER_2
+          width: 10
+          length: 10
+    deployment:
+      - [4, 6, 0, 4]
+      - [5, 6, 0, 4]
+      - [4, 5, 0, 4]
+      - [5, 5, 0, 4]
+      - [6, 6, 0, 5]
+      - [3, 6, 0, 3]
+      - [6, 5, 0, 5]
+      - [3, 5, 0, 3]
+      - [6, 4, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [3, 4, 0, 4]
+      - [6, 3, 0, 4]
+      - [5, 3, 0, 4]
+      - [4, 3, 0, 4]
+      - [3, 3, 0, 4]
+
+  - type: STR_LEVIATHAN
+    sprite: 2
+    fuelMax: 50
+    damageMax: 1250
+    speedMax: 5800
+    accel: 9
+    weapons: 2
+    soldiers: 28
+    vehicles: 4
+    refuelItem: STR_ZRBITE
+    spacecraft: true
+    refuelRate: 5
+    score: 400
+    maxDepth: 3
+    battlescapeTerrainData:
+      name: LEVIA_2
+      mapDataSets:
+        - BLANKS
+        - LEVIA_2
+      mapBlocks:
+        - name: LEVIA_2
+          width: 10
+          length: 20
+    deployment:
+      - [5, 7, 0, 2]
+      - [6, 7, 0, 2]
+      - [5, 6, 0, 3]
+      - [6, 6, 0, 3]
+      - [5, 9, 0, 2]
+      - [6, 9, 0, 2]
+      - [5, 8, 0, 2]
+      - [6, 8, 0, 2]
+      - [3, 9, 0, 2]
+      - [4, 9, 0, 2]
+      - [3, 8, 0, 2]
+      - [4, 8, 0, 2]
+      - [4, 7, 0, 2]
+      - [4, 6, 0, 3]
+      - [3, 7, 0, 2]
+      - [3, 6, 0, 3]
+      - [6, 10, 0, 1]
+      - [6, 5, 0, 4]
+      - [5, 10, 0, 1]
+      - [5, 5, 0, 3]
+      - [4, 10, 0, 1]
+      - [4, 5, 0, 3]
+      - [3, 10, 0, 1]
+      - [3, 5, 0, 3]
+      - [6, 4, 0, 4]
+      - [5, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [3, 4, 0, 4]
+
+
+
+#For Enhacned Reskin
+MCDPatches:
+  - type: TRITON_MODULAR
+    data:
+      - MCDIndex: 0
+        bigWall: 6
+      - MCDIndex: 1
+        bigWall: 7
+      - MCDIndex: 3
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -18
+      - MCDIndex: 7
+        bigWall: 7
+        terrainHeight: 0
+        LOFTS: [44,44,44,44,44,44,0,0,0,0,0,0]
+      - MCDIndex: 13
+        LOFTS: [6,6,6,6,6,6,6,6,6,78,78,0]
+      - MCDIndex: 18
+        bigWall: 4
+        LOFTS: [13,13,13,13,13,0,0,0,0,0,0,0]
+      - MCDIndex: 19
+        bigWall: 0
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 20
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 21
+        bigWall: 0
+        terrainHeight: -12
+      - MCDIndex: 22
+        bigWall: 0
+      - MCDIndex: 24
+        bigWall: 6
+        LOFTS: [26,26,26,26,26,0,0,0,0,0,0,0]
+      - MCDIndex: 25
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 26
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 27
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        LOFTS: [6,6,6,6,6,6,19,17,15,13,11,9]
+      - MCDIndex: 28
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 29
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 30
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 31
+        bigWall: 7
+        terrainHeight: 0
+
+  - type: TRITON_2
+    data:
+      - MCDIndex: 0
+        bigWall: 6
+      - MCDIndex: 1
+        bigWall: 7
+      - MCDIndex: 3
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -18
+      - MCDIndex: 7
+        bigWall: 7
+        terrainHeight: 0
+        LOFTS: [44,44,44,44,44,44,0,0,0,0,0,0]
+      - MCDIndex: 13
+        LOFTS: [6,6,6,6,6,6,6,6,6,78,78,0]
+      - MCDIndex: 18
+        bigWall: 4
+        LOFTS: [13,13,13,13,13,0,0,0,0,0,0,0]
+      - MCDIndex: 19
+        bigWall: 0
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 20
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 21
+        bigWall: 0
+        terrainHeight: -12
+      - MCDIndex: 22
+        bigWall: 0
+      - MCDIndex: 24
+        bigWall: 6
+        LOFTS: [26,26,26,26,26,0,0,0,0,0,0,0]
+      - MCDIndex: 25
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 26
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 27
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        LOFTS: [6,6,6,6,6,6,19,17,15,13,11,9]
+      - MCDIndex: 28
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 29
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 30
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 31
+        bigWall: 7
+        terrainHeight: 0
+
+  - type: HAMMER_2
+    data:
+      - MCDIndex: 2
+        bigWall: 0
+        stopLOS: false
+        footstepSound: -1
+      - MCDIndex: 5
+        bigWall: 0
+        stopLOS: false
+        footstepSound: -1
+      - MCDIndex: 8
+        bigWall: 6
+      - MCDIndex: 10
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 11
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 12
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 13
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 14
+        bigWall: 7
+        terrainHeight: 0
+        LOFTS: [44,44,44,44,44,44,0,0,0,0,0,0]
+      - MCDIndex: 25
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -20
+      - MCDIndex: 26
+        bigWall: 7
+      - MCDIndex: 27
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -20
+      - MCDIndex: 29
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -20
+      - MCDIndex: 31
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 32
+        bigWall: 7
+      - MCDIndex: 33
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 34
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+      - MCDIndex: 35
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -16
+
+  - type: LEVIA_2
+    data:
+      - MCDIndex: 2
+        bigWall: 0
+        TUWalk: 0
+        TUFly: 0
+        TUSlide: 0
+        stopLOS: false
+        footstepSound: -1
+      - MCDIndex: 3
+        bigWall: 2
+      - MCDIndex: 9
+        bigWall: 3
+      - MCDIndex: 10
+        bigWall: 0
+        TUWalk: 0
+        TUFly: 0
+        TUSlide: 0
+        stopLOS: false
+        footstepSound: -1
+      - MCDIndex: 11
+        bigWall: 6
+      - MCDIndex: 13
+        TUWalk: 0
+        TUFly: 0
+        TUSlide: 0
+      - MCDIndex: 14
+        TUWalk: 0
+        TUFly: 0
+        TUSlide: 0
+      - MCDIndex: 15
+        TUWalk: 0
+        TUFly: 0
+        TUSlide: 0
+      - MCDIndex: 16
+        TUWalk: 0
+        TUFly: 0
+        TUSlide: 0
+      - MCDIndex: 22
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 23
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 24
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 25
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 28
+        stopLOS: false
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 29
+        stopLOS: false
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 30
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -18
+      - MCDIndex: 32
+        stopLOS: false
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+      - MCDIndex: 34
+        stopLOS: false
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 35
+        stopLOS: false
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 36
+        stopLOS: false
+        bigWall: 0
+      - MCDIndex: 38
+        stopLOS: false
+        bigWall: 0
+      - MCDIndex: 39
+        stopLOS: false
+      - MCDIndex: 40
+        stopLOS: false
+        bigWall: 0
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 41
+        stopLOS: false
+        bigWall: 0
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10
+      - MCDIndex: 42
+        stopLOS: false
+        terrainHeight: -10
+      - MCDIndex: 45
+        stopLOS: false
+        terrainHeight: -10
+      - MCDIndex: 46
+        stopLOS: false
+        TUWalk: 4
+        TUFly: 4
+        TUSlide: 4
+        terrainHeight: -10

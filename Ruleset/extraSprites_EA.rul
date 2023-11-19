@@ -1,0 +1,2312 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      16: Resources/BigObs/small_torpedos_bigob.png
+      187: Resources/BigObs/BCANNON.png
+      188: Resources/BigObs/BRIFLE.png
+      189: Resources/BigObs/BPISTOL.png
+      192: Resources/BigObs/BRifle_Clip.png
+      193: Resources/BigObs/BPistol_Clip.png
+      194: Resources/BigObs/CKnife.png
+      195: Resources/BigObs/CSpear.png
+      196: Resources/BigObs/Minigun.png
+      197: Resources/BigObs/Recoil.png
+      198: Resources/BigObs/Minigun_Clip.png
+      199: Resources/BigObs/Recoil_Clip.png
+      200: Resources/BigObs/Volley.png
+      201: Resources/BigObs/Volley_Clip.png
+      202: Resources/BigObs/Accel.png
+      203: Resources/BigObs/Accel_Clip.png
+      204: Resources/BigObs/Displacer_Armor_Bigob.png
+      205: Resources/BigObs/Ion_Cannon.png
+      206: Resources/BigObs/Ion_Cannon_Clip.png
+      207: Resources/BigObs/Ion_Pistol.png
+      208: Resources/BigObs/Ion_Pistol_Clip.png
+      209: Resources/BigObs/Laser_Pistol.png
+      210: Resources/BigObs/Laser_Carbine.png
+      211: Resources/BigObs/Heavy_Laser.png
+      212: Resources/BigObs/BigOb_ZrbiteFlare.gif
+      290: Resources/BigObs/BC_Clip_AP.png
+      291: Resources/BigObs/BC_Clip_HE.png
+      387: Resources/BigObs/SNC_CANNON.png
+      388: Resources/BigObs/SNC_RIFLE.png
+      389: Resources/BigObs/SNC_PISTOL.png
+      390: Resources/BigObs/Grenade.png
+      391: Resources/BigObs/Cannon_Clip.png
+      392: Resources/BigObs/Rifle_Clip.png
+      393: Resources/BigObs/Pistol_Clip.png
+      394: Resources/BigObs/aquatoid/CMD_AQUATOID_BIGOB.png
+      395: Resources/BigObs/aquatoid/SQD_AQUATOID_BIGOB.png
+      396: Resources/BigObs/aquatoid/NAV_AQUATOID_BIGOB.png
+      397: Resources/BigObs/aquatoid/TEC_AQUATOID_BIGOB.png
+      398: Resources/BigObs/aquatoid/MED_AQUATOID_BIGOB.png
+      399: Resources/BigObs/gillman/CMD_GILLMAN_BIGOB.png
+      400: Resources/BigObs/gillman/SQD_GILLMAN_BIGOB.png
+      401: Resources/BigObs/gillman/NAV_GILLMAN_BIGOB.png
+      402: Resources/BigObs/gillman/TEC_GILLMAN_BIGOB.png
+      403: Resources/BigObs/gillman/MED_GILLMAN_BIGOB.png
+      404: Resources/BigObs/lobsterman/CMD_LOBSTERMAN_BIGOB.png
+      405: Resources/BigObs/lobsterman/NAV_LOBSTERMAN_BIGOB.png
+      406: Resources/BigObs/lobsterman/TEC_LOBSTERMAN_BIGOB.png
+      407: Resources/BigObs/lobsterman/SQD_LOBSTERMAN_BIGOB.png
+      408: Resources/BigObs/slugman/CMD_SLUGMAN_BIGOB.png
+      409: Resources/BigObs/slugman/SQD_SLUGMAN_BIGOB.png
+      410: Resources/BigObs/slugman/TEC_SLUGMAN_BIGOB.png
+      411: Resources/BigObs/slugman/NAV_SLUGMAN_BIGOB.png
+      412: Resources/BigObs/slugman/MED_SLUGMAN_BIGOB.png
+      413: Resources/BigObs/slugman/SLD_SLUGMAN_BIGOB.png
+      414: Resources/BigObs/Molluscoid_BIGOB.png
+      415: Resources/BigObs/test.png
+      416: Resources/BigObs/test2.png
+      417: Resources/BigObs/test3.png
+      418: Resources/BigObs/Mutant_Bigob.png
+      419: Resources/BigObs/Polyph_BigOb.gif
+      420: Resources/BigObs/Probe_Bigob.png
+      421: Resources/BigObs/HVYDIV_Bigob.png
+      422: Resources/BigObs/HVYARM_Bigob.png
+      423: Resources/BigObs/GaussRifle_Bigob.png
+      424: Resources/BigObs/GaussPistol_Bigob.png
+      425: Resources/BigObs/HeavyGauss_Bigob.png
+      426: Resources/BigObs/BLMG.png
+      427: Resources/BigObs/BSMG.png
+      428: Resources/BigObs/BMPistol.png
+      429: Resources/BigObs/GLMG.png
+      430: Resources/BigObs/GSMG.png
+      431: Resources/BigObs/GMPistol.png
+      432: Resources/BigObs/SNC_ARIFLE.png
+      433: Resources/BigObs/SNC_APISTOL.png
+      434: Resources/BigObs/BLMG_Clip.png
+      435: Resources/BigObs/BSMG_Clip.png
+      436: Resources/BigObs/BMPistol_Clip.png
+      437: Resources/BigObs/GLMG_Clip.png
+      438: Resources/BigObs/GSMG_Clip.png
+      439: Resources/BigObs/GMPistol_Clip.png
+      440: Resources/BigObs/SNC_ARifle_Clip.png
+      441: Resources/BigObs/SNC_APistol_Clip.png
+      442: Resources/BigObs/DSMG.png
+      443: Resources/BigObs/DMPISTOL.png
+      444: Resources/BigObs/DSMG_CLIP.png
+      445: Resources/BigObs/DMPISTOL_CLIP.png
+      446: Resources/BigObs/SLAUNCHER.png
+      447: Resources/BigObs/LLAUNCHER.png
+      448: Resources/BigObs/SLAUNCHER_CLIP.png
+      449: Resources/BigObs/LLAUNCHER_CLIP.png
+      450: Resources/BigObs/ZRBEXP.png
+
+  - type: FLOOROB.PCK
+    files:
+      100: Resources/FloorObs/aquatoid/CMD_AQUATOID_FLOOR.png
+      101: Resources/FloorObs/aquatoid/SQD_AQUATOID_FLOOR.png
+      103: Resources/FloorObs/aquatoid/TEC_AQUATOID_FLOOR.png
+      104: Resources/FloorObs/aquatoid/MED_AQUATOID_FLOOR.png
+      105: Resources/FloorObs/tasoth/SQD_TASOTH_FLOOR.png
+      106: Resources/FloorObs/gillman/CMD_GILLMAN_FLOOR.png
+      107: Resources/FloorObs/gillman/SQD_GILLMAN_FLOOR.png
+      108: Resources/FloorObs/gillman/MED_GILLMAN_FLOOR.png
+      109: Resources/FloorObs/gillman/NAV_GILLMAN_FLOOR.png
+      110: Resources/FloorObs/gillman/TEC_GILLMAN_FLOOR.png
+      111: Resources/FloorObs/lobsterman/CMD_LOBSTERMAN_FLOOR.png
+      112: Resources/FloorObs/lobsterman/SQD_LOBSTERMAN_FLOOR.png
+      113: Resources/FloorObs/lobsterman/NAV_LOBSTERMAN_FLOOR.png
+      114: Resources/FloorObs/lobsterman/TEC_LOBSTERMAN_FLOOR.png
+      115: Resources/FloorObs/slugman/CMD_SLUGMAN_FLOOR.png
+      116: Resources/FloorObs/slugman/SQD_SLUGMAN_FLOOR.png
+      117: Resources/FloorObs/slugman/NAV_SLUGMAN_FLOOR.png
+      118: Resources/FloorObs/slugman/TEC_SLUGMAN_FLOOR.png
+      119: Resources/FloorObs/slugman/MED_SLUGMAN_FLOOR.png
+      120: Resources/FloorObs/slugman/SLD_SLUGMAN_FLOOR.png
+      121: Resources/FloorObs/Molluscoid_FLOOR.png
+      122: Resources/FloorObs/floorob_EMPTY.png
+      123: Resources/FloorObs/floorob_hellcrab2.png
+      124: Resources/FloorObs/floorob_hellcrab3.png
+      125: Resources/FloorObs/floorob_hellcrab4.png
+      126: Resources/FloorObs/floorob_oct_2.png
+      127: Resources/FloorObs/floorob_oct_3.png
+      128: Resources/FloorObs/floorob_oct_4.png
+      200: Resources/FloorObs/BCANNON_Floor.png
+      201: Resources/FloorObs/BRifle_Floor.png
+      202: Resources/FloorObs/BPistol_Floor.png
+      203: Resources/FloorObs/BPistol_Clip_Floor.png
+      204: Resources/FloorObs/BRifle_Clip_Floor.png
+      205: Resources/FloorObs/BC_AP_Floor.png
+      206: Resources/FloorObs/BC_HE_Floor.png
+      207: Resources/FloorObs/CKnife_Floor.png
+      208: Resources/FloorObs/CSpear_Floor.png
+      209: Resources/FloorObs/Minigun_Floor.png
+      210: Resources/FloorObs/Minigun_Clip_Floor.png
+      211: Resources/FloorObs/Recoil_Floor.png
+      212: Resources/FloorObs/Recoil_Clip_Floor.png
+      213: Resources/FloorObs/Volley_Floor.png
+      214: Resources/FloorObs/Accel_Floor.png
+      215: Resources/FloorObs/Volley_Clip_Floor.png
+      216: Resources/FloorObs/Accel_Clip_Floor.png
+      217: Resources/FloorObs/Displacer_Armor_Floor.png
+      218: Resources/FloorObs/Ion_Cannon_Floor.png
+      219: Resources/FloorObs/Ion_Cannon_Clip_Floor.png
+      220: Resources/FloorObs/Ion_Pistol_Floor.png
+      221: Resources/FloorObs/Ion_Pistol_Clip_Floor.png
+      222: Resources/FloorObs/Laser_Pistol_Floor.png
+      223: Resources/FloorObs/Laser_Carbine_Floor.png
+      224: Resources/FloorObs/Heavy_Laser_Floor.png
+      225: Resources/FloorObs/FloorOb_ZrbiteFlare.gif
+      300: Resources/FloorObs/Cannon.png
+      301: Resources/FloorObs/Rifle.png
+      302: Resources/FloorObs/Pistol.png
+      303: Resources/FloorObs/Pistol_Clip_Floor.png
+      304: Resources/FloorObs/Rifle_Clip_Floor.png
+      305: Resources/FloorObs/Cannon_Clip_Floor.png
+      306: Resources/FloorObs/Grenade_Floor.png
+      307: Resources/FloorObs/floorob_turtle_2.gif
+      308: Resources/FloorObs/floorob_turtle_3.gif
+      309: Resources/FloorObs/floorob_turtle_4.gif
+      310: Resources/FloorObs/Mutant_Floor.png
+      311: Resources/FloorObs/Polyph_Floor.gif
+      312: Resources/FloorObs/Probe_Floor.png
+      313: Resources/FloorObs/HVYDIV_Floor.png
+      314: Resources/FloorObs/HVYARM_Floor.png
+      315: Resources/FloorObs/BLMG_Floor.png
+      316: Resources/FloorObs/BSMG_Floor.png
+      317: Resources/FloorObs/BMPISTOL_Floor.png
+      318: Resources/FloorObs/GLMG_Floor.png
+      319: Resources/FloorObs/GSMG_Floor.png
+      320: Resources/FloorObs/GMPISTOL_Floor.png
+      321: Resources/FloorObs/BLMG_Clip_Floor.png
+      322: Resources/FloorObs/BSMG_Clip_Floor.png
+      323: Resources/FloorObs/BMPistol_Clip_Floor.png
+      324: Resources/FloorObs/GLMG_Clip_Floor.png
+      325: Resources/FloorObs/GSMG_Clip_Floor.png
+      326: Resources/FloorObs/GMPistol_Clip_Floor.png
+      327: Resources/FloorObs/SNC_ARIFLE_Floor.png
+      328: Resources/FloorObs/SNC_APistol_Floor.png
+      329: Resources/FloorObs/SNC_ARIFLE_Clip_Floor.png
+      330: Resources/FloorObs/SNC_APistol_Clip_Floor.png
+      331: Resources/FloorObs/DSMG_Floor.png
+      332: Resources/FloorObs/DMPISTOL_Floor.png
+      334: Resources/FloorObs/DSMG_CLIP_Floor.png
+      335: Resources/FloorObs/DMPISTOL_CLIP_Floor.png
+      336: Resources/FloorObs/SLAUNCHER_Floor.png
+      337: Resources/FloorObs/LLAUNCHER_Floor.png
+      338: Resources/FloorObs/SLAUNCHER_CLIP_Floor.png
+      339: Resources/FloorObs/LLAUNCHER_CLIP_Floor.png
+      340: Resources/FloorObs/ZRBEXP_Floor.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      600: Resources/HandObs/BCannon_Hand.png
+      608: Resources/HandObs/BRifle_Hand.png
+      616: Resources/HandObs/BPistol_Hand.png
+      624: Resources/HandObs/BC_CLIP_AP_Hand.png
+      632: Resources/HandObs/BRifle_Clip_Hand.png
+      640: Resources/HandObs/BPistol_Clip_Hand.png
+      648: Resources/HandObs/BC_CLIP_HE_Hand.png
+      656: Resources/HandObs/CKnife_Hand.png
+      664: Resources/HandObs/CSpear_Hand.png
+      672: Resources/HandObs/Minigun_Hand.png
+      680: Resources/HandObs/Minigun_Clip_Hand.png
+      688: Resources/HandObs/Recoil_Hand.png
+      696: Resources/HandObs/Recoil_Clip_Hand.png
+      704: Resources/HandObs/Volley_Hand.png
+      712: Resources/HandObs/Accel_Hand.png
+      720: Resources/HandObs/Volley_Clip_Hand.png
+      728: Resources/HandObs/Accel_Clip_Hand.png
+      736: Resources/HandObs/Ion_Cannon_Hand.png
+      744: Resources/HandObs/Ion_Cannon_Clip_Hand.png
+      752: Resources/HandObs/Ion_Pistol_Hand.png
+      760: Resources/HandObs/Ion_Pistol_Clip_Hand.png
+      768: Resources/HandObs/Laser_Pistol_hand.png
+      776: Resources/HandObs/Laser_Carbine_hand.png
+      784: Resources/HandObs/Heavy_Laser_hand.png
+      792: Resources/HandObs/HandOb_ZrbiteFlare.gif
+      800: Resources/HandObs/SNC_CN_XCOM_HND.png
+      808: Resources/HandObs/SNC_RFL_XCOM_HND.png
+      816: Resources/HandObs/SNC_PSTL_XCOM_HND.png
+      824: Resources/HandObs/Cannon_Clip_Hand.png
+      832: Resources/HandObs/Rifle_Clip_Hand.png
+      840: Resources/HandObs/Pistol_Clip_Hand.png
+      848: Resources/HandObs/Grenade_Hand.png
+      856: Resources/HandObs/HandOb_Blank.png
+      864: Resources/HandObs/BLMG_Hand.png
+      872: Resources/HandObs/BSMG_Hand.png
+      880: Resources/HandObs/BMPISTOL_Hand.png
+      888: Resources/HandObs/GLMG_Hand.png
+      896: Resources/HandObs/GSMG_Hand.png
+      904: Resources/HandObs/GMPISTOL_Hand.png
+      912: Resources/HandObs/SNC_ARIFLE_Hand.png
+      920: Resources/HandObs/SNC_APISTOL_Hand.png
+      928: Resources/HandObs/DSMG_Hand.png
+      936: Resources/HandObs/DMPISTOL_Hand.png
+      944: Resources/HandObs/SLAUNCHER_Hand.png
+      952: Resources/HandObs/LLauncher_Hand.png
+      960: Resources/HandObs/ZRBEXP_Hand.png
+
+
+
+  - type: BASEBITS.PCK
+    files:
+      56: Resources/Basebits/Neptune.png
+      203: Resources/Basebits/basebit_medbay.png
+      204: Resources/Basebits/Moray.png 
+      350: Resources/Basebits/BASEBITS_LargeLiving1.png
+      351: Resources/Basebits/BASEBITS_LargeLiving2.png
+      352: Resources/Basebits/BASEBITS_LargeLiving3.png
+      353: Resources/Basebits/BASEBITS_LargeLiving4.png
+      354: Resources/Basebits/BASEBITS_Construction1.png
+      355: Resources/Basebits/BASEBITS_Construction2.png
+      356: Resources/Basebits/BASEBITS_Construction3.png
+      357: Resources/Basebits/BASEBITS_Construction4.png
+      358: Resources/Basebits/BASEBITS_CorridorNS.png
+      359: Resources/Basebits/BASEBITS_CorridorEW.png
+      360: Resources/Basebits/BASEBITS_Empty.png
+      361: Resources/Basebits/BASEBITS_ConstructionNS.png
+      362: Resources/Basebits/BASEBITS_ConstructionEW.png
+      363: Resources/Basebits/BASEBITS_LargeStore1.png
+      364: Resources/Basebits/BASEBITS_LargeStore2.png
+      365: Resources/Basebits/BASEBITS_LargeStore3.png
+      366: Resources/Basebits/BASEBITS_LargeStore4.png
+      367: Resources/Basebits/BASEBITS_Construction1.png
+      368: Resources/Basebits/BASEBITS_Construction2.png
+      369: Resources/Basebits/BASEBITS_Construction3.png
+      370: Resources/Basebits/BASEBITS_Construction4.png
+      371: Resources/Basebits/basebit_pool.png  
+  - type: INTICON.PCK
+    files:
+      22: Resources/Inticon/Moray.png
+      23: Resources/Inticon/Neptune.png 
+      34: Resources/Inticon/NeptuneMinimized.png 
+      171: Resources/Inticon/MorayMinimized.png    
+      182: Resources/Inticon/MorayDogfight.png   
+ 
+
+
+#Armor INV Sprites
+
+  - type: HVYDIVMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0F0.png
+  - type: HVYDIVMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0F1.png
+  - type: HVYDIVMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0F2.png
+  - type: HVYDIVMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0F3.png
+  - type: HVYDIVMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0M0.png
+  - type: HVYDIVMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0M1.png
+  - type: HVYDIVMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0M2.png
+  - type: HVYDIVMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYDIV/MAN_0M3.png
+
+  - type: HVYARMMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1F0.png
+  - type: HVYARMMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1F1.png
+  - type: HVYARMMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1F2.png
+  - type: HVYARMMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1F3.png
+  - type: HVYARMMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1M0.png
+  - type: HVYARMMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1M1.png
+  - type: HVYARMMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1M2.png
+  - type: HVYARMMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/HVYARM/MAN_1M3.png
+
+
+#Orang Gauss
+  - type: UFOpaedia_HG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Gauss_Heavy_UFO.png
+  - type: UFOpaedia_GR.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Gauss_Rifle_UFO.png
+  - type: UFOpaedia_GP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Gauss_Pistol_UFO.png
+
+
+#ResT
+  - type: DayNightIndicator
+    width: 72
+    height: 24
+    subX: 24
+    subY: 24
+    files:
+      0: Resources/UI/DayNightIndicatorR.png
+  - type: DISPLACER.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/Displacer_Armor_INV.png
+  - type: DISPLACER_ARMOR.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/Displacer_armor.png
+
+  - type: HVYDIV_ARMOR.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/HVYDIV.png
+
+  - type: HVYARM_ARMOR.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/HVYARM.png
+
+  - type: X1.PCK
+    width: 1024
+    height: 128
+    subX: 128
+    subY: 64
+    files:
+      100: Resources/Hits/X_splash.png
+  - type: HIT.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      104: Resources/Hits/melee1.gif
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      600: Resources/Hits/ion_pistol_hit.gif
+      610: Resources/Hits/LaserRifle_Hit.png
+  - type: Projectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/ion_test.png
+      420: Resources/Projectiles/Projectiles_Laser_Beam.png
+  - type: UnderwaterProjectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/ion_test.png
+      420: Resources/Projectiles/Projectiles_Laser_Beam.png
+  - type: UFOpaedia_BCannon.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BCannon.png
+  - type: UFOpaedia_BRifle.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BRifle.png
+  - type: UFOpaedia_BPistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BPistol.png
+  - type: UFOpaedia_CKnife.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/CKnife.png
+  - type: UFOpaedia_CSpear.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/CSpear.png
+  - type: UFOpaedia_Minigun.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Minigun.png
+  - type: UFOpaedia_Recoil.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Recoil.png
+  - type: UFOpaedia_Volley.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Volley.png
+  - type: UFOpaedia_Volley_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Volley_Clip.png
+  - type: UFOpaedia_Accel.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Accel.png
+  - type: UFOpaedia_Accel_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Accel_Clip.png
+  - type: UFOpaedia_Displacer_Armor.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Displacer_Armor_UFO.png
+  - type: UFOpaedia_Ion_Cannon.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Cannon_UFO.png
+  - type: UFOpaedia_Ion_Pistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Pistol_UFO.png
+  - type: UFOpaedia_Ion_Cannon_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Cannon_Clip_UFO.png
+  - type: UFOpaedia_Ion_Pistol_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Pistol_Clip_UFO.png
+  - type: UFOpaedia_Laser_Pistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Laser_Pistol_UFO.png
+  - type: UFOpaedia_Laser_Carbine.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Laser_Carbine_UFO.png
+  - type: UFOpaedia_Heavy_Laser.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Heavy_Laser_UFO.png
+  - type: UFOpaedia_Zrbite_Flare.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UFOPAEDIA_ZrbiteFlare.gif
+  - type: UFOpaedia_HSonic_Cannon.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Cannon.png
+  - type: UFOpaedia_HSonic_Rifle.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Rifle.png
+  - type: UFOpaedia_HSonic_Pistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Pistol.png
+  - type: UFOpaedia_HSonic_Pistol_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Pistol_Clip.png
+  - type: UFOpaedia_HSonic_Rifle_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Rifle_Clip.png
+  - type: UFOpaedia_HSonic_Cannon_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Cannon_Clip.png
+  - type: UFOpaedia_HSonic_Grenade.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Grenade.png
+  - type: AQUA_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/aquatoid/NAV_AQUATOID.png
+  - type: AQUA_MED.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/aquatoid/MED_AQUATOID.png
+  - type: AQUA_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/aquatoid/TEC_AQUATOID.png
+  - type: AQUA_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/aquatoid/SQD_AQUATOID.png
+  - type: AQUA_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/aquatoid/CMD_AQUATOID.png
+  - type: TASOTH_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/tasoth/SQD_TASOTH.png
+  - type: GILLMAN_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Gillman/CMD_GILLMAN.png
+  - type: GILLMAN_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Gillman/SQD_GILLMAN.png
+  - type: GILLMAN_MED.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Gillman/MED_GILLMAN.png
+  - type: GILLMAN_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Gillman/NAV_GILLMAN.png
+  - type: GILLMAN_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Gillman/TEC_GILLMAN.png
+  - type: Lobsterman_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Lobsterman/TEC_LOBSTER.png
+  - type: Lobsterman_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Lobsterman/NAV_LOBSTER.png
+  - type: Lobsterman_MDC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Lobsterman/MDC_LOBSTER.png
+  - type: Lobsterman_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Lobsterman/SQD_LOBSTER.png
+  - type: Lobsterman_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Sprites/Lobsterman/CMD_LOBSTER.png
+  - type: SLUGMAN_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 560
+    files:
+      0: Resources/Sprites/slugman/CMD_SLUGMAN.png
+  - type: SLUGMAN_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 560
+    files:
+      0: Resources/Sprites/slugman/NAV_SLUGMAN.png
+  - type: SLUGMAN_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 560
+    files:
+      0: Resources/Sprites/slugman/SQD_SLUGMAN.png
+  - type: SLUGMAN_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 560
+    files:
+      0: Resources/Sprites/slugman/TEC_SLUGMAN.png
+  - type: SLUGMAN_MED.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 560
+    files:
+      0: Resources/Sprites/slugman/MED_SLUGMAN.png
+  - type: SLUGMAN_SLD.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 560
+    files:
+      0: Resources/Sprites/slugman/SLD_SLUGMAN.png
+  - type: Molluscoid.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Sprites/Molluscoid.png
+  - type: WILD_TRISCENE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Sprites/Wild_Triscene.png
+  - type: TERRORPOD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Sprites/terrorpod.png
+
+  - type: KRAKEN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Sprites/kraken.png
+
+  - type: UFOpaedia_Terrorpod.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/terrorpod.png
+
+  - type: UFOpaedia_Terrorpod_Aut.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/terrorpod_aut.png
+
+  - type: UFOpaedia_Slugman.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/slugman_rsh.png
+
+  - type: UFOpaedia_Slugman_Aut.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/slugman_aut.png
+  
+  - type: UFOpaedia_MOLLUSCOID.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/Molusoid_rsh.png
+
+  - type: UFOpaedia_MOLLUSCOID_Aut.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/Molusoid_AUT.png
+
+  - type: UFOpaedia_Kraken.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/kraken_rsh.png
+
+  - type: UFOpaedia_Kraken_Aut.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPAEDIA/kraken_aut.png
+
+  - typeSingle: POOLUPIMAGE
+    fileSingle: Resources/ufopaedia/POOL_UP.png  
+
+  - typeSingle: MEDBAYUPIMAGE.png
+    fileSingle: Resources/ufopaedia/up_MEDBAY.png
+
+  - type: COELGAUSS.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 2320
+    files:
+      0: Resources/Sprites/turtle_sheet.png
+      
+  - type: UFOpaedia_COELGAUSS.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/TRIL_Gauss.gif 
+
+  - typeSingle: MUTANT2INV
+    fileSingle: Resources/Inventory/inv_mutant2.gif
+
+  - type: MUTANT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 760
+    files:
+      0: Resources/sprites/mutant.png
+
+  - type: POLYP.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/sprites/POLYPH.gif
+
+  - type: PROBE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/sprites/probe.png
+
+  - type: UFOpaedia_COELGAUSS.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/TRIL_Gauss.gif 
+
+  - type: UFOpaedia_MUTANT.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Mutant_UFO.png
+  - type: UFOpaedia_MUTANT_AUTOPSY.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Mutant_Aut.png
+
+  - type: UFOpaedia_PROBE.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/PROBE_UFO.png
+  - type: UFOpaedia_PROBE_AUTOPSY.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Probe_Aut.png
+
+  - type: UFOpaedia_Polyp.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Polyp_UFO.png
+  - type: UFOpaedia_Polyp_AUTOPSY.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Polyp_AUT.png
+  - type: UFOpaedia_NONE.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/DIV_UFO.png
+  - type: UFOpaedia_HVYDIV.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HVYDIV_UFO.png
+  - type: UFOpaedia_HVYARM.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HVYARM_UFO.png
+
+  - type: UFOpaedia_MORAY.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MORAY_UFO.png
+
+  - type: UFOpaedia_DAPISTOL.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/DAPISTOL_UFO.png
+  - type: UFOpaedia_DSMG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/DSMG_UFO.png
+
+
+  - type: UFOpaedia_BLMG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BLMG_UFO.png
+  - type: UFOpaedia_BSMG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BSMG_UFO.png
+  - type: UFOpaedia_BMPISTOL.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BMPISTOL_UFO.png
+
+  - type: UFOpaedia_GLMG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GLMG_UFO.png
+  - type: UFOpaedia_GLMG_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GLMG_CLIP_UFO.png
+  - type: UFOpaedia_GSMG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GSMG_UFO.png
+  - type: UFOpaedia_GSMG_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GSMG_CLIP_UFO.png
+  - type: UFOpaedia_GMPISTOL.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GMPISTOL_UFO.png
+  - type: UFOpaedia_GMPISTOL_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GMPISTOL_CLIP_UFO.png
+
+  - type: UFOpaedia_SNC_ARIFLE.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SNC_ARIFLE_UFO.png
+  - type: UFOpaedia_SNC_ARIFLE_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SNC_ARIFLE_CLIP_UFO.png
+  - type: UFOpaedia_SNC_APISTOL.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SNC_APISTOL_UFO.png
+  - type: UFOpaedia_SNC_APISTOL_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SNC_APISTOL_CLIP_UFO.png
+
+  - type: UFOpaedia_SLAUNCHER.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SLAUNCHER_UFO.png
+  - type: UFOpaedia_SLAUNCHER_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SLAUNCHER_CLIP_UFO.png
+
+  - type: UFOpaedia_LLAUNCHER.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LLAUNCHER_UFO.png
+  - type: UFOpaedia_LLAUNCHER_CLIP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LLAUNCHER_CLIP_UFO.png
+
+  - type: UFOpaedia_ZRBEXP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ZRBEXP_UFO.png
+
+  - typeSingle: BigStunIndicator
+    fileSingle: Resources/INTICON/Zzz.png
+  - typeSingle: FloorStunIndicator
+    fileSingle: Resources/INTICON/Zzz.png
+  - typeSingle: BigBurnIndicator
+    fileSingle: Resources/INTICON/burning.gif
+  - typeSingle: FloorBurnIndicator
+    fileSingle: Resources/INTICON/burning.gif
+  - typeSingle: BigWoundIndicator
+    fileSingle: Resources/INTICON/Bleed.png
+  - typeSingle: FloorWoundIndicator
+    fileSingle: Resources/INTICON/Bleed.png
+  - typeSingle: BigShockIndicator
+    fileSingle: Resources/INTICON/Shock.png
+  - typeSingle: FloorShockIndicator
+    fileSingle: Resources/INTICON/Shock.png
+      
+  - type: UP081G.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/UP081G.png
+
+  - type: UP076L.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/UP076L.png
+      
+  - type: UP078C.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/UP078C.png
+
+  - type: CustomArmorPreviews
+    width: 228
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/ui/Craft_Armor.png
+
+  - type: CustomItemPreviews
+    width: 224
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ui/Craft_Tank.png
+
+#NEW USO
+
+# [====] Inventory [====] [====] Inventory [====] [====] Inventory [====] [====] Inventory [====]
+# [====] Inventory [====] [====] Inventory [====] [====] Inventory [====] [====] Inventory [====]
+# [====] Inventory [====] [====] Inventory [====] [====] Inventory [====] [====] Inventory [====]
+
+
+# [=] Inventory - Civilian Diver [=]
+  - type: MFTD_CIV_DIVER_INVENTORY.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Diver/Inventory_Civilian_Diver.png
+
+
+# [====] Units/Armors [====]  [====] Units/Armors [====] [====] Units/Armors [====] [====] Units/Armors [====]
+# [====] Units/Armors [====]  [====] Units/Armors [====] [====] Units/Armors [====] [====] Units/Armors [====]
+# [====] Units/Armors [====]  [====] Units/Armors [====] [====] Units/Armors [====] [====] Units/Armors [====]
+
+  - type: MILITARY_FEMALE_INV
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Military/MILITARY_FEMALE_INV.png
+
+  - type: MILITARY_MALE_INV
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Military/MILITARY_MALE_INV.png
+
+  - type: HEAVY_MILITARY_FEMALE_INV
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_HeavyMilitary/HEAVY_MILITARY_FEMALE_INV.png
+
+  - type: Inventory_Policeman
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Police/Inventory_Policeman.png
+
+  - type: Inventory_Policewoman
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Police/Inventory_Policewoman.png
+
+  - type: Inventory_SWAT
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Police/Inventory_SWAT.png
+
+# [=] Unit - Civ Military [=] <Civilian>
+  - type: MFTD_CIV_MILITARY.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian_Military/Unit_Military.png
+
+# [=] Unit - Civ Heavy Military [=] <Civilian>
+  - type: MFTD_CIV_HEAVY_MILITARY.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian_HeavyMilitary/Unit_HeavyMilitary.png
+
+# [=] Unit - Civ Diver [=] <Civilian>
+  - type: MFTD_CIV_DIVER.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian_Diver/Unit_Civilian_Diver.png
+
+# [=] Unit - Civ Male Police [=] <Civilian>
+  - type: POLICE_MALE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/Civilian_Police/POLICE_MALE.png
+
+# [=] Unit - Civ Female Police [=] <Civilian>
+  - type: POLICE_FEMALE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/Civilian_Police/POLICE_FEMALE.png
+
+# [=] Unit - Civ SWAT [=] <Civilian>
+  - type: SWAT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian_Police/SWAT.png
+
+# [=] Unit - Civ Paramedic [=] <Civilian>
+  - type: PARAMEDIC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/Civilian_Emergency/PARAMEDIC.png
+
+# [=] Unit - Civ Firefighter [=] <Civilian>
+  - type: FIREFIGHTER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Civilian_Emergency/FIREFIGHTER.png
+
+# [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====]
+# [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====]
+# [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====]
+
+
+# [=] BigOb [=]
+  - type: BIGOBS.PCK
+    files:
+# [=] BigOb - Civilian Pistol [=]
+      66: Resources/Items/Pistol/BigOb_Civ_Pistol.png
+      67: Resources/Items/Pistol/Ammo/BigOb_Civ_Pistol_Ammo.png
+# [=] BigOb - Civilian Rifle [=]
+      68: Resources/Items/Rifle/BigOb_Civ_Rifle.png
+      69: Resources/Items/Rifle/Ammo/BigOb_Civ_Rifle_Ammo.png
+# [=] BigOb - Civilian Corpses [=]
+      71: Resources/Units/Civilian_Military/BigOb_Military.png
+      72: Resources/Units/Civilian_Diver/BigOb_Civilian_Diver.png
+      74: Resources/Units/Civilian_HeavyMilitary/BigOb_HeavyMilitary.png
+# [=] BigOb - Diving Drill [=]
+      73: Resources/Items/Diving_Drill/BigOb_Diving_Drill.png
+# [=] BigOb - First Responder Corpses [=]
+      80: Resources/Units/Civilian_Police/BIGOB_POLICE_MALE_CORPSE.png
+      81: Resources/Units/Civilian_Police/BIGOB_POLICE_FEMALE_CORPSE.png
+      82: Resources/Units/Civilian_Police/BIGOB_HUMAN_SOLDIER_CORPSE.png
+      83: Resources/Units/Civilian_Emergency/BIGOB_PARAMEDIC_CORPSE.png
+      84: Resources/Units/Civilian_Emergency/BIGOB_FIREFIGHTER_CORPSE.png
+# [=] BigOb - Firefighter Equipment [=]
+      85: Resources/Items/Fire_Extinguisher/bigOb_Fire_Extinguisher.png
+      86: Resources/Items/Fire_Axe/bigOb_FireAxe.png
+
+
+# [=] FloorOb [=]
+  - type: FLOOROB.PCK
+    files:
+# [=] FloorOb - Civilian Pistol [=]
+      82: Resources/Items/Pistol/FloorOb_Civ_Pistol.png
+      83: Resources/Items/Pistol/Ammo/FloorOb_Civ_Pistol_Ammo.png
+# [=] FloorOb - Civilian Rifle [=]
+      84: Resources/Items/Rifle/FloorOb_Civ_Rifle.png
+      85: Resources/Items/Rifle/Ammo/FloorOb_Civ_Rifle_Ammo.png
+# [=] FloorOb - Civilian Corpses [=]
+      86: Resources/Units/Civilian_Military/FloorOb_Military.png
+      87: Resources/Units/Civilian_Diver/FloorOb_Civilian_Diver.png
+      89: Resources/Units/Civilian_HeavyMilitary/FloorOb_HeavyMilitary.png
+# [=] FloorOb - Diving Drill [=]
+      88: Resources/Items/Diving_Drill/FloorOb_Diving_Drill.png
+# [=] FloorOb - First Responder Corpses [=]
+      90: Resources/Units/Civilian_Police/FLOOROB_POLICE_MALE_CORPSE.png
+      91: Resources/Units/Civilian_Police/FLOOROB_POLICE_FEMALE_CORPSE.png
+      92: Resources/Units/Civilian_Police/FLOOROB_HUMAN_SOLDIER_CORPSE.png
+      93: Resources/Units/Civilian_Emergency/FLOOROB_PARAMEDIC_CORPSE.png
+      94: Resources/Units/Civilian_Emergency/FLOOROB_FIREFIGHTER_CORPSE.png
+# [=] FloorOb - Firefighter Equipment [=]
+      95: Resources/Items/Fire_Extinguisher/floorOb_Fire_Extinguisher.png
+      96: Resources/Items/Fire_Axe/floorOb_FireAxe.png
+
+# [=] HandOb [=]
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+# [=] HandOb - Civilian Pistol [=]
+      440: Resources/Items/Pistol/HandOb_Civ_Pistol.png
+      448: Resources/Items/Pistol/Ammo/HandOb_Civ_Pistol_Ammo.png
+# [=] HandOb - Civilian Rifle [=]
+      456: Resources/Items/Rifle/HandOb_Civ_Rifle.png
+      464: Resources/Items/Rifle/Ammo/HandOb_Civ_Rifle_Ammo.png
+# [=] HandOb - Diving Drill [=]
+      472: Resources/Items/Diving_Drill/HandOb_Diving_Drill.png
+# [=] HandOb - Firefighter Equipment [=]
+      480: Resources/Items/Fire_Extinguisher/handOb_Fire_Extinguisher.png
+      488: Resources/Items/Fire_Axe/handOb_FireAxe.png
+
+  - type: X1.PCK
+    width: 1024
+    height: 768
+    subX: 128
+    subY: 64
+    files:
+      80: Resources/Items/Fire_Extinguisher/SMOKE/X1_DIO.png
+
+# [====] Interception [====] [====] Interception [====] [====] Interception [====] [====] Interception [====]
+# [====] Interception [====] [====] Interception [====] [====] Interception [====] [====] Interception [====]
+# [====] Interception [====] [====] Interception [====] [====] Interception [====] [====] Interception [====]
+
+
+# [=] Murkhach@centrum.cz's Interception Images [=]
+  - type: INTHOCUS
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Murkhach_centrum_cz/uso_hocus_int.png
+  - type: INTAMOEBA
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Murkhach_centrum_cz/uso_amoeba_int.png
+
+
+
+# [=] Blank's Interception Images [=]
+  - type: InterceptionBattlecruiser
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Battlecruiser_Int.png
+  - type: InterceptionBattlestar
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Battlestar_Int.png
+  - type: InterceptionBlockade
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Blockade_Int.png
+  - type: InterceptionBomber
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Bomber_Int.png
+  - type: InterceptionHvyDestroyer
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_HvyDestroyer_Int.png
+  - type: InterceptionGunboat
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Gunboat_Int.png
+  - type: InterceptionIronclad
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Ironclad_Int.png
+  - type: InterceptionRaider
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Raider_Int.png
+  - type: InterceptionSmall1
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Small1_Int.png
+  - type: InterceptionSmall2
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Small2_Int.png
+  - type: InterceptionSmall3
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Small3_Int.png
+  - type: InterceptionSmall4
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Small4_Int.png
+  - type: InterceptionSmall5
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/Blank/USO_Small5_Int.png
+
+
+# [=] The Martian's Interception Images [=]
+
+  - type: InterceptionGT0000
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0000.png
+  - type: InterceptionGT0001
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0001.png
+  - type: InterceptionGT0002
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0002.png
+  - type: InterceptionGT0003
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0003.png
+  - type: InterceptionGT0004
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0004.png
+  - type: InterceptionGT0005
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0005.png
+  - type: InterceptionGT0006
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0006.png
+  - type: InterceptionGT0007
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0007.png
+  - type: InterceptionGT0008
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/GT0008.png
+  - type: InterceptionBandit
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Bandit.png
+  - type: InterceptionCarp
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Carp.png
+  - type: InterceptionClam
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Clam.png
+  - type: InterceptionClaw
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Claw.png
+  - type: InterceptionDarts
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Darts.png
+  - type: InterceptionFerry
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Ferry.png
+  - type: InterceptionHermit
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Hermit.png
+  - type: InterceptionHydrofoil
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Hydrofoil.png
+  - type: InterceptionObserver
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Observer.png
+  - type: InterceptionSearcher
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Searcher.png
+  - type: InterceptionShrimp
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Shrimp.png
+  - type: InterceptionSquid
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Squid.png
+  - type: InterceptionTower
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Tower.png
+  - type: InterceptionTurtle
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Turtle.png
+  - type: InterceptionWaveRaider
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Wave_Raider.png
+  - type: InterceptionWhirligig
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Whirligig.png
+  - type: InterceptionUrchin
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Urchin.png
+  - type: InterceptionTadpole
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Tadpole.png
+  - type: InterceptionJellyfish
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Jellyfish.png
+  - type: InterceptionPufferfish
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Pufferfish.png
+  - type: InterceptionPiranha
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Piranha.png
+  - type: InterceptionDredge
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Dredge.png
+  - type: InterceptionMoray
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Moray.png
+  - type: InterceptionShark
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Shark.png
+  - type: InterceptionLantern
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Lantern.png
+  - type: InterceptionConch
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Conch.png
+  - type: InterceptionWhale
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Whale.png
+  - type: InterceptionAltar
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Altar.png
+  - type: InterceptionHoneycomb
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Honeycomb.png
+  - type: InterceptionOubliette
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Oubliette.png
+  - type: InterceptionWhirlpool
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Whirlpool.png
+  - type: InterceptionBlade
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Blade.png
+  - type: InterceptionEel
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Eel.png
+  - type: InterceptionManta
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Manta.png
+  - type: InterceptionCollector
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Collector.png
+  - type: InterceptionNautilus
+    singleImage: true
+    width: 160
+    height: 58
+    files:
+      0: Resources/Interception/The_Martian/Nautilus.png
+
+
+
+# [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=]
+# [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=]
+# [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=] [=] UFOpaedia [=]
+
+# <--- Items
+
+# [=] Civilian Weapons [=]
+  - type: UFOpaedia_Civilian_Weapons.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UFOpaedia_Civilian_Weapons.png
+
+# [=] Emergency Items [=] 
+  - type: UFOpaedia_Emergency_Items.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UFOpaedia_Emergency_Items.png
+
+# <--- Alien Craft (The Martian)
+
+
+# [=] Altar [=]
+  - type: Altar_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Altar_UFOpaedia.png
+
+
+# [=] Bandit [=]
+  - type: Bandit_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Bandit_UFOpaedia.png
+
+
+# [=] Blade [=]
+  - type: Blade_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Blade_UFOpaedia.png
+
+
+# [=] Carp [=]
+  - type: Carp_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Carp_UFOpaedia.png
+
+
+# [=] Clam [=]
+  - type: Clam_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Clam_UFOpaedia.png
+
+
+# [=] Claw [=]
+  - type: Claw_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Claw_UFOpaedia.png
+
+
+# [=] Collector [=]
+  - type: Collector_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Collector_UFOpaedia.png
+
+
+# [=] Conch [=]
+  - type: Conch_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Conch_UFOpaedia.png
+
+
+# [=] Darts [=]
+  - type: Darts_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Darts_UFOpaedia.png
+
+
+# [=] Dredge [=]
+  - type: Dredge_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Dredge_UFOpaedia.png
+
+
+# [=] Eel [=]
+  - type: Eel_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Eel_UFOpaedia.png
+
+
+# [=] Ferry [=]
+  - type: Ferry_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Ferry_UFOpaedia.png
+
+
+# [=] Hermit [=]
+  - type: Hermit_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Hermit_UFOpaedia.png
+
+
+# [=] Honeycomb [=]
+  - type: Honeycomb_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Honeycomb_UFOpaedia.png
+
+
+# [=] Hydrofoil [=]
+  - type: Hydrofoil_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Hydrofoil_UFOpaedia.png
+
+
+# [=] Jellyfish [=]
+  - type: Jellyfish_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Jellyfish_UFOpaedia.png
+
+
+# [=] Lantern [=]
+  - type: Lantern_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Lantern_UFOpaedia.png
+
+
+# [=] Manta [=]
+  - type: Manta_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Manta_UFOpaedia.png
+
+
+# [=] Moray [=]
+  - type: Moray_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Moray_UFOpaedia.png
+
+
+# [=] Nautilus [=]
+  - type: Nautilus_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Nautilus_UFOpaedia.png
+
+
+# [=] Observer [=]
+  - type: Observer_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Observer_UFOpaedia.png
+
+
+# [=] Oubliette [=]
+  - type: Oubliette_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Oubliette_UFOpaedia.png
+
+
+# [=] Piranha [=]
+  - type: Piranha_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Piranha_UFOpaedia.png
+
+
+# [=] Pufferfish [=]
+  - type: Pufferfish_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Pufferfish_UFOpaedia.png
+
+
+# [=] Searcher [=]
+  - type: Searcher_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Searcher_UFOpaedia.png
+
+
+# [=] Shark [=]
+  - type: Shark_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Shark_UFOpaedia.png
+
+
+# [=] Shrimp [=]
+  - type: Shrimp_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Shrimp_UFOpaedia.png
+
+
+# [=] Squid [=]
+  - type: Squid_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Squid_UFOpaedia.png
+
+
+# [=] Tadpole [=]
+  - type: Tadpole_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Tadpole_UFOpaedia.png
+
+
+# [=] Tower [=]
+  - type: Tower_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Tower_UFOpaedia.png
+
+
+# [=] Turtle [=]
+  - type: Turtle_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Turtle_UFOpaedia.png
+
+
+# [=] Urchin [=]
+  - type: Urchin_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Urchin_UFOpaedia.png
+
+
+# [=] Wave Raider [=]
+  - type: Wave_Raider_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Wave_Raider_UFOpaedia.png
+
+
+# [=] Whale [=]
+  - type: Whale_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Whale_UFOpaedia.png
+
+
+# [=] Whirligig [=]
+  - type: Whirligig_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Whirligig_UFOpaedia.png
+
+
+# [=] Whirlpool [=]
+  - type: Whirlpool_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/Whirlpool_UFOpaedia.png
+
+
+# [=] GT0000 [=] <Worm> (Image for Wolwerin's craft)
+  - type: GT0000_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0000_UFOpaedia.png
+
+
+# [=] GT0001 [=] <Terror> (Image for Wolwerin's craft)
+  - type: GT0001_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0001_UFOpaedia.png
+
+
+# [=] GT0002 [=] <Dreadnought-W> (Image for Wolwerin's craft)
+  - type: GT0002_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0002_UFOpaedia.png
+
+
+# [=] GT0003 [=] <Scout> (Image for Wolwerin's craft)
+  - type: GT0003_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0003_UFOpaedia.png
+
+
+# [=] GT0005 [=] <Ship Destroyer> (Image for Wolwerin's craft)
+  - type: GT0004_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0004_UFOpaedia.png
+
+
+# [=] GT0005 [=] <Double Scout> (Image for Wolwerin's craft)
+  - type: GT0005_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0005_UFOpaedia.png
+
+
+# [=] GT0006 [=] <Double Hunter> (Image for Wolwerin's craft)
+  - type: GT0006_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0006_UFOpaedia.png
+
+
+# [=] GT0007 [=] <Intimidation Of The Government>  (Image for Wolwerin's craft)
+  - type: GT0007_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0007_UFOpaedia.png
+
+
+# [=] GT0008 [=] <The Combat Interceptor> (Image for Wolwerin's craft)
+  - type: GT0008_UFOpaedia.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/The_Martian/GT0008_UFOpaedia.png
+
+
+
+
+# <--- Alien Craft (Blank)
+
+# [=] Battlecruiser [=]
+  - type: UP_USO_Battlecruiser.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Battlecruiser.png
+
+
+# [=] Battlestar [=]
+  - type: UP_USO_Battlestar.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Battlestar.png
+
+
+# [=] Blockade Runner [=]
+  - type: UP_USO_Blockade_Runner.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Blockade_Runner.png
+
+
+# [=] Bomber [=]
+  - type: UP_USO_Bomber.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Bomber.png
+
+
+# [=] Gunboat [=]
+  - type: UP_USO_Gunboat.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Gunboat.png
+
+
+# [=] Heavy Destroyer [=]
+  - type: UP_USO_Heavy_Destroyer.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Heavy_Destroyer.png
+
+
+# [=] Ironclad [=]
+  - type: UP_USO_Ironclad.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Ironclad.png
+
+
+# [=] Raider [=]
+  - type: UP_USO_Raider.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Raider.png
+
+
+# [=] Corvette [=]
+  - type: UP_USO_Small1.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Small1.png
+
+
+# [=] Patrol [=]
+  - type: UP_USO_Small2.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Small2.png
+
+
+# [=] Carrack [=]
+  - type: UP_USO_Small3.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Small3.png
+
+
+# [=] Frigate [=]
+  - type: UP_USO_Small4.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Small4.png
+
+
+# [=] Destroyer [=]
+  - type: UP_USO_Small5.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Blank/UP_USO_Small5.png
+
+
+# <--- Alien Craft (Murkhach@centrum.cz)
+
+# [=] Amoeba [=]
+  - type: UP_USO_AMOEBA.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Murkhach_centrum_cz/UP_USO_AMOEBA.png
+
+
+# [=] Hocus [=]
+  - type: UP_USO_HOCUS.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Murkhach_centrum_cz/UP_USO_HOCUS.png
