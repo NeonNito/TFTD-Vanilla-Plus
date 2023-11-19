@@ -1,8 +1,0 @@
-globe: #done
-  textures:
-    - id: -4
-      deployments:
-        STR_CARGO_SHIP_P1: 25
-        STR_CARGO_SHIP_P2: 25
-        STR_CRUISE_SHIP_P1: 25
-        STR_CRUISE_SHIP_P2: 25
