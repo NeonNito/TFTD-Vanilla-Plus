@@ -553,7 +553,7 @@ manufacture:
   - name: STR_MORAY
     category: STR_CRAFT
     requires:
-      - STR_AQUA_PLASTICS
+      - STR_MORAY_RSH
     space: 24
     time: 7500
     cost: 750000
@@ -564,7 +564,7 @@ manufacture:
   - name: STR_NEPTUNE
     category: STR_CRAFT
     requires:
-      - STR_AQUA_PLASTICS
+      - STR_MORAY_RSH
     space: 24
     time: 9250
     cost: 950000

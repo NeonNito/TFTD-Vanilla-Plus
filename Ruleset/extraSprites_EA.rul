@@ -274,8 +274,7 @@ extraSprites:
       371: Resources/Basebits/basebit_pool.png  
   - type: INTICON.PCK
     files:
-      22: Resources/Inticon/Moray.png
-      23: Resources/Inticon/Neptune.png 
+      23: Resources/Inticon/Neptune_int.png 
       34: Resources/Inticon/NeptuneMinimized.png 
       171: Resources/Inticon/MorayMinimized.png    
       182: Resources/Inticon/MorayDogfight.png   

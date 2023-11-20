@@ -17,10 +17,6 @@ facilities:
     defense: 1200 #960
     hitRatio: 80
     
-  - type: STR_ALIEN_CONTAINMENT
-    requires:
-      - STR_ALIEN_CONTAINMENT_RSH  
-
   - type: STR_LIVING_QUARTERS_2
     spriteShape: 350
     spriteFacility: 350

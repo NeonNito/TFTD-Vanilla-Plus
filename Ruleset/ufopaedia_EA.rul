@@ -318,7 +318,7 @@ ufopaedia:
     text: STR_POOL_UFOPEDIA
     image_id: POOLUPIMAGE
     requires:
-      - STR_POOL
+      - STR_TRAINING_METHODS
   - id: STR_COELACANTH_GAUSS
     image_id: UFOpaedia_COELGAUSS.png
 

@@ -747,8 +747,8 @@ items:
     costBuy: 450
     costSell: 250
     weight: 2
-    bigSprite: 435
-    floorSprite: 322
+    bigSprite: 192
+    floorSprite: 204
     hitSound: 81
     hitAnimation: 26
     power: 45

@@ -141,7 +141,7 @@ extraStrings:
       STR_HVYARM_UC: "HVY PLASTIC ARMOR"
       STR_HVYARM_CORPSE: "Corpse"
       STR_WRECKED_HVYARM: "Hvy Plastic Aqua-Armor (Damaged)"
-      STR_NONE_UC: "DIVING SUIT"
+      #STR_NONE_UC: "DIVING SUIT"
       STR_MORAY: "MORAY"
       STR_MORAY_RSH: "Submersible Craft Upgrades"
       STR_BLMG: "Light Machine Gun"
