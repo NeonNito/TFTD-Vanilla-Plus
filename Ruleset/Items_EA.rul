@@ -382,8 +382,10 @@ items:
     damageType: 7
     accuracyMelee: 100
     tuMelee: 20
+    meleeSound: 87
     battleType: 3
     fixedWeapon: true
+    meleeAnimation: 108
     invWidth: 2
     invHeight: 3
     clipSize: -1
@@ -586,7 +588,7 @@ items:
     tuAimed: 0
     tuSnap: 15
     tuAuto: 40
-    autoShots: 4
+    autoShots: 5
     battleType: 1
     invWidth: 1
     invHeight: 2
@@ -738,7 +740,6 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    autoShots: 4
     landOnly: true
     listOrder: 3530
 
@@ -753,7 +754,7 @@ items:
     hitAnimation: 26
     power: 45
     damageType: 1
-    clipSize: 16
+    clipSize: 18
     battleType: 2
     landOnly: true
     listOrder: 3531
@@ -841,7 +842,7 @@ items:
     hitAnimation: 26
     power: 38
     damageType: 1
-    clipSize: 8
+    clipSize: 24
     battleType: 2
     landOnly: true
     listOrder: 3521
@@ -868,7 +869,7 @@ items:
     twoHanded: false
     invWidth: 1
     invHeight: 2
-    autoShots: 4
+    autoShots: 5
     landOnly: true
     listOrder: 3515
 
@@ -1128,7 +1129,7 @@ items:
     invHeight: 2
     twoHanded: false
     listOrder: 3710
-    autoShots: 4
+    autoShots: 5
 
   - type: STR_GMPISTOL_CLIP
     size: 0.2

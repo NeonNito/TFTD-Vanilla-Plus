@@ -421,6 +421,8 @@ extraSprites:
     subY: 40
     files:
       104: Resources/Hits/melee1.gif
+      108: Resources/Hits/clawSlash.png
+
   - type: SMOKE.PCK
     width: 320
     height: 40
