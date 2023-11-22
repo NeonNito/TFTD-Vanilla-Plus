@@ -1,19 +1,5 @@
 terrains:
-  - name: OUTPOST
-    mapDataSets:
-      - BLANKS
-      - SAND
-      - UEXT2
-      - UEXT3
-      - ORGANIC1
-      - ENTRY
-      - WEEDS
-      - CORAL
-      - ROCKS
 
-
-
-      
   - name: XBASES
     mapDataSets:
       - BLANKS
@@ -136,6 +122,16 @@ terrains:
       - name: XBASET03
         width: 10
         length: 10
+      - name: XBASEN00
+        width: 10
+        length: 10
+      - name: XBASEN01
+        width: 10
+        length: 10
+      - name: XBASEN02
+        width: 10
+        length: 10
+  
 
 # [=] Ocean Trench Buried Base [=] (Terror Site - Part 1 of 2)
   - name: MFTD_TRENCHUPPERBASEBURIED

@@ -282,6 +282,7 @@ ufopaedia:
     text: STR_KRAKEN_AUTOPSY_TEXT
     listOrder: 10551
 
+
   - id: STR_MEDBAY
     type_id: 16
     section: STR_BASE_FACILITIES
@@ -289,6 +290,23 @@ ufopaedia:
     image_id: MEDBAYUPIMAGE.png
     requires:
       - STR_MEDBAY
+
+  - id: STR_CRYO
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_CRYO_TEXT
+    image_id: UFOpaedia_CRYO.png
+    requires:
+      - STR_ALIEN_CRYOGENICS
+
+  - id: STR_VRTRN
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_VRTRN_TEXT
+    image_id: UFOpaedia_VRTRN.png
+    requires:
+      - STR_ALIEN_LEARNING_ARRAYS
+
   - id: STR_LIVING_QUARTERS_2
     type_id: 16
     section: STR_BASE_FACILITIES
@@ -408,7 +426,7 @@ ufopaedia:
     requires:
       - STR_MORAY_RSH
     text: STR_NEPTUNE_TEXT
-    image_id: UP001.BDY
+    image_id: NEPTUNE.png
     listOrder: 150
 
   - id: STR_DSMG

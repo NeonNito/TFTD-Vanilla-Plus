@@ -173,6 +173,8 @@ extraStrings:
       STR_HVYARM_REPAIR: "Hvy. Plastic Aqua-Armor (Repair)"
       STR_LLAUNCHER_CLIP_CONVERT: "Convert DPT Ammo"
       STR_SLAUNCHER_CLIP_CONVERT: "Convert TSB Ammo"
+      STR_CRYO: "Cryo-Therapy Bay"
+      STR_VRTRN: "V.R. Training Facility"
 
       
   
@@ -250,6 +252,8 @@ extraStrings:
       STR_SNC_ARIFLE_TEXT: "A scaledup variant of the Autopistol, while accuracy is improved, there is still a large drop off in accuracy, but we were able to focus it the best we could."
       STR_SNC_ARIFLE_CLIP_TEXT: "A simple creation based on the alien power cell, a decent amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
       STR_ZRBEXP_TEXT: "A rather crude creation, a chuck of Zrbite strapped to a nucleation exciter, we are able to create a devastating blast that can even punch through USO hulls."
+      STR_CRYO_TEXT: "Utilizing the Aliens Cryogenic Technology, we are able to suspend our soldiers in an inactive state, which then allows the rejuvenation technologies imbedded in the beds to heal are soldiers at over 3x the rate of our normal methods."
+      STR_VRTRN_TEXT: "By using the alien learning arrays, we are able to directly interface with the brains of our Aquanauts, allowing for training methods that outpace our more practical methods. Importantly, we are able to accommodate more Aquanauts at once using time slots and shift rotations."
 
 
       #NEW UFOS

@@ -16,14 +16,24 @@ facilities:
   - type: STR_PWT_DEFENSES
     defense: 1200 #960
     hitRatio: 80
-    
+
+  - type: STR_EMPTY_ROOM
+    listOrder: 120
+    spriteShape: 1
+    spriteFacility: 1
+    buildCost: 50000
+    buildTime: 8
+    monthlyCost: 2000
+    mapName: XBASEN00
+    canBeBuiltOver: true
+    refundValue: 40000
   - type: STR_LIVING_QUARTERS_2
     spriteShape: 350
     spriteFacility: 350
     size: 2
-    buildCost: 2250000
+    buildCost: 2000000
     buildTime: 24
-    monthlyCost: 60000
+    monthlyCost: 50000
     personnel: 225
     storage: 25
     mapName: XBASEB02
@@ -32,10 +42,10 @@ facilities:
     spriteShape: 363
     spriteFacility: 363
     size: 2
-    buildCost: 1000000
-    buildTime: 24
-    monthlyCost: 30000
-    storage: 275
+    buildCost: 750000
+    buildTime: 18
+    monthlyCost: 2500
+    storage: 225
     mapName: XBASEB10
     listOrder: 6850
   - type: STR_CORRIDOR_NS
@@ -67,29 +77,66 @@ facilities:
     listOrder: 6160
     requires:
       - STR_PROXY
+
   - type: STR_POOL
     requires:
       - STR_TRAINING_METHODS
     spriteShape: 1
     spriteFacility: 371
-    buildCost: 200000
+    buildCost: 350000
     buildTime: 20
-    monthlyCost: 10000
+    monthlyCost: 15000
     trainingRooms: 10
     mapName: XBASET00
     listOrder: 850
+    missileAttraction: 1
+  - type: STR_VRTRN
+    requires:
+      - STR_TRAINING_METHODS
+    buildCostItems:
+     STR_ALIEN_LEARNING_ARRAYS:
+        build: 4
+        refund: 2
+    spriteShape: 1
+    spriteFacility: 371
+    buildCost: 1275000
+    buildTime: 28
+    monthlyCost: 58000
+    trainingRooms: 45
+    mapName: XBASEN01
+    listOrder: 851
     missileAttraction: 1
   - type: STR_MEDBAY
     requires:
       - STR_MEDBAY
     spriteShape: 1
     spriteFacility: 203
-    maxAllowedPerBase: 1
     buildCost: 450000
     buildTime: 23
     monthlyCost: 32000
     sickBayAbsoluteBonus: 0.5
-    sickBayRelativeBonus: 0
+    sickBayRelativeBonus: 1
     mapName: XBASET03
     listOrder: 855
     missileAttraction: 0
+
+  - type: STR_CRYO
+    requires:
+      - STR_ALIEN_CRYOGENICS
+    buildCostItems:
+     STR_ALIEN_CRYOGENICS:
+        build: 4
+        refund: 2
+    requiredItem:
+    spriteShape: 1
+    spriteFacility: 373
+    buildCost: 1650000
+    buildTime: 28
+    monthlyCost: 120000
+    sickBayAbsoluteBonus: 2
+    sickBayRelativeBonus: 3
+    mapName: XBASEN02
+    listOrder: 856
+    missileAttraction: 0
+
+    

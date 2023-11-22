@@ -271,15 +271,26 @@ extraSprites:
       368: Resources/Basebits/BASEBITS_Construction2.png
       369: Resources/Basebits/BASEBITS_Construction3.png
       370: Resources/Basebits/BASEBITS_Construction4.png
-      371: Resources/Basebits/basebit_pool.png  
+      371: Resources/Basebits/basebit_pool.png 
+      372: Resources/Basebits/BASEBIT_VRTRAIN.png
+      373: Resources/Basebits/BASE_CRYO.png
+      
   - type: INTICON.PCK
     files:
       23: Resources/Inticon/Neptune_int.png 
       34: Resources/Inticon/NeptuneMinimized.png 
       171: Resources/Inticon/MorayMinimized.png    
       182: Resources/Inticon/MorayDogfight.png   
- 
 
+  - type: SMOKE.PCK
+    height: 40
+    width: 384
+    subX: 32
+    subY: 40
+    files:
+      8: Resources/hits/smoke.gif
+      56: Resources/hits/smoke2.gif  
+ 
 
 #Armor INV Sprites
 
@@ -1096,6 +1107,20 @@ extraSprites:
     files:
       0: Resources/UFOPAEDIA/ZRBEXP_UFO.png
 
+  - type: UFOpaedia_VRTRN.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/VRTRN_UFO.png
+
+  - type: UFOpaedia_CRYO.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/CRYO_UFO.png
+
   - typeSingle: BigStunIndicator
     fileSingle: Resources/INTICON/Zzz.png
   - typeSingle: FloorStunIndicator
@@ -1119,6 +1144,13 @@ extraSprites:
     height: 200
     files:
       0: Resources/ufopaedia/UP081G.png
+
+  - type: NEPTUNE.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/Neptune_Ufo.png
 
   - type: UP076L.png
     singleImage: true
