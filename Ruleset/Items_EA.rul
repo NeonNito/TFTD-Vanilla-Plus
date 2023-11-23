@@ -605,7 +605,7 @@ items:
     hitAnimation: 26
     power: 24
     damageType: 1
-    clipSize: 12
+    clipSize: 20
     battleType: 2
     vaporColor: { mod: xcom2, index: 0 }
     vaporDensity: 5
@@ -629,6 +629,7 @@ items:
     tuAimed: 0
     tuAuto: 35
     tuSnap: 25
+    autoShots: 4
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -645,7 +646,7 @@ items:
     hitAnimation: 26
     power: 28
     damageType: 1
-    clipSize: 10
+    clipSize: 24
     battleType: 2
     vaporColor: { mod: xcom2, index: 0 }
     vaporDensity: 10
@@ -795,13 +796,13 @@ items:
     floorSprite: 321
     hitSound: 81
     hitAnimation: 26
-    hitAnimFrames: 4
+    hitAnimFrames: 3
     power: 32
     damageType: 1
-    clipSize: 36
+    clipSize: 48
     battleType: 2
     invWidth: 1
-    invHeight: 2
+    invHeight: 1
     landOnly: true
     listOrder: 3551
 
@@ -823,6 +824,7 @@ items:
     tuAuto: 35
     tuSnap: 15
     tuAimed: 0
+    autoShots: 4
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -991,7 +993,7 @@ items:
     accuracyAuto: 25
     tuAuto: 40
     autoShots: 10
-    autoRange: 20
+    #autoRange: 20
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -1010,10 +1012,10 @@ items:
     handSprite: 680
     hitSound: 81
     hitAnimation: 26
-    hitAnimFrames: 3
+    hitAnimFrames: 2
     power: 28
     damageType: 1
-    clipSize: 80
+    clipSize: 100
     battleType: 2
     invWidth: 2
     invHeight: 1
@@ -1030,11 +1032,12 @@ items:
     handSprite: 888
     bulletSprite: 6
     fireSound: 34
+    autoShots: 6
     accuracyAuto: 38
     accuracySnap: 45
     accuracyAimed: 0
     tuAuto: 45
-    tuSnap: 25
+    tuSnap: 20
     tuAimed: 0
     compatibleAmmo:
       - STR_GLMG_CLIP
@@ -1053,9 +1056,10 @@ items:
     floorSprite: 324
     hitSound: 31
     hitAnimation: 46
+    hitAnimFrames: 3
     power: 40
     damageType: 4
-    clipSize: 36
+    clipSize: 42
     battleType: 2
     invWidth: 1
     invHeight: 1
@@ -1079,6 +1083,7 @@ items:
     tuAuto: 35
     tuSnap: 25
     tuAimed: 0
+    autoShots: 4
     compatibleAmmo:
       - STR_GSMG_CLIP
     battleType: 1
@@ -1098,7 +1103,7 @@ items:
     hitAnimation: 46
     power: 45
     damageType: 4
-    clipSize: 15
+    clipSize: 28
     battleType: 2
     invWidth: 1
     invHeight: 1
@@ -1117,7 +1122,7 @@ items:
     bulletSprite: 5
     fireSound: 35
     accuracyAuto: 35
-    accuracySnap: 35
+    accuracySnap: 45
     accuracyAimed: 0
     tuAuto: 35
     tuSnap: 15
@@ -2058,16 +2063,12 @@ items:
   # [=] Apply Custom Icons to Tanks [=]
   - type: STR_COELACANTH_GAS_CANNON
     customItemPreviewIndex: 0
-
   - type: STR_COELACANTH_AQUA_JET
     customItemPreviewIndex: 0
-
   - type: STR_COELACANTH_GAUSS
     customItemPreviewIndex: 1
-
   - type: STR_DISPLACER_SONIC
     customItemPreviewIndex: 2
-
   - type: STR_DISPLACER_PWT
     customItemPreviewIndex: 2
 

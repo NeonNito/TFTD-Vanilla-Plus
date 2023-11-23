@@ -175,6 +175,14 @@ extraStrings:
       STR_SLAUNCHER_CLIP_CONVERT: "Convert TSB Ammo"
       STR_CRYO: "Cryo-Therapy Bay"
       STR_VRTRN: "V.R. Training Facility"
+      STR_EMPTY_ROOM: "Empty Room"
+      STR_WORKSHOP_LARGE: "Large Workshop"
+      STR_LABORATORY_LARGE: "Large Laboratory"
+      MAP_FOREST: "Forest"
+      MAP_POLAR: "Polar"
+      MAP_DESERT: "Desert"
+      MAP_MOUNT: "Mountain"
+      MAP_JUNGLE: "Jungle"
 
       
   
@@ -254,6 +262,8 @@ extraStrings:
       STR_ZRBEXP_TEXT: "A rather crude creation, a chuck of Zrbite strapped to a nucleation exciter, we are able to create a devastating blast that can even punch through USO hulls."
       STR_CRYO_TEXT: "Utilizing the Aliens Cryogenic Technology, we are able to suspend our soldiers in an inactive state, which then allows the rejuvenation technologies imbedded in the beds to heal are soldiers at over 3x the rate of our normal methods."
       STR_VRTRN_TEXT: "By using the alien learning arrays, we are able to directly interface with the brains of our Aquanauts, allowing for training methods that outpace our more practical methods. Importantly, we are able to accommodate more Aquanauts at once using time slots and shift rotations."
+      STR_WORKSHOP_LARGE_TEXT: "The large workshop contains all the equipment necessary to manufacture equipment and a massive scale. 225 Technicians can occupy one large workshop, items under construction also consume space."
+      STR_LABORATORY_LARGE_TEXT: "Two hundred and twenty five scientists can work in a large laboratory block. Laboratories are equipped with all the latest technologies for research into materials biochemistry and weaponry. X-Come has access to all the best research labs throughout the world, both civilian and military."
 
 
       #NEW UFOS
@@ -354,6 +364,8 @@ extraStrings:
       MAP_LPIPES: "Abandoned Research Facility"
       MAP_SEABED2: "Seabed Mud"
       MAP_SEAMOUNT: "Seabed Mountain"
+
+
 
 
 # Murkhach@centrum.cz

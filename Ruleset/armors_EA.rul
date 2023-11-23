@@ -116,8 +116,11 @@ armors:
 
 
 #Alien Armors
+
+
   - type: AQUATOID_ARMOR_NAV
     spriteSheet: AQUA_NAV.PCK
+    spriteInv: AL_AQ
     corpseBattle:
       - STR_AQUATOID_CORPSE_NAV
     corpseGeo: STR_AQUATOID_CORPSE
@@ -141,6 +144,7 @@ armors:
     loftemps: 2
   - type: AQUATOID_ARMOR_CMD
     spriteSheet: AQUA_CMD.PCK
+    spriteInv: AL_AQ
     corpseBattle:
       - STR_AQUATOID_CORPSE_CMD
     corpseGeo: STR_AQUATOID_CORPSE
@@ -164,6 +168,7 @@ armors:
     loftemps: 2
   - type: AQUATOID_ARMOR_SQD
     spriteSheet: AQUA_SQD.PCK
+    spriteInv: AL_AQ
     corpseBattle:
       - STR_AQUATOID_CORPSE_SQD
     corpseGeo: STR_AQUATOID_CORPSE
@@ -187,6 +192,7 @@ armors:
     loftemps: 2
   - type: AQUATOID_ARMOR_MED
     spriteSheet: AQUA_MED.PCK
+    spriteInv: AL_AQ
     corpseBattle:
       - STR_AQUATOID_CORPSE_MED
     corpseGeo: STR_AQUATOID_CORPSE
@@ -210,6 +216,7 @@ armors:
     loftemps: 2
   - type: AQUATOID_ARMOR_TEC
     spriteSheet: AQUA_TEC.PCK
+    spriteInv: AL_AQ
     corpseBattle:
       - STR_AQUATOID_CORPSE_TEC
     corpseGeo: STR_AQUATOID_CORPSE
@@ -233,6 +240,7 @@ armors:
     loftemps: 2
   - type: TASOTH_ARMOR_SQD
     spriteSheet: TASOTH_SQD.PCK
+    spriteInv: AL_TA
     corpseBattle:
       - STR_TASOTH_CORPSE_SQD
     corpseGeo: STR_TASOTH_CORPSE
@@ -257,6 +265,7 @@ armors:
     loftemps: 3
   - type: GILLMAN_ARMOR_NAV
     spriteSheet: GILLMAN_NAV.PCK
+    spriteInv: AL_GM
     corpseBattle:
       - STR_GILLMAN_CORPSE_NAV
     corpseGeo: STR_GILLMAN_CORPSE
@@ -281,6 +290,7 @@ armors:
     loftemps: 3
   - type: GILLMAN_ARMOR_CMD
     spriteSheet: GILLMAN_CMD.PCK
+    spriteInv: AL_GM
     corpseBattle:
       - STR_GILLMAN_CORPSE_CMD
     corpseGeo: STR_GILLMAN_CORPSE
@@ -305,6 +315,7 @@ armors:
     loftemps: 3
   - type: GILLMAN_ARMOR_SQD
     spriteSheet: GILLMAN_SQD.PCK
+    spriteInv: AL_GM
     corpseBattle:
       - STR_GILLMAN_CORPSE_SQD
     corpseGeo: STR_GILLMAN_CORPSE
@@ -329,6 +340,7 @@ armors:
     loftemps: 3
   - type: GILLMAN_ARMOR_MED
     spriteSheet: GILLMAN_MED.PCK
+    spriteInv: AL_GM
     corpseBattle:
       - STR_GILLMAN_CORPSE_MED
     corpseGeo: STR_GILLMAN_CORPSE
@@ -353,6 +365,7 @@ armors:
     loftemps: 3
   - type: GILLMAN_ARMOR_TEC
     spriteSheet: GILLMAN_TEC.PCK
+    spriteInv: AL_GM
     corpseBattle:
       - STR_GILLMAN_CORPSE_TEC
     corpseGeo: STR_GILLMAN_CORPSE
@@ -377,6 +390,7 @@ armors:
     loftemps: 3
   - type: LOBSTERMAN_ARMOR_NAV
     spriteSheet: Lobsterman_NAV.PCK
+    spriteInv: AL_LOB
     corpseBattle:
       - STR_LOBSTERMAN_CORPSE_NAV
     corpseGeo: STR_LOBSTERMAN_CORPSE
@@ -401,6 +415,7 @@ armors:
     loftemps: 4
   - type: LOBSTERMAN_ARMOR_TEC
     spriteSheet: Lobsterman_TEC.PCK
+    spriteInv: AL_LOB
     corpseBattle:
       - STR_LOBSTERMAN_CORPSE_TEC
     corpseGeo: STR_LOBSTERMAN_CORPSE
@@ -425,6 +440,7 @@ armors:
     loftemps: 4
   - type: LOBSTERMAN_ARMOR_SQD
     spriteSheet: Lobsterman_SQD.PCK
+    spriteInv: AL_LOB
     corpseBattle:
       - STR_LOBSTERMAN_CORPSE_SQD
     corpseGeo: STR_LOBSTERMAN_CORPSE
@@ -449,6 +465,7 @@ armors:
     loftemps: 4
   - type: LOBSTERMAN_ARMOR_CMD
     spriteSheet: Lobsterman_CMD.PCK
+    spriteInv: AL_LOB
     corpseBattle:
       - STR_LOBSTERMAN_CORPSE_CMD
     corpseGeo: STR_LOBSTERMAN_CORPSE
@@ -473,6 +490,7 @@ armors:
     loftemps: 4
   - type: SLUGMAN_SLD
     spriteSheet: SLUGMAN_SLD.PCK
+    spriteInv: AL_SLG
     corpseBattle:
       - STR_SLUGMAN_CORPSE
     corpseGeo: STR_SLUGMAN_CORPSE
@@ -497,6 +515,7 @@ armors:
     loftemps: 3
   - type: SLUGMAN_CMD
     spriteSheet: SLUGMAN_CMD.PCK
+    spriteInv: AL_SLG
     corpseBattle:
       - STR_SLUGMAN_CORPSE_CMD
     corpseGeo: STR_SLUGMAN_CORPSE
@@ -521,6 +540,7 @@ armors:
     loftemps: 3
   - type: SLUGMAN_SQD
     spriteSheet: SLUGMAN_SQD.PCK
+    spriteInv: AL_SLG
     corpseBattle:
       - STR_SLUGMAN_CORPSE_SQD
     corpseGeo: STR_SLUGMAN_CORPSE
@@ -545,6 +565,7 @@ armors:
     loftemps: 3
   - type: SLUGMAN_TEC
     spriteSheet: SLUGMAN_TEC.PCK
+    spriteInv: AL_SLG
     corpseBattle:
       - STR_SLUGMAN_CORPSE_TEC
     corpseGeo: STR_SLUGMAN_CORPSE
@@ -569,6 +590,7 @@ armors:
     loftemps: 3
   - type: SLUGMAN_NAV
     spriteSheet: SLUGMAN_NAV.PCK
+    spriteInv: AL_SLG
     corpseBattle:
       - STR_SLUGMAN_CORPSE_NAV
     corpseGeo: STR_SLUGMAN_CORPSE
@@ -593,6 +615,7 @@ armors:
     loftemps: 3
   - type: SLUGMAN_MED
     spriteSheet: SLUGMAN_MED.PCK
+    spriteInv: AL_SLG
     corpseBattle:
       - STR_SLUGMAN_CORPSE_MED
     corpseGeo: STR_SLUGMAN_CORPSE
@@ -617,6 +640,7 @@ armors:
     loftemps: 3
   - type: MOLLUSCOID_ARM
     spriteSheet: Molluscoid.PCK
+    spriteInv: AL_MSC
     corpseBattle:
       - STR_MOLLUSCOID_CORPSE
     corpseGeo: STR_MOLLUSCOID_CORPSE
@@ -728,7 +752,7 @@ armors:
 
   - type: MUTANT_ARM
     spriteSheet: MUTANT.PCK
-    spriteInv: MUTANT2INV
+    spriteInv: AL_MUT
     allowInv: true
     corpseBattle:
       - STR_MUTANT_CORPSE
@@ -758,6 +782,7 @@ armors:
 
   - type: POLYP_ARM
     spriteSheet: POLYP.PCK
+    spriteInv: AL_PLY
     allowInv: false
     corpseBattle:
       - STR_POLYP_CORPSE
@@ -785,6 +810,7 @@ armors:
 
   - type: PROBE_ARM
     spriteSheet: PROBE.PCK
+    spriteInv: AL_PRB
     allowInv: false
     corpseItem: STR_PROBE_CORPSE
     frontArmor: 12
@@ -830,8 +856,13 @@ armors:
     
 
 #Eaiser TFTD
+  - type: DISPLACER_ARMOR
+    spriteInv: XC_DS.SPK
+  - type: COELACANTH_ARMOR
+    spriteInv: XC_CAJ
   - type: COELACANTH_ARMOR_PLASTIC
     spriteSheet: COELGAUSS.PCK
+    spriteInv: XC_CGU
     corpseBattle:
       - STR_COELGAUSS_CORPSE_1
       - STR_COELGAUSS_CORPSE_2
@@ -858,6 +889,7 @@ armors:
       - 1.5
     allowInv: false
   - type: AQUATOID_ARMOR0
+    spriteInv: AL_AQ
     damageModifier:
       - 1.0
       - 1.0
@@ -871,6 +903,7 @@ armors:
       - 1.0
       - 1.0
   - type: DEEP_ONE_ARMOR0
+    spriteInv: AL_DP
     damageModifier:
       - 1.0
       - 0.9
@@ -884,6 +917,7 @@ armors:
       - 1.0
       - 1.2
   - type: GILLMAN_ARMOR0
+    spriteInv: AL_GM
     damageModifier:
       - 1.0
       - 1.0
@@ -936,6 +970,7 @@ armors:
       - 0.0
       - 0.8
   - type: TASOTH_ARMOR0
+    spriteInv: AL_TA
     damageModifier:
       - 1.0
       - 0.8
@@ -948,6 +983,7 @@ armors:
       - 0.0
       - 0.85
   - type: CALCINITE_ARMOR0
+    spriteInv: AL_CAL
     damageModifier:
       - 1.0
       - 1.0
@@ -961,6 +997,7 @@ armors:
       - 1.0
       - 0.75
   - type: TENTACULAT_ARMOR0
+    spriteInv: AL_TEN
     damageModifier:
       - 1.0
       - 0.8
@@ -974,6 +1011,7 @@ armors:
       - 1.1
       - 1.0
   - type: LOBSTERMAN_ARMOR0
+    spriteInv: AL_LOB
     frontArmor: 5
     sideArmor: 13
     rearArmor: 18
@@ -991,6 +1029,7 @@ armors:
       - 1.1
       - 0.5
   - type: LOBSTERMAN_ARMOR1
+    spriteInv: AL_LOB
     frontArmor: 7
     sideArmor: 15
     rearArmor: 20
@@ -1008,6 +1047,7 @@ armors:
       - 1.1
       - 0.5
   - type: LOBSTERMAN_ARMOR2
+    spriteInv: AL_LOB
     frontArmor: 9
     sideArmor: 17
     rearArmor: 22
@@ -1025,6 +1065,7 @@ armors:
       - 1.1
       - 0.5
   - type: XARQUID_ARMOR0
+    spriteInv: AL_XR
     damageModifier:
       - 1.0
       - 1.0
@@ -1038,6 +1079,7 @@ armors:
       - 0.9
       - 1.0
   - type: BIODRONE_ARMOR0
+    spriteInv: AL_BIO
     damageModifier:
       - 1.0
       - 1.0
@@ -1051,6 +1093,7 @@ armors:
       - 0.9
       - 0.8
   - type: HALLUCINOID_ARMOR0
+    spriteInv: AL_HAL
     damageModifier:
       - 1.0
       - 0.6
@@ -1064,6 +1107,7 @@ armors:
       - 1.0
       - 1.0
   - type: TRISCENE_ARMOR0
+    spriteInv: AL_TRI
     damageModifier:
       - 1.0
       - 0.9

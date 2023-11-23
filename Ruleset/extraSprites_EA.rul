@@ -274,6 +274,22 @@ extraSprites:
       371: Resources/Basebits/basebit_pool.png 
       372: Resources/Basebits/BASEBIT_VRTRAIN.png
       373: Resources/Basebits/BASE_CRYO.png
+      374: Resources/Basebits/LWKS_TL1.png
+      375: Resources/Basebits/LWKS_TR2.png
+      376: Resources/Basebits/LWKS_BL3.png
+      377: Resources/Basebits/LWKS_BR4.png
+      378: Resources/Basebits/BASEBITS_Construction1.png
+      379: Resources/Basebits/BASEBITS_Construction2.png
+      380: Resources/Basebits/BASEBITS_Construction3.png
+      381: Resources/Basebits/BASEBITS_Construction4.png
+      382: Resources/Basebits/LRSH_TL1.png
+      383: Resources/Basebits/LRSH_TR2.png
+      384: Resources/Basebits/LRSH_BL3.png
+      385: Resources/Basebits/LRSH_BR4.png
+      386: Resources/Basebits/BASEBITS_Construction1.png
+      387: Resources/Basebits/BASEBITS_Construction2.png
+      388: Resources/Basebits/BASEBITS_Construction3.png
+      389: Resources/Basebits/BASEBITS_Construction4.png
       
   - type: INTICON.PCK
     files:
@@ -291,6 +307,14 @@ extraSprites:
       8: Resources/hits/smoke.gif
       56: Resources/hits/smoke2.gif  
  
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 105
+    height: 21
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/geoicons/geoicons.png
 
 #Armor INV Sprites
 
@@ -1166,6 +1190,26 @@ extraSprites:
     files:
       0: Resources/ufopaedia/UP078C.png
 
+  - type: UFOpaedia_LRGWRK.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/LWKS_UFO.png
+      
+  - type: UFOpaedia_LRGRSH.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ufopaedia/LRSH_UFO.png
+
+
+
+
+
+
+#
   - type: CustomArmorPreviews
     width: 228
     height: 20
@@ -1181,6 +1225,114 @@ extraSprites:
     subY: 40
     files:
       0: Resources/ui/Craft_Tank.png
+
+
+#ALIEN INV
+  - type: AL_AQ.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_AQ.png
+  - type: AL_BIO.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_BIO.png
+  - type: AL_CAL.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_CAL.png
+  - type: AL_DP.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_DP.png
+  - type: AL_GM.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_GM.png
+  - type: AL_HAL.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_HAL.png
+  - type: AL_LOB.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_LOB.png
+  - type: AL_TA.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_TA.png
+  - type: AL_TEN.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_TEN.png
+  - type: AL_TRI.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_TRI.png
+  - type: AL_XR.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_XR.png
+  - type: AL_ZOM.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_ZOM.png
+  - type: XC_CAJ.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/XC_CAJ.png
+  - type: XC_CGC.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/XC_CGC.png
+  - type: XC_CGU.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/XC_CGU.png
+  - type: XC_DPW.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/XC_DPW.png
+  - type: XC_DS.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/XC_DS.png
+  - type: NE_CIVC.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/NE_CIVC.png
+  - type: NE_CIVB.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/NE_CIVB.png
+  - type: NE_CIVBM.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/NE_CIVBM.png
+  - type: NE_CIVS.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/NE_CIVS.png
+  - type: AL_SLG.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_SLG.png
+  - type: AL_MUT.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_MUT.gif
+  - type: AL_PRB.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_PRB.png
+  - type: AL_PLY.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_PLY.png
+  - type: AL_MSC.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_MSC.png
+
 
 #NEW USO
 

@@ -43,6 +43,16 @@ globe: #done
           weight: 5
         - name: MSUNK
           weight: 5
+        - name: FOREST
+          weight: 0
+        - name: MOUNT
+          weight: 0
+        - name: DESERT
+          weight: 0
+        - name: POLAR
+          weight: 0
+        - name: JUNGLE
+          weight: 0
     - id: 1
       terrain:
         - name: PIPES

@@ -337,6 +337,17 @@ ufopaedia:
     image_id: POOLUPIMAGE
     requires:
       - STR_TRAINING_METHODS
+  - id: STR_WORKSHOP_LARGE
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_WORKSHOP_LARGE_TEXT
+    image_id: UFOpaedia_LRGWRK.png
+  - id: STR_LABORATORY_LARGE
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_LABORATORY_LARGE_TEXT
+    image_id: UFOpaedia_LRGRSH.png
+
   - id: STR_COELACANTH_GAUSS
     image_id: UFOpaedia_COELGAUSS.png
 

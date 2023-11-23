@@ -37,7 +37,7 @@ facilities:
     personnel: 225
     storage: 25
     mapName: XBASEB02
-    listOrder: 6250
+    listOrder: 220
   - type: STR_GENERAL_STORES_2
     spriteShape: 363
     spriteFacility: 363
@@ -47,7 +47,7 @@ facilities:
     monthlyCost: 2500
     storage: 225
     mapName: XBASEB10
-    listOrder: 6850
+    listOrder: 820
   - type: STR_CORRIDOR_NS
     spriteShape: 358
     spriteFacility: 360
@@ -77,7 +77,6 @@ facilities:
     listOrder: 6160
     requires:
       - STR_PROXY
-
   - type: STR_POOL
     requires:
       - STR_TRAINING_METHODS
@@ -119,7 +118,6 @@ facilities:
     mapName: XBASET03
     listOrder: 855
     missileAttraction: 0
-
   - type: STR_CRYO
     requires:
       - STR_ALIEN_CRYOGENICS
@@ -138,5 +136,27 @@ facilities:
     mapName: XBASEN02
     listOrder: 856
     missileAttraction: 0
-
-    
+  - type: STR_WORKSHOP_LARGE
+    listOrder: 410
+    spriteShape: 374
+    spriteFacility: 374
+    size: 2
+    buildCost: 4000000
+    refundValue: 3200000
+    buildTime: 33
+    monthlyCost: 350000
+    workshops: 225
+    rightClickActionType: 2
+    mapName: XBASEN03
+  - type: STR_LABORATORY_LARGE
+    listOrder: 310
+    spriteShape: 382
+    spriteFacility: 382
+    size: 2
+    buildCost: 3750000
+    refundValue: 3000000
+    buildTime: 39
+    monthlyCost: 300000
+    labs: 225
+    rightClickActionType: 3
+    mapName: XBASEN07
