@@ -5,7 +5,11 @@ terrains:
       - BLANKS
       - FOREST
     ambience: 67
-    script: THREEBIG
+    ambientVolume: 0.25
+    script: DEFAULT
+    depth: [0, 0]
+    music:
+      - GMTACDRY
     mapBlocks:
       - name: FOREST00
         width: 10
@@ -50,7 +54,12 @@ terrains:
     mapDataSets:
       - BLANKS
       - POLAR
-    script: THREEBIG
+    script: DEFAULT
+    depth: [0, 0]
+    ambience: 67
+    ambientVolume: 0.25
+    music:
+      - GMTACDRY
     mapBlocks:
       - name: POLAR00
         width: 10
@@ -103,6 +112,11 @@ terrains:
       - BLANKS
       - DESERT
     script: THREEBIG
+    depth: [0, 0]
+    ambience: 67
+    ambientVolume: 0.25
+    music:
+      - GMTACDRY
     mapBlocks:
       - name: DESERT00
         width: 10
@@ -148,6 +162,12 @@ terrains:
     mapDataSets:
       - BLANKS
       - MOUNT
+    script: THREEBIG
+    depth: [0, 0]
+    ambience: 67
+    ambientVolume: 0.25
+    music:
+      - GMTACDRY
     mapBlocks:
       - name: MOUNT00
         width: 10
@@ -197,6 +217,11 @@ terrains:
       - BLANKS
       - JUNGLE
     script: THREEBIG
+    depth: [0, 0]
+    ambience: 67
+    ambientVolume: 0.25
+    music:
+      - GMTACDRY
     mapBlocks:
       - name: JUNGLE00
         width: 10

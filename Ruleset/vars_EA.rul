@@ -1,0 +1,14 @@
+allowCountriesToCancelAlienPact: true
+stunningImprovesMorale: true
+surrenderMode: 2
+turnAIUseGrenade: 1
+turnAIUseBlaster: 2
+customTrainingFactor: 50
+extendedRunningCost: true
+extendedItemReloadCost: true
+bughuntMinTurn: 20
+bughuntMaxEnemies: 3
+bughuntRank: -1 # no VIPs
+bughuntLowMorale: 50
+bughuntTimeUnitsLeft: 65
+fakeUnderwaterBaseUnlockResearch: STR_ALIENS_ONLY

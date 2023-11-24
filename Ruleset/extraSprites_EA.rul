@@ -316,6 +316,14 @@ extraSprites:
     files:
       0: Resources/geoicons/geoicons.png
 
+#Hybrid Globe
+  - type: TEXTURE.DAT
+    width: 577
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/MINE.gif
 #Armor INV Sprites
 
   - type: HVYDIVMANF0.SPK
@@ -1204,7 +1212,48 @@ extraSprites:
     files:
       0: Resources/ufopaedia/LRSH_UFO.png
 
-
+  - type: oxceLinks
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: resources/Extended/oxceLinks.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ui.png
+  - type: DETBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/DETBORD.png
+  - type: MEDIBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/MEDIBORD.png
+  - type: SCANBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/SCANBORD.png
+  - type: UNIBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/UNIBORD.png
+  - type: GEOBORD.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/ui/geograph/GEOBORD.png
+  - type: INTERWIN.DAT
+    width: 160
+    height: 96
+    singleImage: true
+    files:
+      0: resources/ui/geograph/INTERWIN.png
 
 
 

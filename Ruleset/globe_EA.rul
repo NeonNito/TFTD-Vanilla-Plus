@@ -1,33 +1,122 @@
-globe: #done
-  data: GEODATA/WORLD.DAT
-  oceanPalette: 1
-  countryColor: 245
-  cityColor: 239
-  baseColor: 239
-  lineColor: 111
-  polylines:
-    - [28, -30.375, 29, -27, 29, -24, 31, -21, 30.625, -19, 30.625, -16, 33, -18, 34, -15, 32, -11, 31, -8, 31, -3]
-    - [34, -15, 36, -9, 39, -8, 39, -5, 35, -4]
-    - [308.625, 0, 306, 4, 303, 6, 300, 6.5, 296, 8, 292, 7.5]
-    - [306, 4, 306, 6]
-    - [300, 6.5, 299, 9]
-    - [270, -30, 266, -33, 267, -35, 267, -37, 265, -40]
-    - [266, -33, 264, -35]
-    - [267, -37, 269, -38, 269.5, -41]
-    - [66.25, -24, 67, -26, 69, -29, 74, -31, 77, -34, 76.625, -35, 77, -39]
-    - [72, -20, 74, -23, 74.5, -26, 75, -29, 74, -31, 77, -34, 80, -35, 82, -37]
-    - [28.375, -42, 27, -42.5, 26, -41.5, 24, -41, 22, -41, 20, -42, 19, -42]
-    - [20, -42, 19, -43]
-    - [2.25, -4, 9, -7, 8, -9.625, 8, -11, 6, -13, 4, -14, 1, -14.5, 358, -13, 357, -11]
-    - [9, -7, 11, -9, 13, -10, 15, -9.5]
-    - [40.625, -39, 43, -39, 46, -38.625, 49, -38, 51, -39, 53, -39, 55, -40, 58, -41, 60, -43, 63, -44]
-    - [49, -38, 51, -37, 53, -34]
-    - [120, -36, 118, -35, 116, -34, 115, -33, 113, -32.5, 112, -33, 111, -34, 110, -36, 109.5, -38, 108.5, -38.625, 107, -39, 105, -38.5, 104.5, -38.5, 104.5, -38, 104, -36]
-    - [129.75, 15.125, 131, 16, 132, 16.25, 132.25, 17, 132, 18, 131, 19, 130, 19.125, 128, 18.5, 126.5, 19, 126, 20]
-    - [132, 31, 133, 30, 135, 29.5, 137, 30, 139, 29.625, 140, 29, 140.5, 28, 141, 26]
+globe: 
+  lineColor: 160 #was 168
+  oceanShading: false
+  oceanPalette: 10
   textures:
-
     - id: 0
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 75
+        - name: FOREST
+          weight: 25
+    - id: 1
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 2
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 3
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 4
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 5
+      fakeUnderwater: true
+      terrain:
+        - name: MOUNT
+          weight: 50
+        - name: MOUNT
+          weight: 25
+        - name: MOUNT
+          weight: 25
+    - id: 6
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 7
+      fakeUnderwater: true
+      terrain:
+        - name: DESERT
+          weight: 50
+        - name: DESERT
+          weight: 25
+        - name: DESERT
+          weight: 25
+    - id: 8
+      fakeUnderwater: true
+      terrain:
+        - name: DESERT
+          weight: 75
+        - name: DESERT
+          weight: 25
+    - id: 9
+      fakeUnderwater: true
+      terrain:
+        - name: POLAR
+          weight: 50
+        - name: POLAR
+          weight: 25
+        - name: POLAR
+          weight: 25
+    - id: 10
+      fakeUnderwater: true
+      terrain:
+        - name: JUNGLE
+          weight: 50
+        - name: JUNGLE
+          weight: 25
+        - name: JUNGLE
+          weight: 25
+    - id: 11
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 12
+      fakeUnderwater: true
+      terrain:
+        - name: POLAR
+          weight: 50
+        - name: POLAR
+          weight: 25
+        - name: POLAR
+          weight: 25
+    - id: 13 #empty
       terrain:
         - name: SEABED2
           weight: 75
@@ -43,17 +132,7 @@ globe: #done
           weight: 5
         - name: MSUNK
           weight: 5
-        - name: FOREST
-          weight: 0
-        - name: MOUNT
-          weight: 0
-        - name: DESERT
-          weight: 0
-        - name: POLAR
-          weight: 0
-        - name: JUNGLE
-          weight: 0
-    - id: 1
+    - id: 14 #empty
       terrain:
         - name: PIPES
           weight: 50
@@ -69,7 +148,7 @@ globe: #done
           weight: 5
         - name: MSUNK
           weight: 5
-    - id: 2
+    - id: 15 #light
       terrain:
         - name: PLANE
           weight: 50
@@ -85,7 +164,23 @@ globe: #done
           weight: 5
         - name: MSUNK
           weight: 5
-    - id: 3
+    - id: 16 #Medium
+      terrain:
+        - name: MSUNK
+          weight: 50
+        - name: SEABED
+          weight: 25
+        - name: CORAL
+          weight: 25
+        - name: SEAMOUNT
+          weight: 25
+        - name: PLANE
+          weight: 5
+        - name: PIPES
+          weight: 5
+        - name: GAL
+          weight: 5
+    - id: 17 #Deep
       terrain:
         - name: ATLAN
           weight: 50
@@ -103,75 +198,7 @@ globe: #done
           weight: 5
         - name: MSUNK
           weight: 5
-    - id: 4
-      terrain:
-        - name: MU
-          weight: 50
-        - name: SEABED
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: GAL
-          weight: 5
-        - name: MSUNK
-          weight: 5
-    - id: 5
-      terrain:
-        - name: GAL
-          weight: 50
-        - name: SEABED2
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: MSUNK
-          weight: 5
-    - id: 6
-      terrain:
-        - name: MSUNK
-          weight: 50
-        - name: SEABED
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: GAL
-          weight: 5
-    - id: 7
-      terrain:
-        - name: VOLC
-          weight: 50
-        - name: SEABED
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: GAL
-          weight: 5
-        - name: MSUNK
-          weight: 5
-    - id: 8
+    - id: 18 #Coral 1
       terrain:
         - name: CORAL
           weight: 75
@@ -187,74 +214,10 @@ globe: #done
           weight: 5
         - name: MSUNK
           weight: 5
-    - id: 9
-      terrain:
-        - name: VOLC
-          weight: 50
-        - name: SEABED2
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: GAL
-          weight: 5
-        - name: MSUNK
-          weight: 5
-    - id: 10
-      terrain:
-        - name: MSUNK
-          weight: 50
-        - name: SEABED
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: GAL
-          weight: 5
-    - id: 11
-      terrain:
-        - name: PIPES
-          weight: 50
-        - name: SEABED
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: GAL
-          weight: 5
-        - name: MSUNK
-          weight: 5
-    - id: 12
-      terrain:
-        - name: MU
-          weight: 50
-        - name: SEABED
-          weight: 25
-        - name: CORAL
-          weight: 25
-        - name: SEAMOUNT
-          weight: 25
-        - name: PLANE
-          weight: 5
-        - name: PIPES
-          weight: 5
-        - name: GAL
-          weight: 5
-        - name: MSUNK
-          weight: 5
+    # - id: 19 #Not Used
+    #   terrain:
+    #     - name: OCEAN
+    #       weight: 10
     - id: -1
       deployments:
         STR_PORT_TERROR: 100
@@ -270,4 +233,60 @@ globe: #done
         STR_CARGO_SHIP_P2: 25
         STR_CRUISE_SHIP_P1: 25
         STR_CRUISE_SHIP_P2: 25
+
+customPalettes:
+  - type: PALETTE_HYBRID_GEOSCAPE
+    target: PAL_GEOSCAPE
+    palette: &newGlobeColors
+      16: [152, 176, 176] #Grey Mountain Colors
+      17: [144, 168, 168]
+      18: [136, 160, 160]
+      19: [128, 148, 148]
+      20: [128, 140, 140]
+      21: [112, 128, 128]
+      22: [104, 120, 120]
+      23: [96, 108, 108]
+      24: [84, 100, 100]
+      25: [76, 88, 88]
+      26: [68, 80, 80]
+      27: [60, 68, 68]
+      28: [52, 60, 60]
+      29: [44, 52, 52]
+      30: [36, 40, 40]
+      31: [28, 32, 32]
+      32: [176, 148, 68] #Desert Brown/yellow colors
+      33: [168, 140, 68]
+      34: [160, 132, 68]
+      35: [148, 124, 68]
+      36: [140, 116, 68]
+      37: [128, 108, 64]
+      38: [120, 100, 64]
+      39: [108, 92, 60]
+      40: [100, 84, 56]
+      41: [88, 76, 52]
+      42: [80, 68, 48]
+      43: [68, 60, 44]
+      44: [60, 52, 40]
+      45: [52, 44, 36]
+      46: [40, 36, 28]
+      47: [32, 28, 24]
+      224: [116, 156, 44] # Better green shades from UFO Geoscape palette
+      225: [100, 148, 36]
+      226: [88, 140, 32]
+      227: [76, 132, 28]
+      228: [60, 124, 24]
+      229: [52, 116, 20]
+      230: [40, 108, 32] # 
+      231: [28, 104, 12]
+      232: [20, 96, 8]
+      233: [12, 88, 4]
+      234: [4, 80, 4]
+      235: [4, 72, 4] # 
+      236: [0, 64, 8]
+      237: [0, 56, 8] # 
+      238: [0, 48, 8]
+      239: [0, 44, 12]
+
+   
+
 
