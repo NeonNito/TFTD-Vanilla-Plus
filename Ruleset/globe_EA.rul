@@ -118,7 +118,7 @@ globe:
           weight: 25
     - id: 13 #empty
       terrain:
-        - name: SEABED2
+        - name: SEABED
           weight: 75
         - name: CORAL
           weight: 25
@@ -153,7 +153,7 @@ globe:
         - name: PLANE
           weight: 50
         - name: SEABED2
-          weight: 25
+          weight: 5
         - name: CORAL
           weight: 25
         - name: SEAMOUNT
@@ -184,7 +184,7 @@ globe:
       terrain:
         - name: ATLAN
           weight: 50
-        - name: SEABED2
+        - name: SEABED
           weight: 25
         - name: CORAL
           weight: 25
@@ -218,16 +218,16 @@ globe:
     #   terrain:
     #     - name: OCEAN
     #       weight: 10
-    - id: -1
+    - id: -15
       deployments:
         STR_PORT_TERROR: 100
-    - id: -2
+    - id: -16
       deployments:
         STR_ISLAND_TERROR: 100
-    - id: -3
+    - id: -17
       deployments:
         STR_ARTIFACT_SITE_P1: 100
-    - id: -4
+    - id: -18
       deployments:
         STR_CARGO_SHIP_P1: 25
         STR_CARGO_SHIP_P2: 25

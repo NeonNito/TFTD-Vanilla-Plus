@@ -157,13 +157,13 @@ facilities:
 
   - type: STR_VRTRN
     requires:
-      - STR_TRAINING_METHODS
+      - STR_ALIEN_LEARNING_ARRAYS
     buildCostItems:
      STR_ALIEN_LEARNING_ARRAYS:
         build: 4
         refund: 2
     spriteShape: 1
-    spriteFacility: 371
+    spriteFacility: 372
     buildCost: 1275000
     buildTime: 28
     monthlyCost: 58000
@@ -412,6 +412,8 @@ facilities:
   - type: STR_ALIEN_CONTAINMENT
     spriteShape: 1
     spriteFacility: 25
+    requires:
+      - STR_ALIEN_CONTAINMENT
     buildCost: 400000
     refundValue: 40000
     buildTime: 18
@@ -448,7 +450,7 @@ facilities:
     removalTime: 1
   - type: STR_SONIC_DEFENSES
     requires:
-      - STR_SONIC_DEFENSES
+      - STR_SONICWEAPADV
     spriteShape: 3
     spriteFacility: 27
     buildCost: 600000
@@ -508,7 +510,7 @@ facilities:
     removalTime: 1
   - type: STR_MC_GENERATOR
     requires:
-      - STR_MC_GENERATOR
+      - STR_MCONT
     mind: true
     spriteShape: 2
     spriteFacility: 30
@@ -526,7 +528,7 @@ facilities:
     removalTime: 1
   - type: STR_MC_LAB
     requires:
-      - STR_MC_LAB
+      - STR_MCONT
     spriteShape: 1
     spriteFacility: 31
     buildCost: 750000

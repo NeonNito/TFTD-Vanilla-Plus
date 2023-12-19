@@ -96,6 +96,56 @@ crafts:
     allowLanding: false
     listOrder: 205
 
+  - type: STR_TYPHON
+    sprite: 23
+    marker: 18
+    fuelMax: 2000
+    damageMax: 200
+    speedMax: 1800
+    accel: 2
+    soldiers: 3
+    vehicles: 6
+    costRent: 425000
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+    maxDepth: 2
+    listOrder: 150
+    requires:
+      - STR_MORAY_RSH
+    allowLanding: True
+    battlescapeTerrainData:
+      name: TYPHON
+      mapDataSets:
+        - BLANKS
+        - TYPHON
+      mapBlocks:
+        - name: TYPHON
+          width: 10
+          length: 20
+    deployment:
+      - [3, 2, 1, 4]
+      - [4, 2, 1, 4]
+      - [5, 2, 1, 4]
+      - [8, 6, 1, 4]
+      - [3, 6, 1, 4]
+      - [4, 6, 1, 4]
+      - [5, 6, 1, 4]
+      - [8, 7, 1, 4]
+      - [3, 7, 1, 4]
+      - [4, 7, 1, 4]
+      - [5, 7, 1, 4]
+      - [8, 8, 1, 4]
+      - [3, 8, 1, 4]
+      - [4, 8, 1, 4]
+      - [5, 8, 1, 4]
+      - [8, 9, 1, 4]
+      - [3, 9, 1, 4]
+      - [4, 9, 1, 4]
+      - [5, 9, 1, 4]
+
+
+
   - type: STR_NEPTUNE
     sprite: 23
     marker: 18

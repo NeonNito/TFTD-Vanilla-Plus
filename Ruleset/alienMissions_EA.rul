@@ -381,6 +381,7 @@ alienMissions:
         STR_SLUGMAN: 20
         STR_TASOTH: 20
         STR_LOBSTERMAN: 20
+        STR_SLUGMAN: 20
     spawnUfo: STR_DREADNOUGHT
     waves:
       - ufo: STR_MFTD_SHRIMP # ____DONE

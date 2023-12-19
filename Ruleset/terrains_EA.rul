@@ -1,5 +1,91 @@
 terrains:
 
+  - name: ABASESMALL
+    mapDataSets:
+      - BLANKS
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+      - UEXT2
+      - UEXT3
+      - UINT1
+      - UINT2
+      - UINT3
+    ambience: 67
+    ambientVolume: 0.25
+    script: DEFAULT
+    depth: [3, 3]
+    music:
+      - GMTACDRY
+    mapBlocks:
+      - name: ABSML00
+        width: 10
+        length: 10
+        groups: 1
+        revealedFloors: 1
+      - name: ABSML01
+        width: 10
+        length: 10
+        groups: 4
+      - name: ABSML02
+        width: 10
+        length: 10
+        groups: 3
+      - name: ABSML03
+        width: 10
+        length: 10
+        groups: 4
+      - name: ABSML04
+        width: 10
+        length: 10
+        groups: 3
+      - name: ABSML05
+        width: 10
+        length: 10
+        groups: 4
+      - name: ABSML06
+        width: 10
+        length: 10
+        groups: 3
+      - name: ABSML07
+        width: 10
+        length: 10
+        groups: 2
+      - name: ABSML08
+        width: 10
+        length: 10
+        groups: 4
+      - name: ABSML09
+        width: 10
+        length: 10
+        groups: 3
+      - name: ABSML10
+        width: 10
+        length: 10
+        groups: 4
+      - name: ABSML11
+        width: 10
+        length: 20
+        groups: 5
+      - name: ABSML12
+        width: 20
+        length: 10
+        groups: 5
+      - name: ABSML13
+        width: 20
+        length: 20
+        groups: 5
+      - name: ABSML14
+        width: 20
+        length: 10
+        groups: 5
+      - name: ABSML15
+        width: 10
+        length: 20
+        groups: 5
+
+
   - name: FOREST
     mapDataSets:
       - BLANKS
@@ -273,7 +359,9 @@ terrains:
       - XBASES03
       - XBASES04
       - XBASES05
+      - GRUNGE1_CRYO
       - XBITS
+
     mapBlocks:
       - name: XBASES00
         width: 10
@@ -420,7 +508,12 @@ terrains:
       - name: XBASEN10
         width: 10
         length: 10
-      
+      - name: XBASEN11
+        width: 10
+        length: 10
+      - name: XBASEN12
+        width: 10
+        length: 10
   
 
 # [=] Ocean Trench Buried Base [=] (Terror Site - Part 1 of 2)

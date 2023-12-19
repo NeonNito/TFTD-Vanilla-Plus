@@ -3,7 +3,7 @@ manufacture:
   - name: STR_TFTD_ACCEL
     category: STR_WEAPON
     requires:
-      - STR_TFTD_ACCEL
+      - STR_GAUSSWEAPADV
     space: 4
     time: 850
     cost: 64000
@@ -14,7 +14,7 @@ manufacture:
   - name: STR_TFTD_ACCEL_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_TFTD_ACCEL_CLIP
+      - STR_GAUSSWEAPADV
     space: 4
     time: 150
     cost: 20000
@@ -23,7 +23,7 @@ manufacture:
   - name: STR_TFTD_VOLLEY
     category: STR_WEAPON
     requires:
-      - STR_TFTD_VOLLEY
+      - STR_GAUSSWEAPADV
     space: 3
     time: 750
     cost: 42000
@@ -32,7 +32,7 @@ manufacture:
   - name: STR_TFTD_VOLLEY_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_TFTD_VOLLEY_CLIP
+      - STR_GAUSSWEAPADV
     space: 4
     time: 80
     cost: 4000
@@ -41,7 +41,7 @@ manufacture:
   - name: STR_GMPISTOL
     category: STR_WEAPON
     requires:
-      - STR_GMPISTOL
+      - STR_GAUSSWEAP
     space: 2
     time: 360
     cost: 10000
@@ -49,7 +49,7 @@ manufacture:
   - name: STR_GMPISTOL_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_GMPISTOL_CLIP
+      - STR_GAUSSWEAP
     space: 2
     time: 50
     cost: 1500
@@ -58,7 +58,7 @@ manufacture:
   - name: STR_GSMG
     category: STR_WEAPON
     requires:
-      - STR_GSMG
+      - STR_GAUSSWEAP
     space: 3
     time: 300
     cost: 15000
@@ -66,7 +66,7 @@ manufacture:
   - name: STR_GSMG_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_GSMG_CLIP
+      - STR_GAUSSWEAP
     space: 4
     time: 45
     cost: 2000
@@ -75,7 +75,7 @@ manufacture:
   - name: STR_GLMG
     category: STR_WEAPON
     requires:
-      - STR_GLMG
+      - STR_GAUSSWEAPADV
     space: 4
     time: 700
     cost: 32000
@@ -83,7 +83,7 @@ manufacture:
   - name: STR_GLMG_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_GLMG_CLIP
+      - STR_GAUSSWEAPADV
     space: 4
     time: 70
     cost: 4000
@@ -179,7 +179,7 @@ manufacture:
     category: STR_WEAPON
     listOrder: 2911
     requires:
-      - STR_ION_CANNON
+      - STR_IONWEAP
     space: 8
     time: 1400
     cost: 75000
@@ -191,7 +191,7 @@ manufacture:
     category: STR_AMMUNITION
     listOrder: 2912
     requires:
-      - STR_ION_CANNON_CLIP
+      - STR_IONWEAP
     space: 4
     time: 1400
     cost: 50000
@@ -203,7 +203,7 @@ manufacture:
     category: STR_WEAPON
     listOrder: 2913
     requires:
-      - STR_ION_PISTOL
+      - STR_IONWEAP
     space: 8
     time: 1000
     cost: 45000
@@ -215,7 +215,7 @@ manufacture:
     category: STR_AMMUNITION
     listOrder: 2914
     requires:
-      - STR_ION_PISTOL_CLIP
+      - STR_IONWEAP
     space: 4
     time: 800
     cost: 25000
@@ -226,7 +226,7 @@ manufacture:
   - name: STR_LASER_PISTOL
     category: STR_WEAPON
     requires:
-      - STR_LASER_PISTOL
+      - STR_LASERWEAP
     space: 1
     time: 200
     cost: 10000
@@ -237,7 +237,7 @@ manufacture:
   - name: STR_LASER_CARBINE
     category: STR_WEAPON
     requires:
-      - STR_LASER_CARBINE
+      - STR_LASERWEAP
     space: 2
     time: 250
     cost: 15000
@@ -248,7 +248,7 @@ manufacture:
   - name: STR_HEAVY_LASER
     category: STR_WEAPON
     requires:
-      - STR_HEAVY_LASER
+      - STR_LASERWEAP
     space: 3
     time: 300
     cost: 20000
@@ -284,7 +284,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_PISTOL
     category: STR_WEAPON
     requires:
-      - STR_RSH_HSONIC_PISTOL
+      - STR_SONICWEAP
     space: 3
     time: 600
     requiredItems:
@@ -297,7 +297,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_PISTOL_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_RSH_HSONIC_PISTOL
+      - STR_SONICWEAP
     space: 3
     time: 60
     requiredItems:
@@ -310,7 +310,7 @@ manufacture:
   - name: STR_SNC_APISTOL
     category: STR_WEAPON
     requires:
-      - STR_SNC_APISTOL_RSH
+      - STR_SONICWEAPADV
     space: 3
     time: 600
     requiredItems:
@@ -323,7 +323,7 @@ manufacture:
   - name: STR_SNC_APISTOL_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_SNC_APISTOL_RSH
+      - STR_SONICWEAPADV
     space: 3
     time: 60
     requiredItems:
@@ -336,7 +336,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_PISTOL_CLIP_CONV
     category: STR_AMMUNITION
     requires:
-      - STR_RSH_HSONIC_PISTOL
+      - STR_SONICWEAP
     space: 3
     time: 30
     requiredItems:
@@ -349,7 +349,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_RIFLE
     category: STR_WEAPON
     requires:
-      - STR_RSH_HSONIC_RIFLE
+      - STR_SONICWEAP
     space: 3
     time: 820
     requiredItems:
@@ -362,7 +362,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_RIFLE_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_RSH_HSONIC_RIFLE
+      - STR_SONICWEAP
     space: 3
     time: 80
     requiredItems:
@@ -375,7 +375,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_RIFLE_CLIP_CONV
     category: STR_AMMUNITION
     requires:
-      - STR_RSH_HSONIC_PISTOL
+      - STR_SONICWEAP
     space: 3
     time: 40
     requiredItems:
@@ -388,7 +388,7 @@ manufacture:
   - name: STR_SNC_ARIFLE
     category: STR_WEAPON
     requires:
-      - STR_SNC_ARIFLE_RSH
+      - STR_SONICWEAPADV
     space: 3
     time: 820
     requiredItems:
@@ -402,7 +402,7 @@ manufacture:
   - name: STR_SNC_ARIFLE_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_SNC_ARIFLE_RSH
+      - STR_SONICWEAPADV
     space: 3
     time: 80
     requiredItems:
@@ -415,7 +415,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_CANNON
     category: STR_WEAPON
     requires:
-      - STR_RSH_HSONIC_CANNON
+      - STR_SONICWEAP
     space: 3
     time: 1000
     requiredItems:
@@ -428,7 +428,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_CANNON_CLIP
     category: STR_AMMUNITION
     requires:
-      - STR_RSH_HSONIC_CANNON
+      - STR_SONICWEAP
     space: 3
     time: 80
     requiredItems:
@@ -441,7 +441,7 @@ manufacture:
   - name: STR_TFTD_HSONIC_CANNON_CLIP_CONV
     category: STR_AMMUNITION
     requires:
-      - STR_RSH_HSONIC_CANNON
+      - STR_SONICWEAP
     space: 3
     time: 40
     requiredItems:
@@ -492,7 +492,7 @@ manufacture:
   - name: STR_LLAUNCHER_CLIP #Disruptor Ammo #
     category: STR_AMMUNITION
     requires:
-      - STR_LLAUNCHER_CLIP
+      - STR_LLAUNCHER
     space: 3
     time: 220
     cost: 50000
@@ -503,7 +503,7 @@ manufacture:
   - name: STR_LLAUNCHER_CLIP_CONVERT #Disruptor Ammo CONV#
     category: STR_AMMUNITION
     requires:
-      - STR_LLAUNCHER_CLIP
+      - STR_LLAUNCHER
     space: 3
     time: 110
     cost: 15000
@@ -516,8 +516,7 @@ manufacture:
   - name: STR_SLAUNCHER #Thermal Shok Launcher #
     category: STR_WEAPON
     requires:
-      - STR_THERMAL_SHOK_LAUNCHER
-      - STR_THERMAL_SHOK_BOMB
+      - STR_SLAUNCHER
     space: 3
     time: 900
     cost: 78000
@@ -528,8 +527,7 @@ manufacture:
   - name: STR_SLAUNCHER_CLIP #Thermal Shok Bomb #
     category: STR_AMMUNITION
     requires:
-      - STR_THERMAL_SHOK_LAUNCHER
-      - STR_THERMAL_SHOK_BOMB
+      - STR_SLAUNCHER
     space: 2
     time: 200
     cost: 7000
@@ -540,7 +538,7 @@ manufacture:
   - name: STR_SLAUNCHER_CLIP_CONVERT #Thermal Shok Bomb #
     category: STR_AMMUNITION
     requires:
-      - STR_SLAUNCHER_CLIP
+      - STR_SLAUNCHER
     space: 2
     time: 100
     cost: 2000
@@ -549,6 +547,28 @@ manufacture:
     producedItems:
       STR_SLAUNCHER_CLIP: 1
     listOrder: 1534
+
+  - name: STR_SLAUNCHER_CLIP_ZRB #Thermal Shok Bomb #
+    category: STR_AMMUNITION
+    requires:
+      - STR_SLAUNCHER
+    space: 2
+    time: 200
+    cost: 7000
+    requiredItems:
+      STR_ZRBITE: 2
+    listOrder: 1535
+
+  - name: STR_SLAUNCHER_CLIP_DYE #Thermal Shok Bomb #
+    category: STR_AMMUNITION
+    requires:
+      - STR_SLAUNCHER
+    space: 2
+    time: 200
+    cost: 7000
+    requiredItems:
+      STR_ZRBITE: 2
+    listOrder: 1536
 
   - name: STR_MORAY
     category: STR_CRAFT
@@ -616,3 +636,274 @@ manufacture:
   - name: STR_THERMAL_SHOK_BOMB
     requires:
       - STR_ALIENS_ONLY
+
+#BASE GAME
+  - name: STR_PWT_CANNON    #P.W.T. Cannon #
+    category: STR_CRAFT_WEAPON
+    requires:
+     - STR_PWTWEAP
+    space: 6
+    time: 400
+    cost: 242000
+  - name: STR_PULSE_WAVE_TORPEDOES    #P.W.T Ammo #
+    category: STR_CRAFT_AMMUNITION
+    requires:
+     - STR_PWTWEAP
+    space: 6
+    time: 600
+    cost: 28000
+    requiredItems:
+      STR_ZRBITE: 4
+  - name: STR_GAUSS_CANNON    #Gauss Cannon #
+    category: STR_CRAFT_WEAPON
+    requires:
+     - STR_GAUSSWEAPADV
+    space: 6
+    time: 300
+    cost: 182000
+  - name: STR_GAUSS_CANNON_AMMO    #Gauss Cannon Ammo #
+    category: STR_AMMUNITION
+    requires:
+     - STR_GAUSSWEAPADV
+    space: 2
+    time: 5
+    cost: 200
+  - name: STR_SONIC_OSCILLATOR    #Sonic Oscillator #
+    category: STR_CRAFT_WEAPON
+    requires:
+     - STR_SONICWEAPADV
+    space: 8
+    time: 500
+    cost: 226000
+    requiredItems:
+      STR_ZRBITE: 15
+  - name: STR_COELACANTH_GAUSS    #Coelacanth/Gauss #
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+     - STR_GAUSSWEAPADV
+    space: 25
+    time: 1200
+    cost: 500000
+  - name: STR_DISPLACER_SONIC    #Displacer /Sonic #
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+     - STR_SONICWEAPADV
+     - STR_NEW_FIGHTER_FLYING_SUB
+    space: 30
+    time: 1200
+    cost: 850000
+    requiredItems:
+      STR_ZRBITE: 30
+      STR_AQUA_PLASTICS: 5
+  - name: STR_DISPLACER_PWT    #Displacer /P. W. T. #
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+     - STR_PWTWEAP
+     - STR_NEW_FIGHTER_FLYING_SUB
+    space: 30
+    time: 1400
+    cost: 900000
+    requiredItems:
+      STR_ZRBITE: 25
+      STR_AQUA_PLASTICS: 8
+  - name: STR_HWP_DISPLACER_PWT    #P.W. Torpedo #
+    category: STR_AMMUNITION
+    requires:
+     - STR_PWTWEAP
+     - STR_NEW_FIGHTER_FLYING_SUB
+    space: 25
+    time: 400
+    cost: 15000
+    requiredItems:
+      STR_ZRBITE: 5
+      STR_AQUA_PLASTICS: 8
+  - name: STR_GAUSS_PISTOL    #Gauss Pistol #
+    category: STR_WEAPON
+    requires:
+     - STR_GAUSSWEAP
+    space: 2
+    time: 300
+    cost: 8000
+  - name: STR_GAUSS_PISTOL_CLIP    #Gauss Pistol Clip #
+    category: STR_AMMUNITION
+    requires:
+     - STR_GAUSSWEAP
+    space: 2
+    time: 20
+    cost: 1000
+  - name: STR_GAUSS_RIFLE    #Gauss Rifle #
+    category: STR_WEAPON
+    requires:
+     - STR_GAUSSWEAP
+    space: 3
+    time: 400
+    cost: 20000
+  - name: STR_GAUSS_RIFLE_CLIP    #Gauss Rifle Clip #
+    category: STR_AMMUNITION
+    requires:
+     - STR_GAUSSWEAP
+    space: 4
+    time: 45
+    cost: 2000
+  - name: STR_HEAVY_GAUSS    #Heavy Gauss #
+    category: STR_WEAPON
+    requires:
+     - STR_GAUSSWEAPADV
+    space: 4
+    time: 700
+    cost: 32000
+  - name: STR_HEAVY_GAUSS_CLIP    #Heavy Gauss Clip #
+    category: STR_AMMUNITION
+    requires:
+     - STR_GAUSSWEAPADV
+    space: 4
+    time: 70
+    cost: 4000
+  - name: STR_PARTICLE_DISTURBANCE_SENSOR    #Particle Disturbance Sensor #
+    category: STR_EQUIPMENT
+    requires:
+     - STR_PARTICLE_DISTURBANCE_SENSOR
+    space: 4
+    time: 220
+    cost: 34000
+  - name: STR_MEDI_KIT    #Medi-Kit #
+    category: STR_EQUIPMENT
+    requires:
+     - STR_MEDI_KIT
+    space: 4
+    time: 420
+    cost: 28000
+  - name: STR_MC_DISRUPTOR    #M.C. Disruptor #
+    category: STR_EQUIPMENT
+    requires:
+     - STR_MCONT
+    space: 4
+    time: 500
+    cost: 160000
+    requiredItems:
+      STR_ZRBITE: 2
+      STR_AQUA_PLASTICS: 1
+  - name: STR_MC_READER    #M.C. Reader #
+    category: STR_EQUIPMENT
+    requires:
+     - STR_MCONT
+    space: 4
+    time: 1200
+    cost: 262000
+    requiredItems:
+      STR_ZRBITE: 1
+  - name: STR_PLASTIC_AQUA_ARMOR    #Plastic Aqua-Armour #
+    category: STR_PERSONAL_ARMOR
+    requires:
+     - STR_PLASTIC_AQUA_ARMOR
+    space: 12
+    time: 800
+    cost: 22000
+    requiredItems:
+      STR_AQUA_PLASTICS: 4
+  - name: STR_ION_ARMOR    #Ion Armour #
+    category: STR_PERSONAL_ARMOR
+    requires:
+     - STR_ION_ARMOR
+    space: 16
+    time: 1000
+    cost: 42000
+    requiredItems:
+      STR_AQUA_PLASTICS: 5
+      STR_ZRBITE: 5
+  - name: STR_MAGNETIC_ION_ARMOR    #Mag. Ion Armour #
+    category: STR_PERSONAL_ARMOR
+    requires:
+     - STR_MAGNETIC_ION_ARMOR
+    space: 16
+    time: 1400
+    cost: 58000
+    requiredItems:
+      STR_AQUA_PLASTICS: 5
+      STR_ZRBITE: 16
+  - name: STR_AQUA_PLASTICS    #Aqua Plastics
+    category: STR_UFO_COMPONENT
+    requires:
+     - STR_AQUA_PLASTICS
+    space: 10
+    time: 100
+    cost: 3000
+  - name: STR_ION_BEAM_ACCELERATORS    #Ion-Beam Accelerators #
+    category: STR_UFO_COMPONENT
+    requires:
+     - STR_ION_BEAM_ACCELERATORS
+    space: 22
+    time: 1400
+    cost: 130000
+    requiredItems:
+      STR_AQUA_PLASTICS: 5
+      STR_ZRBITE: 16
+  - name: STR_MAGNETIC_NAVIGATION    #Magnetic Navigation #
+    category: STR_UFO_COMPONENT
+    requires:
+     - STR_MAGNETIC_NAVIGATION
+    space: 18
+    time: 1600
+    cost: 150000
+    requiredItems:
+      STR_AQUA_PLASTICS: 3
+  - name: STR_MANTA    #MANTA #
+    category: STR_CRAFT
+    requires:
+     - STR_NEW_FIGHTER_FLYING_SUB
+    space: 30
+    time: 14000
+    cost: 400000
+    requiredItems:
+      STR_AQUA_PLASTICS: 65
+      STR_ION_BEAM_ACCELERATORS: 1
+      STR_MAGNETIC_NAVIGATION: 1
+  - name: STR_HAMMERHEAD    #HAMMERHEAD #
+    category: STR_CRAFT
+    requires:
+     - STR_NEW_FIGHTER_TRANSPORTER
+    space: 34
+    time: 18000
+    cost: 600000
+    requiredItems:
+      STR_AQUA_PLASTICS: 85
+      STR_ION_BEAM_ACCELERATORS: 1
+      STR_MAGNETIC_NAVIGATION: 1
+  - name: STR_LEVIATHAN    #LEVIATHAN #
+    category: STR_CRAFT
+    requires:
+     - STR_THE_LATEST_FLYING_SUB
+    space: 36
+    time: 34000
+    cost: 900000
+    requiredItems:
+      STR_AQUA_PLASTICS: 120
+      STR_ION_BEAM_ACCELERATORS: 2
+      STR_MAGNETIC_NAVIGATION: 1
+  - name: STR_VIBRO_BLADE    #Vibro Blade #
+    category: STR_WEAPON
+    requires:
+     - STR_VIBRO_BLADE
+    space: 3
+    time: 150
+    cost: 7000
+    requiredItems:
+      STR_ZRBITE: 1
+  - name: STR_THERMIC_LANCE    #Thermic Lance #
+    category: STR_WEAPON
+    requires:
+     - STR_THERMIC_LANCE
+    space: 3
+    time: 220
+    cost: 12000
+    requiredItems:
+      STR_ZRBITE: 2
+  - name: STR_HEAVY_THERMIC_LANCE    #Heavy Thermic Lance #
+    category: STR_WEAPON
+    requires:
+     - STR_HEAVY_THERMIC_LANCE
+    space: 3
+    time: 300
+    cost: 20000
+    requiredItems:
+      STR_ZRBITE: 2

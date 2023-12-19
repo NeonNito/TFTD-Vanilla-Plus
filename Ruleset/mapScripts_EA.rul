@@ -1,6 +1,50 @@
 mapScripts:
 
+  - type: ALIEN_COLONY_SMALL
+    commands:
+    - type: addBlock
+      #size: 2
+      groups: 1
+    - type: addBlock
+      #size: 2
+      groups: 2
+    - type: addBlock
+      executions: 1
+      size: [1, 2]
+      groups: 5
+    - type: fillArea
+      groups: [3, 4]
+      freqs: [3, 3]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
 
+  - type: ALIEN_COLONY_MEDIUM
+    commands:
+    - type: addBlock
+      groups: 1
+    - type: addBlock
+      groups: 2
+    - type: addBlock
+      executions: 1
+      size: 2
+      groups: 5
+    - type: addBlock
+      executions: 2
+      size: [1, 2]
+      groups: 5
+    - type: addBlock
+      executions: 1
+      size: [2, 1]
+      groups: 5
+    - type: fillArea
+      groups: [3, 4]
+      freqs: [3, 3]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
 
 # [=] Ocean Trench Base [=] (Terror Site - Part 1 of 2)
   - type: STR_MFTD_TRENCHUPPERBASE

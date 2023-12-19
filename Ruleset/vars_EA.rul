@@ -12,3 +12,4 @@ bughuntRank: -1 # no VIPs
 bughuntLowMorale: 50
 bughuntTimeUnitsLeft: 65
 fakeUnderwaterBaseUnlockResearch: STR_ALIENS_ONLY
+lessAliensDuringBaseDefense: true

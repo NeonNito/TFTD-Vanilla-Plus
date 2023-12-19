@@ -92,6 +92,17 @@ extraSprites:
       448: Resources/BigObs/SLAUNCHER_CLIP.png
       449: Resources/BigObs/LLAUNCHER_CLIP.png
       450: Resources/BigObs/ZRBEXP.png
+      451: Resources/BigObs/DARTPLAS.png
+      452: Resources/BigObs/AUTOPLAS.png
+      453: Resources/BigObs/JETHARPLAS.png
+      454: Resources/BigObs/REPPLAS.png
+      456: Resources/BigObs/GASPLAS.png
+      457: Resources/BigObs/HYDROPLAS.png
+      458: Resources/BigObs/ZRBTORP.png
+      459: Resources/BigObs/GASCAN_ZRB.png
+      460: Resources/BigObs/HYDRO_ZRB.png
+      461: Resources/BigObs/SLauncher_Clip_ZRB.png
+      462: Resources/BigObs/SLauncher_Clip_DYE.png
 
   - type: FLOOROB.PCK
     files:
@@ -189,6 +200,18 @@ extraSprites:
       338: Resources/FloorObs/SLAUNCHER_CLIP_Floor.png
       339: Resources/FloorObs/LLAUNCHER_CLIP_Floor.png
       340: Resources/FloorObs/ZRBEXP_Floor.png
+      341: Resources/FloorObs/DARTPLAS_Floor.png
+      342: Resources/FloorObs/AUTOPLAS_Floor.png
+      343: Resources/FloorObs/JETHARPPLAS_Floor.png
+      344: Resources/FloorObs/REPPLAS_Floor.png
+      345: Resources/FloorObs/REPPLAS_Floor.png
+      346: Resources/FloorObs/GASPLAS_Floor.png
+      347: Resources/FloorObs/HYDROPLAS_Floor.png
+      348: Resources/FloorObs/ZRBTORP_Floor.png
+      349: Resources/FloorObs/GASCAN_ZRB_Floor.png
+      350: Resources/FloorObs/HYDRO_ZRB_Floor.png
+      351: Resources/FloorObs/SLauncher_Clip_DYE_Floor.png
+      352: Resources/FloorObs/SLauncher_Clip_ZRB_Floor.png
 
   - type: HANDOB.PCK
     width: 256
@@ -290,6 +313,8 @@ extraSprites:
       387: Resources/Basebits/BASEBITS_Construction2.png
       388: Resources/Basebits/BASEBITS_Construction3.png
       389: Resources/Basebits/BASEBITS_Construction4.png
+      390: Resources/Basebits/BASEBIT_CYBER.png
+      391: Resources/Basebits/BASEBIT_GENE.png
       
   - type: INTICON.PCK
     files:
@@ -836,6 +861,8 @@ extraSprites:
     files:
       0: Resources/Sprites/kraken.png
 
+#UFO
+
   - type: UFOpaedia_Terrorpod.png
     singleImage: true
     width: 320
@@ -985,7 +1012,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/Polyp_AUT.png
-  - type: UFOpaedia_NONE.png
+  - type: UFOpaedia_DIVINGSUIT.png
     width: 320
     height: 200
     singleImage: true
@@ -1152,6 +1179,167 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UFOPAEDIA/CRYO_UFO.png
+
+  - type: UFOpaedia_LASER.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_UFO.png
+
+  - type: UFOpaedia_GAUSS.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/GAUSS_UFO.png
+
+  - type: UFOpaedia_SONIC.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SONICWEAP_UFO.png
+
+  - type: UFOpaedia_PLASAMMO.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/PlasticAmmo_UFO.png
+
+  - type: UFOpaedia_ZRBAMMO.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ZRBAMMO_UFO.png
+
+  - type: UFOpaedia_ARMAQUA.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORAQUA_UFO.png
+
+  - type: UFOpaedia_ARMBIO.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORBIO_UFO.png
+
+  - type: UFOpaedia_ARMCALC.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORCALC_UFO.png
+
+  - type: UFOpaedia_ARMDEEP.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORDEEP_UFO.png
+
+  - type: UFOpaedia_ARMGILL.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORGILL_UFO.png
+
+  - type: UFOpaedia_ARMHAL.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORHAL_UFO.png
+
+  - type: UFOpaedia_ARMKRAK.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORKRAK_UFO.png
+
+  - type: UFOpaedia_ARMLOB.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORLOBS_UFO.png
+
+  - type: UFOpaedia_ARMMOLS.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORMOLS_UFO.png
+
+  - type: UFOpaedia_ARMMUT.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORMUT_UFO.png
+
+  - type: UFOpaedia_ARMPOLY.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORPOLY_UFO.png
+
+  - type: UFOpaedia_ARMPROBE.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORPROBE_UFO.png
+
+  - type: UFOpaedia_ARMSLUG.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORSLUG_UFO.png
+
+  - type: UFOpaedia_ARMTASOTH.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORTASOTH_UFO.png
+
+  - type: UFOpaedia_ARMTENT.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORTENT_UFO.png
+
+  - type: UFOpaedia_ARMTERROR.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORTERROR_UFO.png
+
+  - type: UFOpaedia_ARMTRISC.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORTRISC_UFO.png
+
+  - type: UFOpaedia_ARMXAR.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/ARMORXAR_UFO.png
 
   - typeSingle: BigStunIndicator
     fileSingle: Resources/INTICON/Zzz.png
@@ -1381,7 +1569,14 @@ extraSprites:
     singleImage: true
     files:
       0: resources/ui/battlescape/ALINV/AL_MSC.png
-
+  - type: AL_TRR.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_TRR.png
+  - type: AL_KRN.SPK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ALINV/AL_KRN.png
 
 #NEW USO
 
